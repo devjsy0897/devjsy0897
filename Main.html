@@ -3,10 +3,77 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<style type="text/css">
+@font-face {
+    font-family: 'TmonMonsori';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/TmonMonsori.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body,html{
+	margin: 0;
+    padding: 0;
+    height: 100%;}
+.bgimg {
+    border: 0;
+    padding: 0; 
+    background-image: url('main_back.jpg');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5;
+}
+.click{
+	margin: 0 auto;
+	position: absolute;
+	top: 20%;
+	text-align: center;
+	width: 60%;
+}
+.first_click{
+	float:left;
+	text-align: center;
+	width: 150px;
+	border-bottom: 5px gray solid;
+}
+.second_click{
+	margin-left : 150px;
+	margin-right: 150px;
+	float:left;
+	text-align: center;
+	width: 150px;
+	border-bottom: 5px gray solid;
+}
+.third_click{
+	float:left;
+	text-align: center;
+	width: 150px;
+	border-bottom: 5px gray solid;
+}
+.main_text{
+	font-family: TmonMonsori;
+	color: black;
+	padding: 5px 10px;
+	text-align: left;
+	position: absolute;
+	top: 60%;
+	left: 10%;
+	font-size: 70px;
+	letter-spacing: 4px;
+}
+</style>
 </head>
 <body>
-
-	<h1> 정성연의 포트폴리오입니다. </h1>
+	<div class="bgimg"></div>
+	<div class="click">
+	<div class="first_click">약력</div>
+	<div class="second_click">PPT</div>
+	<div class="third_click">미정</div>
+	</div>
+	<div class="main_text">
+	안녕하세요.<br>
+	앱 & 웹 개발자 정성연입니다.
+	</div>
 	<a href="web/web.html">웹</a><br>
 	앱
 </body>
