@@ -5,8 +5,9 @@
 <title>Insert title here</title>
 <style type="text/css">
 body{
-display:block;
-overflow:hidden;}
+background: linear-gradient(#C9D6FF,#E2E2E2);
+
+}
 @font-face {
     font-family: 'TmonMonsori';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/TmonMonsori.woff') format('woff');
@@ -14,18 +15,10 @@ overflow:hidden;}
     font-style: normal;
 }
 body,html{
+box-sizing: border-box;
 	margin: 0;
     padding: 0;
-    height: 100%;}
-.bgimg {
-    border: 0;
-    padding: 0; 
-    background-image: url('main_back.jpg');
-    min-height: 100%;
-    background-position: center;
-    background-size: cover;
-    opacity: 0.5;
-}
+    }
 .click{
 	transform: translate(-50%, -50%); 
 	position: absolute;
@@ -57,35 +50,61 @@ body,html{
 	border-bottom: 7px gray solid;
 	font-size: 25px;
 }
-.main_text{
-	font-family: TmonMonsori;
-	color: black;
-	padding: 5px 10px;
-	text-align: left;
-	position: absolute;
-	top: 60%;
-	left: 10%;
-	font-size: 70px;
-	letter-spacing: 4px;
+
+.table{
+ margin-top : 400px;
+ margin-left : auto;
+ margin-right : auto;
+width: 900px;
+
+
 }
-.test{
-margin: 0 auto;
-width: 100px;}
+table{margin: 0px; padding: 0px;}
+tr,td{
+}
+.myimg{
+width:900px;
+height: 300px;
+
+overflow: auto;/*스크롤바 생성*/
+background-image: url("cat.jpg");
+background-size : 70%;
+background-position : 50% 50%;
+display: inline-block;
+vetical-align: top;
+background-attachment: fixed;
+}
+.skills{
+width:450px;
+font-family: TmonMonsori;
+font-size: 20px;}
+.ex{
+width: 450px;
+font-family: TmonMonsori;
+font-size: 20px;}
 </style>
 </head>
 <body>
-	<div class="bgimg"></div>
 	<div class="click">
-	<div class="first_click"><b><a href="">약력</a></b></div>
+	<a href="history/history.html"><div class="first_click"><b>약력</b></div></a>
 	<div class="second_click"><b>PPT</b></div>
 	<div class="third_click"><b>미정</b></div>
 	</div>
-	<div class="main_text">
-	안녕하세요.<br>
-	앱 & 웹 개발자 정성연입니다.
+	
+	<div class="table">
+	<table id="table">
+	<tr><td class="myimg"></td></tr>
+	</table>
+	
+	<table>
+	<tr>
+		<td class="skills">SKILLS</td>
+		<td class="ex">EXPERIENCES</td>
+	</tr>
+	</table>
+	
+		<br>	<br>	<br>	<br>	<br>		<br>	<br>a	<br>		<br>	<br>	<br>	<br>		<br>b	<br>		<br>	<br>	<br>	<br>c	<br>	<br>	<br>	<br>	<br>	<br>		<br>	<br>d
 	</div>
-	<div class="test">aaa</div>
-	<a href="web/web.html">웹</a><br>
-	앱
+	
 </body>
 </html>
