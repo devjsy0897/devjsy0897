@@ -1,0 +1,27 @@
+@CHARSET "UTF-8";
+* {margin: 0; padding: 0; /* 여백초기화 */
+  box-sizing: border-box; /* 요소
+  크기계산시 padding과 border값 포함 */ }
+  
+ #wrap {/*border: 1px solid pink;*/
+width: 900px; height:600px;
+margin: 0 auto; /* 수평 중앙정렬 */}
+
+header {
+ height: 40px;
+ background: #00f390;}
+ 
+#top-nav {
+ /*width: 300px;*/ height: 40px;
+ margin: 0 auto;
+} 
+nav ul {list-style: none;/* 목록모양 제거 */}
+
+#top-nav li { float: left;
+margin-top: 5px;
+font-size: 20px;}
+
+.nav-my {
+	margin-right: 80px;
+}
+ 
