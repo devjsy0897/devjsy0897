@@ -12,12 +12,18 @@
 <header>
  <nav id="top-nav">
   <ul>
-   <li class="nav-my"><a href="#">나의 소개</a></li>
-   <li class="nav-proj"><a href="#">프로젝트 모음</a></li>
+   <li class="nav-my"><a href="#" class="color-white">나의 소개</a></li>
+   <li class="nav-proj"><a href="#" class="color-white">프로젝트 모음</a></li>
   </ul>
  </nav>
 </header>
-asdf
+asdf<br><br><br><br>asd<br><br><br><br>asd<br><br>
+<br><br>asd<br><br><br>asd<br><br><br><br>asd<br><br>
+<br>asd<br><br><br>asdaasdf<br><br><br><br>asd<br><br><br><br>asd<br><br>
+<br><br>asd<br><br><br>asd<br><br><br><br>asd<br><br>
+<br>asd<br><br><br>asdaasdf<br><br><br><br>asd<br><br><br><br>asd<br><br>
+<br><br>asd<br><br><br>asd<br><br><br><br>asd<br><br>
+<br>asd<br><br><br>asda
 </div>
 </body>
 </html>
