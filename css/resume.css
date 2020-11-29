@@ -1,0 +1,95 @@
+@CHARSET "UTF-8";
+
+@media(min-width:1101px) {
+article{
+	border: 1px black solid;
+	width: 60%;
+	height: 1500px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+section{
+	float: left;
+}
+#sec01-photo{
+	width: 250px;
+	height: 350px;
+	
+}
+#sec01-photo>img{
+	width: 250px;
+	height: 300px;
+	object-fit: cover;
+}
+
+#sec02-info{
+	margin-left: 2em;
+	margin-top: 0px;
+	width: 500px;
+	height: 300px;
+}
+#sec02-info>.name{
+	font-size: 45px;
+	margin-bottom: 20px;
+}
+
+#sec02-info>.mail>img{
+	float: left;
+	width: 25px;
+	margin-top: 4px;
+	margin-left: 15px;
+}
+#sec02-info>.mail .mail-addr{
+	float: left;
+	margin-left: 15px;
+	font-size: 20px;
+}
+
+#sec02-info>.phone>img{
+	float: left;
+	width: 20px;
+	margin-top: 1px;
+	margin-left: 15px;
+	clear: both;
+}
+#sec02-info>.phone .phone-num{
+	float: left;
+	margin-left: 20px;
+	font-size: 20px;
+}
+
+#sec02-info>.git>img{
+	float: left;
+	width: 27px;
+	margin-top: -1px;
+	margin-left: 15px;
+	clear: both;
+}
+#sec02-info>.git .git-addr{
+	float: left;
+	margin-left: 15px;
+	font-size: 20px;
+}
+
+#sec02-info>.home>img{
+	float: left;
+	width: 25px;
+	margin-top: 1px;
+	margin-left: 15px;
+	clear: both;
+}
+#sec02-info>.home .home-addr{
+	float: left;
+	margin-left: 15px;
+	font-size: 20px;
+}
+
+@media(max-width:1100px) {
+article{
+	border: 1px black solid;
+	width: 90%;
+	height: 1500px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+}
