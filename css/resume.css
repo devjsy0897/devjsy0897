@@ -1,9 +1,12 @@
 @CHARSET "UTF-8";
 
 @media(min-width:1101px) {
+*{
+	box-sizing: border-box;
+}
 article{
 	border: 1px black solid;
-	width: 60%;
+	width: 1005px;/*1000으로 바꾸자*/
 	height: 1500px;
 	margin: 0 auto;
 	margin-top: 40px;
@@ -12,40 +15,56 @@ section{
 	float: left;
 }
 #sec01-photo{
+/* 	border: 1px black solid; */
 	width: 250px;
-	height: 350px;
+	height: 300px;
 	
 }
 #sec01-photo>img{
+/* 	border: 1px black solid; */
 	width: 250px;
 	height: 300px;
 	object-fit: cover;
 }
 
 #sec02-info{
-	margin-left: 2em;
+/* 	border: 1px black solid; */
+	margin-left: 35px;
 	margin-top: 0px;
-	width: 500px;
 	height: 300px;
+	width: 715px;
 }
 #sec02-info>.name{
+/* 	border: 1px black solid; */
 	font-size: 45px;
-	margin-bottom: 20px;
 }
 
+#sec02-info>.mail{
+/* 	border: 1px black solid; */
+	margin-top: 40px;
+	height: 30px;	
+}
 #sec02-info>.mail>img{
+/* 	border: 1px black solid; */
 	float: left;
 	width: 25px;
 	margin-top: 4px;
 	margin-left: 15px;
 }
 #sec02-info>.mail .mail-addr{
+/* 	border: 1px black solid; */
 	float: left;
 	margin-left: 15px;
 	font-size: 20px;
 }
 
+#sec02-info>.phone{
+/* 	border: 1px black solid; */
+	margin-top: 20px;
+	height: 30px;
+}
 #sec02-info>.phone>img{
+/* 	border: 1px black solid; */
 	float: left;
 	width: 20px;
 	margin-top: 1px;
@@ -53,12 +72,19 @@ section{
 	clear: both;
 }
 #sec02-info>.phone .phone-num{
+/* 	border: 1px black solid; */
 	float: left;
 	margin-left: 20px;
 	font-size: 20px;
 }
 
+#sec02-info>.git{
+/* 	border: 1px black solid; */
+	margin-top: 20px;
+	height: 30px;
+}
 #sec02-info>.git>img{
+/* 	border: 1px black solid; */
 	float: left;
 	width: 27px;
 	margin-top: -1px;
@@ -66,12 +92,19 @@ section{
 	clear: both;
 }
 #sec02-info>.git .git-addr{
+/* 	border: 1px black solid; */
 	float: left;
 	margin-left: 15px;
 	font-size: 20px;
 }
 
+#sec02-info>.home{
+/* 	border: 1px black solid; */
+	margin-top: 20px;
+	height: 30px;
+}
 #sec02-info>.home>img{
+/* 	border: 1px black solid; */
 	float: left;
 	width: 25px;
 	margin-top: 1px;
@@ -79,9 +112,135 @@ section{
 	clear: both;
 }
 #sec02-info>.home .home-addr{
+/* 	border: 1px black solid; */
 	float: left;
-	margin-left: 15px;
+	margin-left: 14spx;
 	font-size: 20px;
+}
+
+#sec03-intro{
+	border: 1px black solid;
+	width: 250px;
+	height: 400px;
+	margin-top: 50px;
+	font-size: 35px;
+	color: blue;
+}
+#sec04-introduces{
+	border: 1px black solid;
+	margin-left: 35px;
+	margin-top: 50px;
+	height: 400px;
+	width: 715px;
+}
+#sec04-introduces>.intro01{
+	font-size: 20px;
+}
+#sec04-introduces>.intro02{
+	font-size: 20px;
+	margin-top: 15px;
+}
+#sec04-introduces>.intro03{
+	font-size: 20px;
+	margin-top: 15px;
+}
+
+#sec05-skill{
+/* 	border: 1px black solid; */
+	width: 1000px;
+	height: 50px;
+	margin-top: 50px;
+	font-size: 35px;
+	color: blue;
+}
+#sec06-skillmenu{
+/* 	border: 1px black solid; */
+	width: 1000px;
+	height: 500px;
+}
+#sec06-skillmenu>.back01{
+/* 	border: 1px black solid; */
+	font-size: 30px;
+	margin-left: 100px;
+	width: 150px;
+	height: 100px;
+	float: left;
+}
+#sec06-skillmenu>.back02{
+/* 	border: 1px black solid; */
+	font-size: 20px;
+	margin-left: 60px;
+	width: 250px;
+	height: 100px;
+	float: left;
+}
+#sec06-skillmenu>.back02-1{
+/* 	border: 1px black solid; */
+	font-size: 20px;
+	margin-left: 60px;
+	width: 250px;
+	height: 100px;
+	float: left;
+}
+#sec06-skillmenu>hr{
+	clear: both;
+}
+#sec06-skillmenu>.back03{
+/* 	border: 1px black solid; */
+	font-size: 30px;
+	margin-left: 100px;
+	width: 150px;
+	height: 100px;
+	float: left;
+}
+#sec06-skillmenu>.back04{
+/* 	border: 1px black solid; */
+	font-size: 20px;
+	margin-left: 60px;
+	width: 250px;
+	height: 100px;
+	float: left;
+}
+#sec06-skillmenu>.back05{
+/* 	border: 1px black solid; */
+	font-size: 30px;
+	margin-left: 100px;
+	width: 150px;
+	height: 120px;
+	float: left;
+}
+#sec06-skillmenu>.back06{
+/* 	border: 1px black solid; */
+	font-size: 20px;
+	margin-left: 60px;
+	width: 250px;
+	height: 120px;
+	float: left;
+}
+#sec06-skillmenu>.back06-1{
+/* 	border: 1px black solid; */
+	font-size: 20px;
+	margin-left: 60px;
+	width: 250px;
+	height: 120px;
+	float: left;
+}
+#sec06-skillmenu>.back07{
+/* 	border: 1px black solid; */
+	font-size: 30px;
+	margin-left: 100px;
+	width: 150px;
+	height: 100px;
+	float: left;
+}
+#sec06-skillmenu>.back08{
+/* 	border: 1px black solid; */
+	font-size: 20px;
+	margin-left: 60px;
+	width: 250px;
+	height: 100px;
+	float: left;
+}
 }
 
 @media(max-width:1100px) {
