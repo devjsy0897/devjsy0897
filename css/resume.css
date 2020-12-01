@@ -6,7 +6,7 @@
 }
 
 article{
-	/* 	border: 1px black solid; */
+/* 	border: 1px black solid; */
 	width: 1005px;/*1000으로 바꾸자*/
 	height: 2500px;
 	margin: 0 auto;
@@ -191,7 +191,7 @@ section{
 	float: left;
 }
 /*#sec06-skillmenu>.menu02-2{
-	/* 	border: 1px black solid; */
+	border: 1px black solid;
 	font-size: 18px;
 	margin-left: 50px;
 	width: 180px;
