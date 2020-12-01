@@ -15,22 +15,30 @@ opacity:80%;
  
 } 
 nav ul {list-style: none;/* 목록모양 제거 */
-width: 340px;
+/* border: 1px white solid; */
+width: 405px;
 margin: 0 auto;}
 
 #top-nav li { float: left;
 margin-top: 7px;
-
 font-size: 17px;
 
 }
-
+.nav-main{
+	width: 80px;
+	text-align: center;
+	margin-right: 40px;
+}
 .nav-my {
+	width: 80px;
+	text-align: center;
 	margin-left: 40px;
 	margin-right: 40px;
 }
  
 .nav-proj{
+	width: 80px;
+	text-align: center;
 	margin-left: 40px;
 }
  
@@ -41,5 +49,6 @@ font-size: 17px;
 
 .color-white:HOVER {
 	color: white;
+	text-decoration: none;
 }
 

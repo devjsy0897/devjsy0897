@@ -4,10 +4,11 @@
 *{
 	box-sizing: border-box;
 }
+
 article{
-	border: 1px black solid;
+	/* 	border: 1px black solid; */
 	width: 1005px;/*1000으로 바꾸자*/
-	height: 1500px;
+	height: 2500px;
 	margin: 0 auto;
 	margin-top: 40px;
 }
@@ -119,7 +120,7 @@ section{
 }
 
 #sec03-intro{
-	border: 1px black solid;
+/* 	border: 1px black solid; */
 	width: 250px;
 	height: 400px;
 	margin-top: 50px;
@@ -127,7 +128,7 @@ section{
 	color: #6D6CFF;
 }
 #sec04-introduces{
-	border: 1px black solid;
+/* 	border: 1px black solid; */
 	margin-left: 35px;
 	margin-top: 50px;
 	height: 400px;
@@ -154,6 +155,11 @@ section{
 	font-size: 35px;
 	color: #6D6CFF;
 }
+#sec05-skill b{
+	float: left;
+	width: 100px;
+	height: 30px;
+}
 #sec06-skillmenu{
 /* 	border: 1px black solid; */
 	width: 1000px;
@@ -166,9 +172,10 @@ section{
 	width: 150px;
 	height: 100px;
 	float: left;
+	color: #575757;
 }
 #sec06-skillmenu>.menu02{
-	border: 1px black solid;
+/* 	border: 1px black solid; */
 	font-size: 18px;
 	margin-left: 40px;
 	width: 180px;
@@ -176,7 +183,7 @@ section{
 	float: left;
 }
 #sec06-skillmenu>.menu02-1{
-	border: 1px black solid;
+/* 	border: 1px black solid; */
 	font-size: 18px;
 	margin-left: 50px;
 	width: 180px;
@@ -184,7 +191,7 @@ section{
 	float: left;
 }
 /*#sec06-skillmenu>.menu02-2{
-	border: 1px black solid;
+	/* 	border: 1px black solid; */
 	font-size: 18px;
 	margin-left: 50px;
 	width: 180px;
@@ -201,9 +208,10 @@ section{
 	width: 150px;
 	height: 100px;
 	float: left;
+	color: #575757;
 }
 #sec06-skillmenu>.menu04{
-	border: 1px black solid;
+/* 	border: 1px black solid; */
 	font-size: 18px;
 	margin-left: 40px;
 	width: 180px;
@@ -217,9 +225,10 @@ section{
 	width: 150px;
 	height: 100px;
 	float: left;
+	color: #575757;
 }
 #sec06-skillmenu>.menu06{
-	border: 1px black solid;
+/* 	border: 1px black solid; */
 	font-size: 18px;
 	margin-left: 40px;
 	width: 180px;
@@ -227,7 +236,7 @@ section{
 	float: left;
 }
 #sec06-skillmenu>.menu06-1{
-	border: 1px black solid;
+/* 	border: 1px black solid; */
 	font-size: 18px;
 	margin-left: 50px;
 	width: 180px;
@@ -241,20 +250,23 @@ section{
 	width: 150px;
 	height: 100px;
 	float: left;
+	color: #575757;
 }
 #sec06-skillmenu>.menu08{
-	border: 1px black solid;
+/* 	border: 1px black solid; */
 	font-size: 18px;
 	margin-left: 40px;
 	width: 180px;
 	height: 100px;
 	float: left;
 }
-#sec05-skill b{
-	float: left;
-	width: 100px;
-	height: 30px;
+.badge-light{
+	background-color: #E7E7E7!important;
 }
+#sec06-skillmenu .badge{
+	margin-right: 10px;
+}
+
 #menu {
     width: 40px;
     height: 20px;
@@ -306,6 +318,38 @@ span:hover + p.arrow_box {
   display: block;
 }
 
+#sec06-project{
+	/* 	border: 1px black solid; */
+	width: 1000px;
+	height: 50px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	font-size: 35px;
+	color: #6D6CFF;	
+}
+
+#sec07-projectlist{
+/* 	border: 1px black solid; */
+	width: 1000px;
+	height: 500px;
+}
+#sec07-projectlist>.list01{
+/* 	border: 1px black solid; */
+	font-size: 25px;
+	margin-left: 120px;
+	width: 150px;
+	height: 100px;
+	float: left;
+	color: #575757;
+}
+#sec07-projectlist>.list02{
+/* 	border: 1px black solid; */
+	font-size: 18px;
+	margin-left: 40px;
+	width: 180px;
+	height: 100px;
+	float: left;
+}
 }
 
 @media(max-width:1100px) {
