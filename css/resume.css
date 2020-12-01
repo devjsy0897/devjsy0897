@@ -114,7 +114,7 @@ section{
 #sec02-info>.home .home-addr{
 /* 	border: 1px black solid; */
 	float: left;
-	margin-left: 14spx;
+	margin-left: 14px;
 	font-size: 20px;
 }
 
@@ -124,7 +124,7 @@ section{
 	height: 400px;
 	margin-top: 50px;
 	font-size: 35px;
-	color: blue;
+	color: #6D6CFF;
 }
 #sec04-introduces{
 	border: 1px black solid;
@@ -150,97 +150,162 @@ section{
 	width: 1000px;
 	height: 50px;
 	margin-top: 50px;
+	margin-bottom: 20px;
 	font-size: 35px;
-	color: blue;
+	color: #6D6CFF;
 }
 #sec06-skillmenu{
 /* 	border: 1px black solid; */
 	width: 1000px;
 	height: 500px;
 }
-#sec06-skillmenu>.back01{
+#sec06-skillmenu>.menu01{
 /* 	border: 1px black solid; */
-	font-size: 30px;
-	margin-left: 100px;
+	font-size: 25px;
+	margin-left: 120px;
 	width: 150px;
 	height: 100px;
 	float: left;
 }
-#sec06-skillmenu>.back02{
-/* 	border: 1px black solid; */
-	font-size: 20px;
-	margin-left: 60px;
-	width: 250px;
+#sec06-skillmenu>.menu02{
+	border: 1px black solid;
+	font-size: 18px;
+	margin-left: 40px;
+	width: 180px;
 	height: 100px;
 	float: left;
 }
-#sec06-skillmenu>.back02-1{
-/* 	border: 1px black solid; */
-	font-size: 20px;
-	margin-left: 60px;
-	width: 250px;
+#sec06-skillmenu>.menu02-1{
+	border: 1px black solid;
+	font-size: 18px;
+	margin-left: 50px;
+	width: 180px;
 	height: 100px;
 	float: left;
 }
+/*#sec06-skillmenu>.menu02-2{
+	border: 1px black solid;
+	font-size: 18px;
+	margin-left: 50px;
+	width: 180px;
+	height: 100px;
+	float: left;
+}*/
 #sec06-skillmenu>hr{
 	clear: both;
 }
-#sec06-skillmenu>.back03{
+#sec06-skillmenu>.menu03{
 /* 	border: 1px black solid; */
-	font-size: 30px;
-	margin-left: 100px;
+	font-size: 25px;
+	margin-left: 120px;
 	width: 150px;
 	height: 100px;
 	float: left;
 }
-#sec06-skillmenu>.back04{
-/* 	border: 1px black solid; */
-	font-size: 20px;
-	margin-left: 60px;
-	width: 250px;
+#sec06-skillmenu>.menu04{
+	border: 1px black solid;
+	font-size: 18px;
+	margin-left: 40px;
+	width: 180px;
 	height: 100px;
 	float: left;
 }
-#sec06-skillmenu>.back05{
+#sec06-skillmenu>.menu05{
 /* 	border: 1px black solid; */
-	font-size: 30px;
-	margin-left: 100px;
-	width: 150px;
-	height: 120px;
-	float: left;
-}
-#sec06-skillmenu>.back06{
-/* 	border: 1px black solid; */
-	font-size: 20px;
-	margin-left: 60px;
-	width: 250px;
-	height: 120px;
-	float: left;
-}
-#sec06-skillmenu>.back06-1{
-/* 	border: 1px black solid; */
-	font-size: 20px;
-	margin-left: 60px;
-	width: 250px;
-	height: 120px;
-	float: left;
-}
-#sec06-skillmenu>.back07{
-/* 	border: 1px black solid; */
-	font-size: 30px;
-	margin-left: 100px;
+	font-size: 25px;
+	margin-left: 120px;
 	width: 150px;
 	height: 100px;
 	float: left;
 }
-#sec06-skillmenu>.back08{
-/* 	border: 1px black solid; */
-	font-size: 20px;
-	margin-left: 60px;
-	width: 250px;
+#sec06-skillmenu>.menu06{
+	border: 1px black solid;
+	font-size: 18px;
+	margin-left: 40px;
+	width: 180px;
 	height: 100px;
 	float: left;
 }
+#sec06-skillmenu>.menu06-1{
+	border: 1px black solid;
+	font-size: 18px;
+	margin-left: 50px;
+	width: 180px;
+	height: 100px;
+	float: left;
+}
+#sec06-skillmenu>.menu07{
+/* 	border: 1px black solid; */
+	font-size: 25px;
+	margin-left: 120px;
+	width: 150px;
+	height: 100px;
+	float: left;
+}
+#sec06-skillmenu>.menu08{
+	border: 1px black solid;
+	font-size: 18px;
+	margin-left: 40px;
+	width: 180px;
+	height: 100px;
+	float: left;
+}
+#sec05-skill b{
+	float: left;
+	width: 100px;
+	height: 30px;
+}
+#menu {
+    width: 40px;
+    height: 20px;
+    float: left;
+}
+#menu div {
+    position: relative;
+    display: inline-block;
+}
+
+#menu span {
+    display: block;
+    cursor: pointer;
+}
+#menu span img{
+	width: 27px;
+}
+.arrow_box {
+  display: none;
+  position: absolute;
+  width: 100px;
+  padding: 8px;
+  margin-top:10px;
+  left: -40px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;  
+  border-radius: 8px;
+  background: #333;
+  color: #fff;
+  font-size: 14px;
+}
+
+.arrow_box:after {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  margin-left: -10px;
+  border: solid transparent;
+  border-color: rgba(51, 51, 51, 0);
+  border-bottom-color: #333;
+  border-width: 10px;
+  pointer-events: none;
+  content: " ";
+}
+
+span:hover + p.arrow_box {
+  display: block;
+}
+
 }
 
 @media(max-width:1100px) {
