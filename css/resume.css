@@ -161,7 +161,7 @@ section{
 	height: 30px;
 }
 #sec06-skillmenu{
-/* 	border: 1px black solid; */
+	border: 1px black solid;
 	width: 1000px;
 	height: 500px;
 }
@@ -333,22 +333,22 @@ span:hover + p.arrow_box {
 #sec08-projectlist{
 /* 	border: 1px black solid; */
 	width: 1000px;
-	height: 500px;
+	height: 700px;
 }
 #sec08-projectlist>.list01{
 /* 	border: 1px black solid; */
 	font-size: 25px;
 	margin-left: 30px;
 	width: 220px;
-	height: 100px;
+	height: 200px;
 	float: left;
 	color: #575757;
 }
 #sec08-projectlist>.list02{
-	border: 1px black solid;
+/* 	border: 1px black solid; */
 	font-size: 18px;
 	margin-left: 35px;
-	width: 715px;
+	width: 710px;
 	height: 200px;
 	float: left;
 }
@@ -370,10 +370,10 @@ span:hover + p.arrow_box {
 	color: #575757;
 }
 #sec08-projectlist>.list04{
-	border: 1px black solid;
+/* 	border: 1px black solid; */
 	font-size: 18px;
 	margin-left: 35px;
-	width: 715px;
+	width: 710px;
 	height: 200px;
 	float: left;
 }
@@ -397,10 +397,10 @@ span:hover + p.arrow_box {
 	color: #575757;
 }
 #sec08-projectlist>.list06{
-	border: 1px black solid;
+/* 	border: 1px black solid; */
 	font-size: 18px;
 	margin-left: 35px;
-	width: 715px;
+	width: 710px;
 	height: 200px;
 	float: left;
 }
@@ -411,6 +411,21 @@ span:hover + p.arrow_box {
 .list06>ul{
 	margin-top: 30px;
 	margin-left: 50px;
+}
+
+#sec09-education{
+/* 	border: 1px black solid; */
+	width: 1000px;
+	height: 50px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	font-size: 35px;
+	color: #6D6CFF;
+}
+#sec09-education b{
+	float: left;
+	width: 100px;
+	height: 30px;
 }
 
 
@@ -430,6 +445,13 @@ span:hover + p.arrow_box {
 	clear: both;
 }
 #space-sec0607{
+/* 	border: 1px black solid; */
+	width: 1000px;
+	height: 50px;
+	float: left;
+	clear: both;
+}
+#space-sec0809{
 /* 	border: 1px black solid; */
 	width: 1000px;
 	height: 50px;
