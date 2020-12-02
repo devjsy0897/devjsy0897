@@ -2,41 +2,58 @@
 * {margin: 0; padding: 0; /* 여백초기화 */
   box-sizing: border-box; /* 요소
   크기계산시 padding과 border값 포함 */ }
-header {
- height: 40px;
+header{
+ height: 80px;
+/*  border: 1px black solid; */
  }
- 
+ header:HOVER #sec-nav{
+position:fixed;
+background: #484848;
+opacity:80%;
+ width: 100%;  height: 40px;
+ margin-top:40px;
+ transition-duration: 0.5s;
+ }
 #top-nav {
 position:fixed;
 background: #000000;
 opacity:80%;
  width: 100%;  height: 40px;
- margin: 0 auto;
- 
+ display: block;
+}
+#sec-nav {
+position:fixed;
+background: #484848;
+opacity:0%;
+ width: 100%;  height: 40px;
+ margin-top:40px;
 } 
 nav ul {list-style: none;/* 목록모양 제거 */
 /* border: 1px white solid; */
-width: 1000px;
+width: 405px;
 margin: 0 auto;}
 
 #top-nav li { float: left;
 margin-top: 7px;
 font-size: 17px;
-
 }
-.nav-main{
+#sec-nav li { float: left;
+margin-top: 7px;
+font-size: 17px;
+}
+.nav-main,.sec-nav-into{
 	width: 80px;
 	text-align: center;
 	margin-right: 40px;
 }
-.nav-my {
+.nav-my,.nav-skill {
 	width: 80px;
 	text-align: center;
 	margin-left: 40px;
 	margin-right: 40px;
 }
  
-.nav-proj{
+.nav-proj,.sec-nav-project {
 	width: 80px;
 	text-align: center;
 	margin-left: 40px;
