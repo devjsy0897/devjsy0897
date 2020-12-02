@@ -198,7 +198,7 @@ section{
 	height: 100px;
 	float: left;
 }*/
-#sec06-skillmenu>hr{
+hr{
 	clear: both;
 }
 #sec06-skillmenu>.menu03{
@@ -285,6 +285,7 @@ section{
 #menu span img{
 	width: 27px;
 }
+
 .arrow_box {
   display: none;
   position: absolute;
@@ -319,8 +320,8 @@ span:hover + p.arrow_box {
   display: block;
 }
 
-#sec06-project{
-	/* 	border: 1px black solid; */
+#sec07-project{
+/* 		border: 1px black solid; */
 	width: 1000px;
 	height: 50px;
 	margin-top: 50px;
@@ -329,28 +330,113 @@ span:hover + p.arrow_box {
 	color: #6D6CFF;	
 }
 
-#sec07-projectlist{
+#sec08-projectlist{
 /* 	border: 1px black solid; */
 	width: 1000px;
 	height: 500px;
 }
-#sec07-projectlist>.list01{
+#sec08-projectlist>.list01{
 /* 	border: 1px black solid; */
 	font-size: 25px;
-	margin-left: 120px;
-	width: 150px;
+	margin-left: 30px;
+	width: 220px;
 	height: 100px;
 	float: left;
 	color: #575757;
 }
-#sec07-projectlist>.list02{
-/* 	border: 1px black solid; */
+#sec08-projectlist>.list02{
+	border: 1px black solid;
 	font-size: 18px;
-	margin-left: 40px;
-	width: 180px;
-	height: 100px;
+	margin-left: 35px;
+	width: 715px;
+	height: 200px;
 	float: left;
 }
+.list02-title{
+	font-size: 25px;
+}
+.list02>ul{
+	margin-top: 30px;
+	margin-left: 50px;
+}
+
+#sec08-projectlist>.list03{
+/* 	border: 1px black solid; */
+	font-size: 25px;
+	margin-left: 30px;
+	width: 220px;
+	height: 100px;
+	float: left;
+	color: #575757;
+}
+#sec08-projectlist>.list04{
+	border: 1px black solid;
+	font-size: 18px;
+	margin-left: 35px;
+	width: 715px;
+	height: 200px;
+	float: left;
+}
+
+.list04-title{
+	font-size: 25px;
+}
+.list04>ul{
+	margin-top: 30px;
+	margin-left: 50px;
+}
+
+
+#sec08-projectlist>.list05{
+/* 	border: 1px black solid; */
+	font-size: 25px;
+	margin-left: 30px;
+	width: 220px;
+	height: 100px;
+	float: left;
+	color: #575757;
+}
+#sec08-projectlist>.list06{
+	border: 1px black solid;
+	font-size: 18px;
+	margin-left: 35px;
+	width: 715px;
+	height: 200px;
+	float: left;
+}
+
+.list06-title{
+	font-size: 25px;
+}
+.list06>ul{
+	margin-top: 30px;
+	margin-left: 50px;
+}
+
+
+/* space */
+#space-sec0203{
+/* 	border: 1px black solid; */
+	width: 1000px;
+	height: 50px;
+	float: left;
+	clear: both;
+}
+#space-sec0405{
+/* 	border: 1px black solid; */
+	width: 1000px;
+	height: 50px;
+	float: left;
+	clear: both;
+}
+#space-sec0607{
+/* 	border: 1px black solid; */
+	width: 1000px;
+	height: 50px;
+	float: left;
+	clear: both;
+}
+/* space */
 }
 
 @media(max-width:1100px) {
