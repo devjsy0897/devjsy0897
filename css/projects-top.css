@@ -34,7 +34,7 @@ width: 405px;
 margin: 0 auto;}
 nav .sec-ul {list-style: none;/* 목록모양 제거 */
 /* border: 1px white solid; */
-width: 565px;
+width: 405px;
 margin: 0 auto;}
 
 #top-nav li { float: left;
@@ -49,6 +49,11 @@ font-size: 17px;
 	width: 80px;
 	text-align: center;
 	margin-right: 40px;
+}
+.sec-nav-into{
+/* 	border: 1px black solid; */
+	margin-top: 0px!important;
+	line-height: 100%;
 }
 .nav-my,.sec-nav-skill,.sec-nav-project {
 	width: 80px;
