@@ -1,7 +1,25 @@
 @CHARSET "UTF-8";
+*{
+	box-sizing: border-box;
+}
+article{
+	width:1000px;
+	margin: 0 auto;
+}
 section{
 width:960px;
 margin: 0 auto;
+}
+
+.sec03-BPM{
+/* 	border: 1px black solid; */
+	margin-top: 50px;
+	height: 24100px;
+}
+.sec01-TtB{
+/* 	border: 1px blacCk solid; */
+	margin-top: 50px;
+	height: 8250px;
 }
 .name{
 /* 	border: 1px black solid; */
@@ -21,10 +39,22 @@ img{
  }
  
  /*space*/
- #space-secBP{
-	border: 1px black solid;
+ #space-sec0304{
+/* 	border: 1px black solid; */
 	width: 1000px;
-	height: 150px;
+	height: 50px;
+	margin: 0 auto;
+}
+ #space-sec0203{
+/* 	border: 1px black solid; */
+	width: 1000px;
+	height: 50px;
+	margin: 0 auto;
+}
+ #space-sec0102{
+/* 	border: 1px black solid; */
+	width: 1000px;
+	height: 50px;
 	margin: 0 auto;
 }
  /*space*/

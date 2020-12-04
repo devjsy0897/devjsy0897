@@ -63,7 +63,7 @@ body,html{
 .bgimg {
     border: 0;
     padding: 0; 
-    background-image: url('img/main_back.jpg');
+    background-image: url('img/main/main_back.jpg');
     height: 100%;
     background-position: center;
     background-size: cover;
