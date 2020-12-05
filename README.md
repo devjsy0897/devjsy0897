@@ -1,6 +1,6 @@
 ## 👋반가워요. 정성연의 깃허브입니다.   
       
-### <a href="https://devjsy0897.github.io/devjsy0897/main">👉 portfolio를 보시려면 클릭해주세요. (수정중...) </a>
+### <a href="https://devjsy0897.github.io/devjsy0897/main">👉 portfolio를 보시려면 클릭해주세요. </a>
 
 ### 👇팀 프로젝트 베프마켓입니다.
 > <a href="https://github.com/sowon-dev/bestPriceMarket">깃허브 주소</a>
