@@ -1,6 +1,5 @@
 @CHARSET "UTF-8";
 
-@media(min-width:1101px) {
 *{
 	box-sizing: border-box;
 }
@@ -563,12 +562,3 @@ span:hover + p.arrow_box {
 /* space */
 }
 
-@media(max-width:1100px) {
-article{
-	border: 1px black solid;
-	width: 90%;
-	height: 1500px;
-	margin: 0 auto;
-	margin-top: 40px;
-}
-}
