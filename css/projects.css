@@ -5,13 +5,14 @@
 article{
 	width:1000px;
 	margin: 0 auto;
+	margin-top: -50px;
 }
 section{
 width:960px;
 margin: 0 auto;
 }
 
-.sec03-BPM{
+.sec02-BPM{
 /* 	border: 1px black solid; */
 	margin-top: 50px;
 	height: 24100px;
@@ -39,12 +40,7 @@ img{
  }
  
  /*space*/
- #space-sec0304{
-/* 	border: 1px black solid; */
-	width: 1000px;
-	height: 50px;
-	margin: 0 auto;
-}
+
  #space-sec0203{
 /* 	border: 1px black solid; */
 	width: 1000px;
