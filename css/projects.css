@@ -18,26 +18,51 @@ margin: 0 auto;
 	height: 24100px;
 }
 .sec01-TtB{
-/* 	border: 1px blacCk solid; */
+/* 	border: 3px black solid; */
 	margin-top: 50px;
-	height: 8250px;
+	height: 9150px;
 }
 .name{
 /* 	border: 1px black solid; */
 	font-size: 30px;
 	height: 70px;
-	margin-bottom: 30px;
+	margin-bottom: 100px;
 }
 .namesmall{
 	font-size: 20px;
 }
-.img{
+.port{
 	width: 960px;
-	margin-top: 30px;
+	margin-top: 50px;
 }
 img{
  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
  }
+video{
+/*  border: 1px black solid; */
+ margin-top: 30px;
+ margin-bottom: 50px;
+ width: 960px;
+ height: 600px;}
+ 
+.type{
+/* 	border: 1px black solid; */
+	margin-left: 10px;
+	font-size:25px;
+	color: #575757;
+}
+
+.name{
+/* 	border: 1px black solid; */
+	font-size: 35px;
+	color: #6D6CFF;
+}
+
+.busanppt{
+/* 	border: 1px black solid; */
+	margin-top: 30px;
+	height: 8200px;
+}
  
  /*space*/
 
