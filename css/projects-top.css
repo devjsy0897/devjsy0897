@@ -26,7 +26,7 @@ width: 405px;
 margin: 0 auto;}
 nav .sec-ul {list-style: none;
 /* border: 1px white solid; */
-width: 245px; /*한 개 추가시 160씩 올리면 됨*/
+width: 405px; /*한 개 추가시 160씩 올리면 됨*/
 margin: 0 auto;}
 
 #top-nav li { float: left;
@@ -47,7 +47,7 @@ font-size: 17px;
 	margin-top: 2px!important;
 	line-height: 100%;
 }
-.nav-my {
+.nav-my, .sec-nav-cal {
 	width: 80px;
 	text-align: center;
 	margin-left: 40px;

@@ -12,11 +12,17 @@ width:960px;
 margin: 0 auto;
 }
 
-.sec02-BPM{
+.sec03-BPM{
 /* 	border: 1px black solid; */
 	margin-top: 50px;
 	height: 24200px;
 }
+.sec02-cal{
+/* 	border: 1px black solid; */
+	margin-top: 50px;
+	height: 6800px;
+}
+
 .sec01-TtB{
 /* 	border: 3px black solid; */
 	margin-top: 50px;
@@ -31,7 +37,7 @@ margin: 0 auto;
 .namesmall{
 	font-size: 20px;
 }
-.port{
+.contents{
 	width: 960px;
 	margin-top: 50px;
 }
@@ -57,7 +63,11 @@ video{
 	font-size: 35px;
 	color: #6D6CFF;
 }
-
+.calppt{
+	border: 1px black silid;
+	margin-top: 30px;
+	height: 6000px;
+}
 .busanppt{
 /* 	border: 1px black solid; */
 	margin-top: 30px;
@@ -65,7 +75,12 @@ video{
 }
  
  /*space*/
-
+ #space-sec0304{
+/* 	border: 1px black solid; */
+	width: 1000px;
+	height: 50px;
+	margin: 0 auto;
+}
  #space-sec0203{
 /* 	border: 1px black solid; */
 	width: 1000px;
