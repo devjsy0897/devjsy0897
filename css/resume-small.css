@@ -21,7 +21,7 @@ section{
 
 #sec03-intro{
 	width: 100%;
-	background: #53FF4C;
+	background: #D4F0F0;
 	margin-top: 2.5%;
 }
 #sec03-intro>b{
@@ -46,7 +46,7 @@ section{
 /* 	border: 1px black solid; */
 	height: auto;
 	width: 100%;
-	background: #53FF4C;
+	background: #D4F0F0;
 	padding-bottom: 10%;
 }
 #sec04-introduces>.intro01{
@@ -73,15 +73,15 @@ section{
 	margin-right: 10px;
 }
 #sec05-skill{
-/* 	border: 1px black solid; */
+/* 	border: 1px yellow solid; */
 	width: 100%;
 	height: 100%;
 	margin-top:2.5%;
 	color: #ffffff;
-	background-color: black!important;
+	background-color: #8fcaca;
 }
 #sec05-skill b{
-	border: 1px black solid;
+/* 	border: 1px black solid; */
 	width: 100%;
 	padding-top: 5%;
 	font-size: 16vw;
@@ -95,7 +95,7 @@ display: none;
 /* 	border: 1px black solid; */
 	width: 100%;
 	height: auto;
-	background-color: black!important;
+	background-color: #8fcaca;
 }
 #sec06-skillmenu>.menu01{
 /* 	border: 1px black solid; */
@@ -103,7 +103,7 @@ display: none;
 	width: auto;
 	height: auto;
 	margin-bottom: 2%;
-	color: #bebebe;
+	color: black;
 }
 #sec06-skillmenu>.menu02{
 /* 	border: 1px black solid; */
@@ -114,7 +114,7 @@ display: none;
 	height: auto;
 	float: left;
 	clear: right;
-	color: white;
+	color: black;
 }
 #sec06-skillmenu>.menu02-1{
 /* 	border: 1px black solid; */
@@ -125,7 +125,7 @@ display: none;
 	height: auto;
 	float: left;
 	clear: right;
-	color: white;
+	color: black;
 }
 /*#sec06-skillmenu>.menu02-2{
 	border: 1px black solid;
@@ -141,7 +141,7 @@ display: none;
 	width: auto;
 	height: auto;
 	margin-bottom: 2%;
-	color: #bebebe;
+	color: black;
 }
 #sec06-skillmenu>.menu04{
 /* 	border: 1px black solid; */
@@ -152,7 +152,7 @@ display: none;
 	height: auto;
 	float: left;
 	clear: right;
-	color: white;
+	color: black;
 }
 #sec06-skillmenu>.menu05{
 /* 	border: 1px black solid; */
@@ -160,7 +160,7 @@ display: none;
 	width: auto;
 	height: auto;
 	margin-bottom: 2%;
-	color: #bebebe;
+	color: black;
 }
 #sec06-skillmenu>.menu06{
 /* 	border: 1px black solid; */
@@ -171,7 +171,7 @@ display: none;
 	height: auto;
 	float: left;
 	clear: right;
-	color: white;
+	color: black;
 }
 #sec06-skillmenu>.menu06-1{
 	font-size: 5vw;
@@ -181,7 +181,7 @@ display: none;
 	height: auto;
 	float: left;
 	clear: right;
-	color: white;
+	color: black;
 }
 #sec06-skillmenu>.menu07{
 /* 	border: 1px black solid; */
@@ -189,7 +189,7 @@ display: none;
 	width: auto;
 	height: auto;
 	margin-bottom: 2%;
-	color: #bebebe;
+	color: black;
 }
 #sec06-skillmenu>.menu08{
 	font-size: 5vw;
@@ -199,7 +199,7 @@ display: none;
 	height: auto;
 	float: left;
 	clear: right;
-	color: white;
+	color: black;
 	display: block;
 }
 .skill-1{
@@ -210,7 +210,7 @@ display: none;
 	}
 .skill-2{
 	clear: both;
-	background-color: black;
+	background-color: #8fcaca;
 	width: 100%;
 	margin-left: 0!important;
 	margin-bottom: 0!important;
@@ -234,7 +234,7 @@ display: none;
 	height: 100%;
 	margin-top:2.5%;
 	color: #000000;
-	background-color: #afffff;
+	background-color: #cce2cb;
 }
 #sec07-project>b{
 /* 	border: 1px black solid; */
@@ -248,7 +248,7 @@ display: none;
 /* 	border: 1px black solid; */
 	width: 100%;
 	height: auto;
-	background-color: #afffff;
+	background-color: #cce2cb;
 }
 #sec08-projectlist>.list01{
 /* 	border: 1px black solid; */
@@ -266,6 +266,7 @@ display: none;
 }
 .list02-title{
 	font-size: 4vw;
+	font-weight: bold;
 }
 
 .list02>ul{
@@ -289,6 +290,7 @@ display: none;
 
 .list04-title{
 	font-size: 4vw;
+	font-weight: bold;
 }
 .list04>ul{
 	margin-top: 3%;
@@ -316,18 +318,19 @@ display: none;
 
 .list06-title{
 	font-size: 4vw;
+	font-weight: bold;
 }
 .list06>ul{
 	margin-top: 3%;
 	margin-left: 5%;
 }
 .proj-1{
-	background-color: black;
+	background-color: white;
 	width: 80%;
 	margin-left: 10%;
 }
 .proj-2{
-	background-color: #afffff;
+	background-color: #cce2cb;
 	width: 100%;
 	margin-left: 0!important;
 	margin-bottom: 0!important;
@@ -341,35 +344,122 @@ display: none;
 	margin-top:2.5%;
 	font-size: 50px;
 	color: #000000;
+	background-color: #b6cfb6;
 }
 #sec09-education b{
-	border: 1px black solid;
+/* 	border: 1px black solid; */
 	width: 100%;
 	padding-top: 5%;
 	font-size: 16vw;
 	text-align: center;
 	display: block;
 }
+#sec10-edulist{
+	width: 100%;
+	height: auto;
+	background-color: #b6cfb6;
+	padding-bottom: 3%;
+}
 
-/* /* space */ */
-/* #space-sec0203{ */
-/* /* 	border: 1px black solid; */ */
-/* 	width: 100%; */
-/* } */
-/* #space-sec0405{ */
-/* /* 	border: 1px black solid; */ */
-/* 	width: 100%; */
-/* } */
-/* #space-sec0607{ */
-/* /* 	border: 1px black solid; */ */
-/* 	width: 100%; */
-/* } */
-/* #space-sec0809{ */
-/* /* 	border: 1px black solid; */ */
-/* 	width: 100%; */
-/* } */
-/* /* space */ */
-/* } */
+#sec10-edulist>.list05{
+/* 	border: 1px black solid; */
+	font-size: 3vw;
+	width: 100%;
+	height: auto;
+	padding-top: 5%;
+	color: #575757;
+}
+#sec10-edulist>.list06{
+/* 	border: 1px black solid; */
+	width: 100%;
+	height: auto;
+	font-size: 3.5vw;
+}
+.list06-content{
+	font-size: 3.2vw;
+	font-style: italic;
+	color: #575757;
+}
+#sec10-edulist>.list03{
+/* 	border: 1px black solid; */
+	font-size: 3vw;
+	width: 100%;
+	height: auto;
+	padding-top: 5%;
+	color: #575757;
+}
+#sec10-edulist>.list04{
+/* 	border: 1px black solid; */
+	width: 100%;
+	height: auto;
+	font-size: 3.5vw;
+}
+.list04-content{
+	font-size: 3.2vw;
+	font-style: italic;
+	color: #575757;
+}
+#sec10-edulist>.list01{
+/* 	border: 1px black solid; */
+	font-size: 3vw;
+	width: 100%;
+	height: auto;
+	padding-top: 5%;
+	color: #575757;
+}
+#sec10-edulist>.list02{
+/* 	border: 1px black solid; */
+	width: 100%;
+	height: auto;
+	font-size: 3.5vw;
+}
+.list02-content{
+	font-size: 3.2vw;
+	font-style: italic;
+	color: #575757;
+}
+
+.hr-final{
+	background-color: black;
+	margin-top: 10%;
+	margin-bottom: 5%;
+}
+
+.cont{
+/* 	border: 1px black solid; */
+	width: 100%;
+	height: 100%;
+	margin-top:2.5%;
+	font-size: 7vw;
+	color: #000000;
+	text-align: center;
+	display: block;
+}
+.email{
+/* 	border: 1px black solid; */
+	height: auto;
+	font-size: 3vw;
+	text-align: center;
+}
+.git{
+/* 	border: 1px black solid; */
+	height: auto;
+	font-size: 3vw;
+	text-align: center;
+	margin-bottom: 20%;
+}
+.img-mail{
+/* 	border: 1px black solid; */
+	width: 3vw;
+	margin-right: 5px;
+}
+.img-git{
+/* 	border: 1px black solid; */
+	width: 3vw;
+	margin-right: 5px;
+}
+
+
 
 }
 
