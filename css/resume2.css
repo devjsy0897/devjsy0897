@@ -1,11 +1,9 @@
 @CHARSET "UTF-8";
-@media(min-width:1001px) {
+@media(min-width:1101px) {
 *{
 	box-sizing: border-box;
 }
-body{
-	background: linear-gradient(#ffffff,#E6E6E6);
-}
+
 article{
 /* 	border: 1px black solid; */
 	width: 1005px;/*1000으로 바꾸자*/
@@ -28,6 +26,7 @@ section{
 	height: 300px;
 	object-fit: cover;
 }
+
 #sec02-info{
 /* 	border: 1px black solid; */
 	margin-left: 35px;
@@ -112,12 +111,15 @@ section{
 }
 #sec02-info>.home>img{
 /* 	border: 1px black solid; */
+	float: left;
 	width: 25px;
 	margin-top: 1px;
 	margin-left: 15px;
+	clear: both;
 }
 #sec02-info>.home .home-addr{
 /* 	border: 1px black solid; */
+	float: left;
 	margin-left: 14px;
 	font-size: 20px;
 }
@@ -130,13 +132,6 @@ section{
 	padding: 0px;
 	font-size: 35px;
 	color: #6D6CFF;
-}
-.smallphoto{
-	display: none;
-}
-#sec03-intro>img{
-	margin-top: 30px;
-	width: 200px;
 }
 
 #sec04-introduces{
@@ -163,7 +158,7 @@ section{
 }
 
 #sec05-skill{
-/* 	border: 1px black solid; */
+	border: 1px black solid;
 	width: 100%;
 	height: 50px;
 	margin-top: 50px;
@@ -512,7 +507,7 @@ span:hover + p.arrow_box {
 	font-size: 25px;
 	margin-left: 30px;
 	width: 220px;
-	height: 150px;
+	height: 100px;
 	float: left;
 	color: #575757;
 }
@@ -521,7 +516,7 @@ span:hover + p.arrow_box {
 	font-size: 18px;
 	margin-left: 35px;
 	width: 710px;
-	height: 150px;
+	height: 100px;
 	float: left;
 }
 
@@ -565,5 +560,345 @@ span:hover + p.arrow_box {
 	clear: both;
 }
 /* space */
+}
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+
+@media(max-width:1100px) {
+*{
+	box-sizing: border-box;
+}
+
+article{
+/* 	border: 1px black solid; */
+	width: 95%;/*1000으로 바꾸자*/
+	margin: 0 auto;
+}
+section{
+	width: 100%;
+	margin: 0 auto;
+}
+
+#sec01-photo{
+	border: 3px black solid;
+	width: 50%;
+	height:600px;
+	float: left;
+	overflow: hidden;
+	
+}
+#sec01-photo>img{
+	border: 1px black solid;
+	margin-left: -10%;
+	width: 120%;
+}
+#sec02-info{
+	border: 1px black solid;
+	width: 50%;
+	height: 600px;
+	float: left;
+}
+#sec02-info>.name{
+	border: 1px black solid;
+	text-align: center;
+	font-size: 800%;
+	margin: 0 auto;
+}
+
+#sec02-info>.mail{
+/* 	border: 1px black solid; */
+	margin-top: 150px;
+	height: 30px;	
+}
+#sec02-info>.mail>img{
+/* 	border: 1px black solid; */
+	float: left;
+	width: 10%;
+	margin-top: 4px;
+	margin-left: 15px;
+}
+#sec02-info>.mail .mail-addr{
+/* 	border: 1px black solid; */
+	float: left;
+	margin-left: 15px;
+	font-size: 200%;
+}
+#sec02-info>.git{
+/* 	border: 1px black solid; */
+	margin-top: 20px;
+	height: 30px;
+}
+#sec02-info>.git>img{
+/* 	border: 1px black solid; */
+	float: left;
+	width: 10%;
+	margin-top: -1px;
+	margin-left: 15px;
+	clear: both;
+}
+#sec02-info>.git .git-addr{
+/* 	border: 1px black solid; */
+	float: left;
+	margin-left: 15px;
+	font-size: 200%;
+}
+.git-addr>a{
+	color: #000000;
+}
+.git-addr>a:HOVER{
+	text-decoration:none;
+	color : #6D6CFF;
+}
+#sec02-info>.home{
+/* 	border: 1px black solid; */
+	margin-top: 20px;
+	height: 30px;
+}
+#sec02-info>.home>img{
+/* 	border: 1px black solid; */
+	float: left;
+	width: 10%;
+	margin-top: 1px;
+	margin-left: 15px;
+	clear: both;
+}
+#sec02-info>.home .home-addr{
+/* 	border: 1px black solid; */
+	float: left;
+	margin-left: 14px;
+	font-size: 200%;
+}
+
+#sec03-intro{
+	border: 1px black solid;
+	width: 100%;
+	height: 70px;
+	margin-top: 42px;
+	font-size: 50px;
+	color: #6D6CFF;
+	float: left;
+}
+
+#sec04-introduces{
+	border: 1px black solid;
+	margin-top: 50px;
+	height: 800px;
+	width: 100%;
+	float: left;
+}
+#sec04-introduces>.intro01{
+	font-size: 200%;
+}
+#sec04-introduces>.intro02{
+	font-size: 200%;
+	margin-top: 15px;
+}
+#sec04-introduces>.intro03{
+	font-size: 200%;
+	margin-top: 15px;
+}
+#sec04-introduces>.intro04{
+	font-size: 200%;
+	margin-top: 15px;
+}
+#sec05-skill{
+	border: 1px black solid;
+	width: 100%;
+	height: 70px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	font-size: 50px;
+	color: #6D6CFF;
+	float: left;
+}
+#sec05-skill b{
+	float: left;
+	width: 100px;
+	height: 30px;
+}
+#menu {
+	border: 1px black solid;
+    width: 50px;
+    height: 70px;
+    margin-left: 5%;
+    float: left;
+}
+#menu div {
+    position: relative;
+    display: inline-block;
+}
+
+#menu span {
+    display: block;
+    cursor: pointer;
+}
+#menu span img{
+	margin-top: -10px;
+	width: 50px;
+}
+.arrow_box {
+  display: none;
+  position: absolute;
+  width: 100px;
+  padding: 8px;
+  margin-top:10px;
+  left: -40px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;  
+  border-radius: 8px;
+  background: #333;
+  color: #fff;
+  font-size: 14px;
+}
+.arrow_box:after {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  margin-left: -5px;
+  border: solid transparent;
+  border-color: rgba(51, 51, 51, 0);
+  border-bottom-color: #333;
+  border-width: 10px;
+  pointer-events: none;
+  content: " ";
+}
+span:hover + p.arrow_box {
+  display: block;
+}
+#sec06-skillmenu{
+	border: 1px black solid;
+	width: 1000px;
+	height: 500px;
+	float: left;
+}
+
+#sec06-skillmenu>.menu01{
+/* 	border: 1px black solid; */
+	font-size: 25px;
+	margin-left: 120px;
+	width: 150px;
+	height: 100px;
+	float: left;
+	color: #575757;
+}
+#sec06-skillmenu>.menu02{
+/* 	border: 1px black solid; */
+	font-size: 18px;
+	margin-left: 40px;
+	width: 180px;
+	height: 100px;
+	float: left;
+}
+#sec06-skillmenu>.menu02-1{
+/* 	border: 1px black solid; */
+	font-size: 18px;
+	margin-left: 50px;
+	width: 180px;
+	height: 100px;
+	float: left;
+}
+/*#sec06-skillmenu>.menu02-2{
+	border: 1px black solid;
+	font-size: 18px;
+	margin-left: 50px;
+	width: 180px;
+	height: 100px;
+	float: left;
+}*/
+hr{
+	clear: both;
+}
+#sec06-skillmenu>.menu03{
+/* 	border: 1px black solid; */
+	font-size: 25px;
+	margin-left: 120px;
+	width: 150px;
+	
+	height: 100px;
+	float: left;
+	color: #575757;
+}
+#sec06-skillmenu>.menu04{
+/* 	border: 1px black solid; */
+	font-size: 18px;
+	margin-left: 40px;
+	width: 180px;
+	height: 100px;
+	float: left;
+}
+#sec06-skillmenu>.menu05{
+/* 	border: 1px black solid; */
+	font-size: 25px;
+	margin-left: 120px;
+	width: 150px;
+	height: 100px;
+	float: left;
+	color: #575757;
+}
+#sec06-skillmenu>.menu06{
+/* 	border: 1px black solid; */
+	font-size: 18px;
+	margin-left: 40px;
+	width: 180px;
+	height: 100px;
+	float: left;
+}
+#sec06-skillmenu>.menu06-1{
+/* 	border: 1px black solid; */
+	font-size: 18px;
+	margin-left: 50px;
+	width: 180px;
+	height: 100px;
+	float: left;
+}
+#sec06-skillmenu>.menu07{
+/* 	border: 1px black solid; */
+	font-size: 25px;
+	margin-left: 120px;
+	width: 150px;
+	height: 100px;
+	float: left;
+	color: #575757;
+}
+#sec06-skillmenu>.menu08{
+/* 	border: 1px black solid; */
+	font-size: 18px;
+	margin-left: 40px;
+	width: 180px;
+	height: 100px;
+	float: left;
+}
+
+	
+/* space */
+#space-sec0203{
+/* 	border: 1px black solid; */
+	width: 100%;
+}
+#space-sec0405{
+/* 	border: 1px black solid; */
+	width: 100%;
+}
+#space-sec0607{
+/* 	border: 1px black solid; */
+	width: 100%;
+}
+#space-sec0809{
+/* 	border: 1px black solid; */
+	width: 100%;
+}
+/* space */
+	
+	
+	
+	
+	
+}
+
 }
 
