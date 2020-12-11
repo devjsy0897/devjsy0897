@@ -1,51 +1,54 @@
 @CHARSET "UTF-8";
-@media(min-width:1001px) {
-* {margin: 0; padding: 0; /* 여백초기화 */
-  box-sizing: border-box; /* 요소
-  크기계산시 padding과 border값 포함 */ }
+@media(max-width:1000px) {
+* {margin: 0; padding: 0; 
+  box-sizing: border-box;  }
   
   header{
- height: 80px;
-/*  border: 3px yellow solid; */
+  width: 100%;
+ height: 7.5vw;
+/*  border: 5px yellow solid; */
  }
  
 #top-nav {
-/* 	border: 1px yellow solid; */
 position:fixed;
 background: #000000;
 opacity:80%;
- width: 100%;  height: 40px;
+ width: 100%;  height: 7.5vw;
  display: block;
+  margin:0;
+padding:0;
 }
 nav .top-ul {list-style: none;
-/* border: 1px white solid; */
-width: 405px;
-height: auto;
-margin: 0 auto;
-padding: 0!important;}
+/* border: 3px yellow solid; */
+width: 80vw;
+height: 7.5vw;
+text-align: center;
+padding: 0!important;
+margin: 0 auto;}
 
 #top-nav li { 
-/* 	border: 1px yellow solid; */
-	float: left;
-margin-top: 7px;
-font-size: 17px;
+/* border:1px green solid; */
+float: left;
+font-size: 5vw;
+width: 20vw;
+margin-top: 1vw;
 }
 .nav-main{
-	width: 80px;
+	width: 20vw;
 	text-align: center;
-	margin-right: 40px;
+	margin-right: 5vw;
 }
-.nav-my {
-	width: 80px;
+.nav-my{
+	width: 20vw;
 	text-align: center;
-	margin-left: 40px;
-	margin-right: 40px;
+	margin-left: 5vw;
+	margin-right: 5vw;
 }
  
-.nav-proj {
-	width: 80px;
+.nav-proj{
+	width: 20vw;
 	text-align: center;
-	margin-left: 40px;
+	margin-left: 5vw;
 }
  
 .color-white{
@@ -60,46 +63,6 @@ font-size: 17px;
   
  #wrap {/*border: 1px solid pink;*/
 width: 100%; height:100%;
-margin: 0 auto; /* 수평 중앙정렬 */}
-
-header {
- height: 40px;
- }
- 
-#top-nav {
-position:fixed;
-background: #000000;
-opacity:80%;
- width: 100%;  height: 40px;
- margin: 0 auto;
- 
-} 
-nav ul {list-style: none;/* 목록모양 제거 */
-width: 300px;
-margin: 0 auto;}
-
-#top-nav li { float: left;
-margin-top: 7px;
-
-font-size: 17px;
-
-}
-
-.nav-my {
-	margin-right: 40px;
-}
- 
-.nav-proj{
-	margin-left: 40px;
-}
- 
-.color-white{
-	color: #CDCDCD;
-	text-decoration: none;
-}
-
-.color-white:HOVER {
-	color: white;
 }
 
 body{
@@ -124,8 +87,10 @@ body,html{
     background-size: cover;
     opacity: 0.5;
 }
-
 .main_text{
+	display: none;
+}
+.small_text{
 	font-family: TmonMonsori;
 	color: white;
 	text-shadow:5px 1px 15px #000000;
@@ -137,7 +102,8 @@ body,html{
 	font-size: 70px;
 	letter-spacing: 4px;
 }
-.main_text>.name{
+
+.small_text>.name{
 	color: black;
 	text-shadow: none;
 }

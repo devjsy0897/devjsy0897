@@ -3,6 +3,76 @@
 *{
 	box-sizing: border-box;
 }
+header{
+ height: 80px;
+/*  border: 1px black solid; */
+ }
+ 
+#top-nav {
+position:fixed;
+background: #000000;
+opacity:80%;
+ width: 100%;  height: 40px;
+ display: block;
+}
+#sec-nav {
+position:fixed;
+background: #484848;
+opacity:80%;
+ width: 100%;  height: 40px;
+ margin-top:40px;
+} 
+nav .top-ul {list-style: none;
+/* border: 1px white solid; */
+width: 405px;
+margin: 0 auto;
+padding: 0!important;}
+nav .sec-ul {list-style: none;
+/* border: 1px white solid; */
+width: 565px; /*한 개 추가시 160씩 올리면 됨*/
+margin: 0 auto;
+padding: 0!important;}
+
+#top-nav li { 
+/* 	border: 1px yellow solid; */
+	float: left;
+margin-top: 7px;
+font-size: 17px;
+}
+#sec-nav li { float: left;
+margin-top: 7px;
+font-size: 17px;
+}
+.nav-main,.sec-nav-into{
+	width: 80px;
+	text-align: center;
+	margin-right: 40px;
+}
+.nav-my,.sec-nav-skill,.sec-nav-project {
+	width: 80px;
+	text-align: center;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+ 
+.nav-proj,.sec-nav-edu {
+	width: 80px;
+	text-align: center;
+	margin-left: 40px;
+}
+ 
+.color-white{
+	color: #CDCDCD;
+	text-decoration: none;
+}
+
+.color-white:HOVER {
+	color: white;
+	text-decoration: none;
+}
+/*@@@@@@@@@@@@@@@ 헤더 완료 @@@@@@@@@@@@@@*/
+
+
 body{
 /* 	border: 1px black solid; */
 	height: auto;
@@ -297,6 +367,14 @@ hr{
 	height: 100px;
 	float: left;
 }
+#sec06-skillmenu>.menu08-1{
+/* 	border: 1px black solid; */
+	font-size: 18px;
+	margin-left: 50px;
+	width: 180px;
+	height: 100px;
+	float: left;
+}
 .badge-light{
 	background-color: #E7E7E7!important;
 }
@@ -338,7 +416,9 @@ hr{
 span:hover + p.arrow_box {
   display: block;
 }
-
+.ul-a{
+	margin-left: 20px;
+}
 #sec07-project{
 /* 		border: 1px black solid; */
 	width: 1000px;
@@ -422,7 +502,7 @@ span:hover + p.arrow_box {
 	font-size: 18px;
 	margin-left: 35px;
 	width: 710px;
-	height: 310px;
+	height: 330px;
 	float: left;
 }
 

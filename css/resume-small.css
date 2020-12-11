@@ -4,6 +4,103 @@
 *{
 	box-sizing: border-box;
 }
+
+header{
+ width:100%;
+ height: 15vw;
+/*  border: 3px blue solid; */
+ }
+ 
+#top-nav {
+position:fixed;
+background: #000000;
+opacity:80%;
+ width: 100%;  height: 7.5vw;
+ display: block;
+}
+#sec-nav {
+position:fixed;
+background: #484848;
+opacity:80%;
+ width: 100%;  
+ height: 7.5vw;
+ margin-top:7.5vw;
+} 
+nav .top-ul {list-style: none;
+/* border: 1px yellow solid; */
+width: 80vw;
+height: 7.5vw;
+text-align: center;
+padding: 0!important;
+margin: 0 auto;}
+nav .sec-ul {list-style: none;
+/* border: 1px yellow solid; */
+width: 88vw;
+height: 7.5vw;
+text-align: center;
+padding: 0!important;
+margin: 0 auto;
+}
+
+#top-nav li { 
+/* border:1px green solid; */
+float: left;
+font-size: 5vw;
+width: 20vw;
+}
+#sec-nav li { 
+/* 	border:1px green solid; */
+	float: left;
+font-size: 3.5vw;
+margin-top: 1vw;
+}
+.nav-main{
+	width: 20vw;
+	text-align: center;
+	margin-right: 5vw;
+}
+.nav-my{
+	width: 20vw;
+	text-align: center;
+	margin-left: 5vw;
+	margin-right: 5vw;
+}
+ 
+.nav-proj {
+	width: 20vw;
+	text-align: center;
+	margin-left: 5vw;
+}
+.sec-nav-into{
+	width: 16vw;
+	text-align: center;
+	margin-right: 4vw;
+}
+.sec-nav-skill,.sec-nav-project {
+	width: 16vw;
+	text-align: center;
+	margin-left: 4vw;
+	margin-right: 4vw;
+}
+.sec-nav-edu {
+	width: 16vw;
+	text-align: center;
+	margin-left: 4vw;
+}
+
+ 
+.color-white{
+	color: #CDCDCD;
+	text-decoration: none;
+}
+
+.color-white:HOVER {
+	color: white;
+	text-decoration: none;
+}
+/*@@@@@@@@@@@@@@@ 헤더 완료 @@@@@@@@@@@@@@*/
+
+
 body{
 	width: 100%;
 	height: auto;
@@ -51,39 +148,41 @@ section{
 }
 #sec04-introduces>.intro01{
 	font-size: 4vw;
-	margin-left: 10px;
-	margin-right: 10px;
+	margin-left: 1.5vw;
+	margin-right: 1.5vw;
 }
 #sec04-introduces>.intro02{
 	font-size: 4vw;
 	margin-top: 15px;
-	margin-left: 10px;
-	margin-right: 10px;
+	margin-left: 1.5vw;
+	margin-right: 1.5vw;
 }
 #sec04-introduces>.intro03{
 	font-size: 4vw;
 	margin-top: 15px;
-	margin-left: 10px;
-	margin-right: 10px;
+	margin-left: 1.5vw;
+	margin-right: 1.5vw;
 }
 #sec04-introduces>.intro04{
 	font-size: 4vw;
 	margin-top: 15px;
-	margin-left: 10px;
-	margin-right: 10px;
+	margin-left: 1.5vw;
+	margin-right: 1.5vw;
 }
+
 #sec05-skill{
-/* 	border: 1px yellow solid; */
+/* 	border: 1px black solid; */
 	width: 100%;
 	height: 100%;
 	margin-top:2.5%;
-	color: #ffffff;
+	font-size: 50px;
+	color: #000000;
 	background-color: #8fcaca;
 }
 #sec05-skill b{
 /* 	border: 1px black solid; */
 	width: 100%;
-	padding-top: 5%;
+	padding-top: 8%;
 	font-size: 16vw;
 	text-align: center;
 	display: block;
@@ -96,6 +195,8 @@ display: none;
 	width: 100%;
 	height: auto;
 	background-color: #8fcaca;
+	padding-left: 1.5vw;
+	padding-right: 1.5vw;
 }
 #sec06-skillmenu>.menu01{
 /* 	border: 1px black solid; */
@@ -202,6 +303,16 @@ display: none;
 	color: black;
 	display: block;
 }
+#sec06-skillmenu>.menu08-1{
+	font-size: 5vw;
+	margin-bottom: 3%;
+	margin-left: 5%;
+	width: 45%;
+	height: auto;
+	float: left;
+	clear: right;
+	color: black;
+}
 .skill-1{
 	clear: both;
 	background-color: white;
@@ -216,15 +327,7 @@ display: none;
 	margin-bottom: 0!important;
 }
 
-#sec05-skill{
-/* 	border: 1px black solid; */
-	width: 100%;
-	height: 100%;
-	margin-top:2.5%;
-	font-size: 50px;
-	color: #ffffff;
-	background-color: black!important;
-}
+
 .ul-a{
 	margin-left: 5%;
 }
@@ -239,7 +342,7 @@ display: none;
 #sec07-project>b{
 /* 	border: 1px black solid; */
 	width: 100%;
-	padding-top: 5%;
+	padding-top: 8%;
 	font-size: 16vw;
 	text-align: center;
 	display: block;
@@ -249,6 +352,8 @@ display: none;
 	width: 100%;
 	height: auto;
 	background-color: #cce2cb;
+	padding-left: 1.5vw;
+	padding-right: 1.5vw;
 }
 #sec08-projectlist>.list01{
 /* 	border: 1px black solid; */
@@ -325,7 +430,7 @@ display: none;
 	margin-left: 5%;
 }
 .proj-1{
-	background-color: white;
+	background-color: black;
 	width: 80%;
 	margin-left: 10%;
 }
@@ -349,7 +454,7 @@ display: none;
 #sec09-education b{
 /* 	border: 1px black solid; */
 	width: 100%;
-	padding-top: 5%;
+	padding-top: 8%;
 	font-size: 16vw;
 	text-align: center;
 	display: block;
@@ -359,6 +464,8 @@ display: none;
 	height: auto;
 	background-color: #b6cfb6;
 	padding-bottom: 3%;
+	padding-left: 1.5vw;
+	padding-right: 1.5vw;
 }
 
 #sec10-edulist>.list05{
