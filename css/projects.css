@@ -113,18 +113,18 @@ margin: 0 auto;
 .sec03-BPM{
 /* 	border: 1px black solid; */
 	margin-top: 50px;
-	height: 24200px;
+	height: auto;
 }
 .sec02-cal{
 /* 	border: 1px black solid; */
 	margin-top: 50px;
-	height: 6800px;
+	height: auto;
 }
 
 .sec01-TtB{
 /* 	border: 3px black solid; */
 	margin-top: 50px;
-	height: 9150px;
+	height: auto;
 }
 .name{
 /* 	border: 1px black solid; */
@@ -162,14 +162,14 @@ video{
 	color: #6D6CFF;
 }
 .calppt{
-	border: 1px black silid;
+/* 	border: 1px black silid; */
 	margin-top: 30px;
-	height: 6000px;
+	height: auto;
 }
 .busanppt{
 /* 	border: 1px black solid; */
 	margin-top: 30px;
-	height: 8200px;
+	height: auto;
 }
 /*space*/
  #space-sec0304{
