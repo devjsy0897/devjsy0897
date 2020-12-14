@@ -367,6 +367,9 @@ hr{
 	height: 100px;
 	float: left;
 }
+.menu08>ul>.centos{
+	font-size: 17px!important;
+}
 #sec06-skillmenu>.menu08-1{
 /* 	border: 1px black solid; */
 	font-size: 18px;
