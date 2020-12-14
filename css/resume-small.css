@@ -303,6 +303,9 @@ display: none;
 	color: black;
 	display: block;
 }
+.menu08>ul>.centos{
+	font-size: 4.8vw!important;
+}
 #sec06-skillmenu>.menu08-1{
 	font-size: 5vw;
 	margin-bottom: 3%;
