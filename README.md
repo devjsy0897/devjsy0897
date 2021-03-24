@@ -1,4 +1,4 @@
-<h1> 👋Hi there~</h1>      
+<h3> 👋Hi there~</h3>      
       
 ### <a href="https://devjsy0897.github.io/devjsy0897/main">👉 portfolio를 보시려면 클릭해주세요. </a>
 
