@@ -2,7 +2,7 @@
       
 ### <a href="https://devjsy0897.github.io/devjsy0897/main">👉 My Portfolio </a>
 
-### 👇First Team Project 베프마켓.
+### 👇First Team Project 'BestPriceMarket'.
 > <a href="https://github.com/sowon-dev/bestPriceMarket">Github link</a>
 
 ### 👇First Android Application! Calculation.      
