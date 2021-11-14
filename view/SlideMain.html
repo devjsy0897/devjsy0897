@@ -22,7 +22,7 @@ section {
 
 
 /* slide up */
-.slide-up-wrap {
+ .slide-up-wrap {
   width:50%;
   /* align-items: center; */
   /* justify-content: center; */
@@ -45,8 +45,8 @@ section {
   height: auto;
   max-width: 80vw;
   max-height: 80vh;
-  object-fit: cover;
-}
+  /* object-fit: cover; */
+} 
 </style>
 </head>
 <body>
@@ -55,7 +55,8 @@ section {
 	<!-- <img src="./images/pic01.jpg" style="height: 100vh; overflow: hidden;"/> -->
 	<video src="../css/img/SlideMain/introduce_2.mp4" style="height: 100vh; width:90vw; overflow: hidden; margin: 0 auto;" autoplay="autoplay" muted="muted" ></video>
 </section>
-			<div class="black-bg slide-up-wrap" style="float: left;">
+
+<!-- 			<div style="float: left;">
 				<div>
 					<img src="https://images.unsplash.com/photo-1509737641193-81adee92776a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60" alt="" />
 				</div>
@@ -66,11 +67,11 @@ section {
 					<img src="https://images.unsplash.com/photo-1478676584648-9f4e1f30ec1c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60" alt="" />
 				</div>
 			</div>
-				<div data-color="black" style=" width: 50vw; height:50vh; float: left; margin-top: 25vh; color: white;" data-aos="fade-up" data-aos-duration="2000"><div style="width:30%; text-align: left;"><h1>이력서</h1> <h3>제가 어떤 사람인지,<br> 어떤 것을 좋아하는지,<br> 궁금하다면 클릭해 보세요. </h3> 이력서 바로 가기 ></div></div>
+				<div data-color="black" style=" width: 50vw; height:50vh; float: left; margin-top: 25vh; color: white;" data-aos="fade-up" data-aos-duration="2000"><div style="width:30%; text-align: left;"><h1>이력서</h1> <h3>제가 어떤 사람인지,<br> 어떤 것을 좋아하는지,<br> 궁금하다면 클릭해 보세요. </h3> 이력서 바로 가기 ></div></div> -->
 <!-- <section data-color="black">
-	<div style=" width: 50%; border: 3px solid yellow;"><img src="./css/img/projects/BP/BP(0).png" style="width: 70%; margin-left: 17.5%;"  /></div>
 	<div>
 		<div style=" width: 50vw; height:50vh; float: left; margin-top: 25vh; text-align: right;">
+		<div style=" width: 50%; border: 3px solid yellow;"><img src="./css/img/projects/BP/BP(0).png" style="width: 70%; margin-left: 17.5%;"  /></div>
 			
 		</div>
 		<div style=" width: 50vw; height:50vh; float: left; margin-top: 25vh; color: white;" data-aos="fade-up" data-aos-duration="2000"><div style="width:30%; text-align: left;"><h1>이력서</h1> <h3>제가 어떤 사람인지,<br> 어떤 것을 좋아하는지,<br> 궁금하다면 클릭해 보세요. </h3> 이력서 바로 가기 ></div></div>
@@ -79,6 +80,12 @@ section {
 
 
 
+<section data-color="black">
+	<div>
+		<div style=" width: 50%; float: left;"><img src="../css/img/SlideMain/resume1.jpg" class="resumeImg" style="width: 70%;"  /></div>
+		<div style=" width: 50%; float: left; color: white;" ><div data-aos="fade-up" data-aos-duration="2000"><h1>Yi</h1> <h3>제가 어떤 사람인지,<br> 어떤 것을 좋아하는지,<br> 궁금하다면 클릭해 보세요. </h3> 이력서 바로 가기 ></div></div>
+	</div>
+</section>
 <section data-color="violet">
 	<div>
 		<div style=" width: 40vw; height:50vh; float: left; margin-top: 25vh; " data-aos="fade-up" data-aos-duration="2000"><div style="text-align: right; width: 15vw;"><h1>Yi</h1> <h3>제가 어떤 사람인지,<br> 어떤 것을 좋아하는지,<br> 궁금하다면 클릭해 보세요. </h3> 이력서 바로 가기 ></div></div>
@@ -100,15 +107,36 @@ section {
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
 <script type="text/javascript">
 AOS.init();
+
+var photo = "";
 $(window).scroll(function() {
 	  $('section').each(function(i) {
-//alert("$(this).position().top :"+$(this).position().top+" / $(window).scrollTop() : "+$(window).scrollTop());
-//alert(window.innerHeight);
+		//alert("$(this).position().top :"+$(this).position().top+" / $(window).scrollTop() : "+$(window).scrollTop());
+		//alert(window.innerHeight);
 	    if ($(this).position().top-(window.innerHeight*0.7) <= $(window).scrollTop()) {
+	    	if(i==1 && photo == ""){
+	    		photo=2;
+	    		photoChange(photo);
+	    	}
 	      $('body').css('background-color', $(this).attr('data-color'));
 	    }
 	  });
 	});
+	
+	
+	function photoChange(photo){
+   		$(".resumeImg").delay(1000).animate({opacity:0},1000, function(){
+   			if(photo==1){
+   				$(".resumeImg").attr("src", "../css/img/SlideMain/resume1.jpg").animate({opacity:1},1000);
+   				photoChange(2);
+   			}
+   			if(photo==2){
+   				$(".resumeImg").attr("src", "../css/img/SlideMain/resume2.jpg").animate({opacity:1},1000);
+   				photoChange(1);
+   			}
+   		});
+		
+	}
 </script>
 </body>
 </html>
