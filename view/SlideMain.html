@@ -6,161 +6,32 @@
    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
     <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script> 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+    <link href="../css/slideMain.css" rel="stylesheet">
    
-<style>
-
-  body {
-  margin:0px;
-  padding: 0px;
-  transition: background-color .3s linear;
-  background-color: black;
-}
-
-section {
-	width: 99vw;
-  height: 100vh;
-}
-
-
-/* slide up */
- .slide-up-wrap {
-  width:50%;
-  /* align-items: center; */
-  /* justify-content: center; */
-  margin-top: 40px;
-  float: left;
-}
-.slide-up-wrap > div {
-  position: sticky;
-  top: 0;
-  left: 0;
-  display: flex;
-  /* justify-content: center; */
-  /* align-items: center; */
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-}
-.slide-up-wrap > div > img {
-  width: 100%;
-  height: auto;
-  max-width: 80vw;
-  max-height: 80vh;
-  /* object-fit: cover; */
-} 
-
-#iphone{
-animation-name: stampani;
-animation-delay:2s;
-	animation-duration: 1s;
-	animation-iteration-count: infinite;
-	animation-timing-function: ease;
-	
-}
-@keyframes stampani {
-	0% {transform: rotateZ(-5deg);}
-	10% {transform: rotateZ(5deg);}
-	20% {transform: rotateZ(-5deg);}
-	30% {transform: rotateZ(5deg);}
-	40% {transform: rotateZ(0deg);}
-	100% {transform: rotateZ(0deg);}
-	}
-</style>
 </head>
 <body>
 
 <section data-color="black" style="text-align: center;">
-	<!-- <img src="./images/pic01.jpg" style="height: 100vh; overflow: hidden;"/> -->
 	<video src="../css/img/SlideMain/introduce_2.mp4" style="height: 100vh; width:90vw; overflow: hidden; margin: 0 auto;" autoplay="autoplay" muted="muted" loop=""></video>
 </section>
-
-<!-- 			<div style="float: left;">
-				<div>
-					<img src="https://images.unsplash.com/photo-1509737641193-81adee92776a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60" alt="" />
-				</div>
-				<div>
-					<img src="https://images.unsplash.com/photo-1510403464722-4fa24344f0c4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60" alt="" />
-				</div>
-				<div>
-					<img src="https://images.unsplash.com/photo-1478676584648-9f4e1f30ec1c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60" alt="" />
-				</div>
-			</div>
-				<div data-color="black" style=" width: 50vw; height:50vh; float: left; margin-top: 25vh; color: white;" data-aos="fade-up" data-aos-duration="2000"><div style="width:30%; text-align: left;"><h1>이력서</h1> <h3>제가 어떤 사람인지,<br> 어떤 것을 좋아하는지,<br> 궁금하다면 클릭해 보세요. </h3> 이력서 바로 가기 ></div></div> -->
-<!-- <section data-color="black">
-	<div>
-		<div style=" width: 50vw; height:50vh; float: left; margin-top: 25vh; text-align: right;">
-		<div style=" width: 50%; border: 3px solid yellow;"><img src="./css/img/projects/BP/BP(0).png" style="width: 70%; margin-left: 17.5%;"  /></div>
-			
-		</div>
-		<div style=" width: 50vw; height:50vh; float: left; margin-top: 25vh; color: white;" data-aos="fade-up" data-aos-duration="2000"><div style="width:30%; text-align: left;"><h1>이력서</h1> <h3>제가 어떤 사람인지,<br> 어떤 것을 좋아하는지,<br> 궁금하다면 클릭해 보세요. </h3> 이력서 바로 가기 ></div></div>
-	</div>
-</section> -->
-
-
 
 <section data-color="white"  style=" display: table-cell; vertical-align: middle;">
 	<div style="display: flex;">
 		<div style=" flex:1; text-align: center;"><img src="../css/img/SlideMain/resume1.jpg" class="resumeImg" style="width: 70%;"  /></div>
-		<div style=" flex:1; float: left;" ><div data-aos="fade-up" data-aos-duration="2000" style="margin-left: 10%;"><h1>이력서</h1> <h3>제가 어떤 사람인지,<br> 어떤 일을 해왔는지<br> 궁금하다면 클릭해 보세요. </h3> 이력서 바로 가기 ></div></div>
+		<div style=" flex:1; float: left;" ><div data-aos="fade-up" data-aos-duration="2000" style="margin-left: 10%;"><h1>이력서</h1> <h3>제가 어떤 사람인지<br> 어떤 일을 해왔는지<br> 궁금하다면 클릭해 보세요. </h3> <a href="../view/resume.html">이력서 바로 가기 ></a></div></div>
 	</div>
 </section>
+
 <div></div>
+
 <section data-color="black" style=" display: table-cell; vertical-align: middle;  color: white;">
 	<div style="display: flex;">
-		<!-- <div style=" width: 49vw; float: left;  color: white; text-align: right;" ><div data-aos="fade-up" data-aos-duration="2000" style="margin-right: 10%;"><h1>개인 프로젝트</h1><h3>편리한 재고관리를 위해 <br> 개발했습니다. </h3> 어딧지? 바로 가기 ></div> <div data-aos="fade-up" data-aos-duration="2000" style="margin-right: 10%;"><h3>물론 어플도 있죠.</h3> 어플 바로 가기 ></div></div>
-		<div style=" width: 49vw; float: left; text-align: center;"><img src="../css/img/SlideMain/resume1.jpg" class="resumeImg" style="width: 70%;"  /></div> -->
-		<div style=" flex:1; text-align: right;" data-aos="fade-up" data-aos-duration="2000"><div style="text-align: right;"><h1>개인 프로젝트</h1><h3>편리한 재고관리를 위해 <br> 개발했습니다. </h3>어딧지? 바로 가기 ></div><div data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="2000"><img id="iphone" src="../css/img/SlideMain/iphone1.png" style="width: 15vw; position: absolute; left: 20vw; top: -15vh;"></div><div data-aos="fade-up" data-aos-delay="1000" data-aos-duration="2000"><h3>물론 어플도 있죠.</h3> 어플 바로 가기 ></div></div>
+		<div style=" flex:1; text-align: right;" data-aos="fade-up" data-aos-duration="2000"><div style="text-align: right;"><h1>개인 프로젝트</h1><h3>편리한 재고관리를 위해 <br> 개발했습니다. </h3><a href="#">어딧지? 바로 가기 ></a></div><div data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="2000"><img id="iphone" src="../css/img/SlideMain/iphone1.png" style="width: 15vw; position: absolute; left: 20vw; top: -15vh;"></div><div data-aos="fade-up" data-aos-delay="1000" data-aos-duration="2000"><h3>물론 어플도 있죠.</h3> 어플 바로 가기 ></div></div>
 		<div style=" flex:1; text-align: center;"><img src="../css/img/projects/BP/BP(1).png" style="width: 70%;"></div>
 	</div>
 </section>
 
-<!-- <section data-color="white">
-	<div>
-		<div style=" width: 50%;"><img src="./images/pic02.jpg" style="width: 70%; margin-left: 17.5%;"  /></div>
-		<div style=" width: 50%; margin-left: 10%;" ><div data-aos="fade-up" data-aos-duration="2000"><h1>Ga</h1> <h3>편리한 재고관리를 위해 <br> 개발했습니다. </h3> 어딧지? 바로 가기 ></div> <div data-aos="fade-up" data-aos-delay="1000" data-aos-duration="2000"><h3>물론 어플도 있죠.</h3> 어플 바로 가기 ></div></div>
-	</div>
-</section> -->
 
-
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
-<script type="text/javascript">
-AOS.init();
-
-var photo = "";
-$(window).scroll(function() {
-	  $('section').each(function(i) {
-		//alert("$(this).position().top :"+$(this).position().top+" / $(window).scrollTop() : "+$(window).scrollTop());
-		//alert(window.innerHeight);
-	    if ($(this).position().top-(window.innerHeight*0.7) <= $(window).scrollTop()) {
-	    	if(i==1 && photo == ""){
-	    		photo=2;
-	    		photoChange(photo);
-	    	}
-	    	if(i==3){
-	    		alert("dd");
-	    	}
-	      $('body').css('background-color', $(this).attr('data-color'));
-	    }
-	  });
-	});
-	
-	
-	function photoChange(photo){
-   		$(".resumeImg").delay(1000).animate({opacity:0},1000, function(){
-   			if(photo==1){
-   				$(".resumeImg").attr("src", "../css/img/SlideMain/resume1.jpg").animate({opacity:1},1000);
-   				photoChange(2);
-   			}
-   			if(photo==2){
-   				$(".resumeImg").attr("src", "../css/img/SlideMain/resume2.jpg").animate({opacity:1},1000);
-   				photoChange(1);
-   			}
-   		});
-		
-	}
-	
-	
-</script>
 </body>
 </html>
