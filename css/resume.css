@@ -427,8 +427,8 @@ span:hover + p.arrow_box {
 .ul-a{
 	margin-left: 20px;
 }
-#sec07-project{
-/* 		border: 1px black solid; */
+#sec07-experience{
+	/* 		border: 1px black solid; */
 	width: 1000px;
 	height: 50px;
 	margin-top: 50px;
@@ -436,13 +436,12 @@ span:hover + p.arrow_box {
 	font-size: 35px;
 	color: #6D6CFF;	
 }
-
-#sec08-projectlist{
-/* 	border: 1px black solid; */
+#sec08-experienceList{
+	/* border: 1px black solid; */ 
 	width: 1000px;
-	height: 850px;
+	height: 250px;
 }
-#sec08-projectlist>.list01{
+#sec08-experienceList>.list01{
 /* 	border: 1px black solid; */
 	font-size: 25px;
 	margin-left: 30px;
@@ -451,7 +450,58 @@ span:hover + p.arrow_box {
 	float: left;
 	color: #575757;
 }
-#sec08-projectlist>.list02{
+#sec08-experienceList>.list02{
+/* 	border: 1px black solid; */
+	font-size: 18px;
+	margin-left: 35px;
+	margin-bottom: 10px;
+	width: 710px;
+	height: auto;
+	float: left;
+}
+
+#sec09-project{
+/* 		border: 1px black solid; */
+	width: 1000px;
+	height: 50px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	font-size: 35px;
+	color: #6D6CFF;	
+}
+#sec09-project>.list01{
+	/* 	border: 1px black solid; */
+	font-size: 25px;
+	margin-left: 30px;
+	width: 220px;
+	height: 200px;
+	float: left;
+	color: #575757;
+}
+#sec09-project>.list02{
+/* 	border: 1px black solid; */
+	font-size: 18px;
+	margin-left: 35px;
+	margin-bottom: 10px;
+	width: 710px;
+	height: auto;
+	float: left;
+}
+#sec10-projectlist{
+/* 	border: 1px black solid; */
+	width: 1000px;
+	height: 850px;
+}
+#sec10-projectlist>.list01{
+/* 	border: 1px black solid; */
+	font-size: 25px;
+	margin-left: 30px;
+	width: 220px;
+	height: 200px;
+	float: left;
+	color: #575757;
+}
+#sec10-projectlist>.list02{
 /* 	border: 1px black solid; */
 	font-size: 18px;
 	margin-left: 35px;
@@ -469,7 +519,7 @@ span:hover + p.arrow_box {
 	margin-left: 50px;
 }
 
-#sec08-projectlist>.list03{
+#sec10-projectlist>.list03{
 /* 	border: 1px black solid; */
 	font-size: 25px;
 	margin-left: 30px;
@@ -478,7 +528,7 @@ span:hover + p.arrow_box {
 	float: left;
 	color: #575757;
 }
-#sec08-projectlist>.list04{
+#sec10-projectlist>.list04{
 /* 	border: 1px black solid; */
 	font-size: 18px;
 	margin-left: 35px;
@@ -496,7 +546,7 @@ span:hover + p.arrow_box {
 }
 
 
-#sec08-projectlist>.list05{
+#sec10-projectlist>.list05{
 /* 	border: 1px black solid; */
 	font-size: 25px;
 	margin-left: 30px;
@@ -505,7 +555,7 @@ span:hover + p.arrow_box {
 	float: left;
 	color: #575757;
 }
-#sec08-projectlist>.list06{
+#sec10-projectlist>.list06{
 /* 	border: 1px black solid; */
 	font-size: 18px;
 	margin-left: 35px;
@@ -522,7 +572,7 @@ span:hover + p.arrow_box {
 	margin-left: 50px;
 }
 
-#sec09-education{
+#sec11-education{
 /* 	border: 1px black solid; */
 	width: 1000px;
 	height: 50px;
@@ -531,19 +581,19 @@ span:hover + p.arrow_box {
 	font-size: 35px;
 	color: #6D6CFF;
 }
-#sec09-education b{
+#sec11-education b{
 	float: left;
 	width: 100px;
 	height: 30px;
 }
 
 
-#sec10-edulist{
+#sec12-education{
 /* 	border: 1px black solid; */
 	width: 1000px;
 	height: 400px;
 }
-#sec10-edulist>.list01{
+#sec12-education>.list01{
 /* 	border: 1px black solid; */
 	font-size: 25px;
 	margin-left: 30px;
@@ -552,7 +602,7 @@ span:hover + p.arrow_box {
 	float: left;
 	color: #575757;
 }
-#sec10-edulist>.list02{
+#sec12-education>.list02{
 /* 	border: 1px black solid; */
 	font-size: 18px;
 	margin-left: 35px;
@@ -570,7 +620,7 @@ span:hover + p.arrow_box {
 	color: #575757;
 }
 
-#sec10-edulist>.list03{
+#sec12-education>.list03{
 /* 	border: 1px black solid; */
 	font-size: 25px;
 	margin-left: 30px;
@@ -579,7 +629,7 @@ span:hover + p.arrow_box {
 	float: left;
 	color: #575757;
 }
-#sec10-edulist>.list04{
+#sec12-education>.list04{
 /* 	border: 1px black solid; */
 	font-size: 18px;
 	margin-left: 35px;
@@ -598,7 +648,7 @@ span:hover + p.arrow_box {
 	color: #575757;
 }
 
-#sec10-edulist>.list05{
+#sec12-education>.list05{
 /* 	border: 1px black solid; */
 	font-size: 25px;
 	margin-left: 30px;
@@ -607,7 +657,7 @@ span:hover + p.arrow_box {
 	float: left;
 	color: #575757;
 }
-#sec10-edulist>.list06{
+#sec12-education>.list06{
 /* 	border: 1px black solid; */
 	font-size: 18px;
 	margin-left: 35px;
@@ -685,6 +735,13 @@ span:hover + p.arrow_box {
 	clear: both;
 }
 #space-sec0809{
+/* 	border: 1px black solid; */
+	width: 1000px;
+	height: 50px;
+	float: left;
+	clear: both;
+}
+#space-sec1011{
 /* 	border: 1px black solid; */
 	width: 1000px;
 	height: 50px;

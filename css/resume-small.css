@@ -118,7 +118,7 @@ section{
 
 #sec03-intro{
 	width: 100%;
-	background: #D4F0F0;
+	/* background: #D4F0F0; */
 	margin-top: 2.5%;
 }
 #sec03-intro>b{
@@ -143,7 +143,7 @@ section{
 /* 	border: 1px black solid; */
 	height: auto;
 	width: 100%;
-	background: #D4F0F0;
+	/* background: #D4F0F0; */
 	padding-bottom: 10%;
 }
 #sec04-introduces>.intro01{
@@ -177,7 +177,7 @@ section{
 	margin-top:2.5%;
 	font-size: 50px;
 	color: #000000;
-	background-color: #8fcaca;
+	/* background-color: #8fcaca; */
 }
 #sec05-skill b{
 /* 	border: 1px black solid; */
@@ -194,7 +194,7 @@ display: none;
 /* 	border: 1px black solid; */
 	width: 100%;
 	height: auto;
-	background-color: #8fcaca;
+	/* background-color: #8fcaca; */
 	padding-left: 1.5vw;
 	padding-right: 1.5vw;
 }
@@ -334,15 +334,15 @@ display: none;
 .ul-a{
 	margin-left: 5%;
 }
-#sec07-project{
+#sec07-experience{
 	/* 	border: 1px black solid; */
 	width: 100%;
 	height: 100%;
 	margin-top:2.5%;
 	color: #000000;
-	background-color: #cce2cb;
+	/* background-color: #cce2cb; */
 }
-#sec07-project>b{
+#sec07-experience>b{
 /* 	border: 1px black solid; */
 	width: 100%;
 	padding-top: 8%;
@@ -350,15 +350,15 @@ display: none;
 	text-align: center;
 	display: block;
 }
-#sec08-projectlist{
+#sec08-experienceList{
 /* 	border: 1px black solid; */
 	width: 100%;
 	height: auto;
-	background-color: #cce2cb;
+	/* background-color: #cce2cb; */
 	padding-left: 1.5vw;
 	padding-right: 1.5vw;
 }
-#sec08-projectlist>.list01{
+#sec08-experienceList>.list01{
 /* 	border: 1px black solid; */
 	font-size: 3vw;
 	width: 100%;
@@ -366,7 +366,46 @@ display: none;
 	padding-top: 5%;
 	color: #575757;
 }
-#sec08-projectlist>.list02{
+#sec08-experienceList>.list02{
+/* 	border: 1px black solid; */
+	width: 100%;
+	height: auto;
+	font-size: 3.5vw;
+}
+
+#sec09-project{
+	/* 	border: 1px black solid; */
+	width: 100%;
+	height: 100%;
+	margin-top:2.5%;
+	color: #000000;
+	/* background-color: #cce2cb; */
+}
+#sec09-project>b{
+/* 	border: 1px black solid; */
+	width: 100%;
+	padding-top: 8%;
+	font-size: 16vw;
+	text-align: center;
+	display: block;
+}
+#sec10-projectlist{
+/* 	border: 1px black solid; */
+	width: 100%;
+	height: auto;
+	/* background-color: #cce2cb; */
+	padding-left: 1.5vw;
+	padding-right: 1.5vw;
+}
+#sec10-projectlist>.list01{
+/* 	border: 1px black solid; */
+	font-size: 3vw;
+	width: 100%;
+	height: auto;
+	padding-top: 5%;
+	color: #575757;
+}
+#sec10-projectlist>.list02{
 /* 	border: 1px black solid; */
 	width: 100%;
 	height: auto;
@@ -381,7 +420,7 @@ display: none;
 	margin-top: 3%;
 	margin-left: 5%;
 }
-#sec08-projectlist>.list03{
+#sec10-projectlist>.list03{
 /* 	border: 1px black solid; */
 	font-size: 3vw;
 	width: 100%;
@@ -389,7 +428,7 @@ display: none;
 	padding-top: 5%;
 	color: #575757;
 }
-#sec08-projectlist>.list04{
+#sec10-projectlist>.list04{
 /* 	border: 1px black solid; */
 	width: 100%;
 	height: auto;
@@ -409,7 +448,7 @@ display: none;
 	display: block;
 }
 
-#sec08-projectlist>.list05{
+#sec10-projectlist>.list05{
 /* 	border: 1px black solid; */
 	font-size: 3vw;
 	width: 100%;
@@ -417,7 +456,7 @@ display: none;
 	padding-top: 5%;
 	color: #575757;
 }
-#sec08-projectlist>.list06{
+#sec10-projectlist>.list06{
 /* 	border: 1px black solid; */
 	width: 100%;
 	height: auto;
@@ -445,16 +484,16 @@ display: none;
 }
 
 
-#sec09-education{
+#sec11-education{
 /* 	border: 1px black solid; */
 	width: 100%;
 	height: 100%;
 	margin-top:2.5%;
 	font-size: 50px;
 	color: #000000;
-	background-color: #b6cfb6;
+	/* background-color: #b6cfb6; */
 }
-#sec09-education b{
+#sec11-education b{
 /* 	border: 1px black solid; */
 	width: 100%;
 	padding-top: 8%;
@@ -462,16 +501,16 @@ display: none;
 	text-align: center;
 	display: block;
 }
-#sec10-edulist{
+#sec12-education{
 	width: 100%;
 	height: auto;
-	background-color: #b6cfb6;
+	/* background-color: #b6cfb6; */
 	padding-bottom: 3%;
 	padding-left: 1.5vw;
 	padding-right: 1.5vw;
 }
 
-#sec10-edulist>.list05{
+#sec12-education>.list05{
 /* 	border: 1px black solid; */
 	font-size: 3vw;
 	width: 100%;
@@ -479,7 +518,7 @@ display: none;
 	padding-top: 5%;
 	color: #575757;
 }
-#sec10-edulist>.list06{
+#sec12-education>.list06{
 /* 	border: 1px black solid; */
 	width: 100%;
 	height: auto;
@@ -490,7 +529,7 @@ display: none;
 	font-style: italic;
 	color: #575757;
 }
-#sec10-edulist>.list03{
+#sec12-education>.list03{
 /* 	border: 1px black solid; */
 	font-size: 3vw;
 	width: 100%;
@@ -498,7 +537,7 @@ display: none;
 	padding-top: 5%;
 	color: #575757;
 }
-#sec10-edulist>.list04{
+#sec12-education>.list04{
 /* 	border: 1px black solid; */
 	width: 100%;
 	height: auto;
@@ -509,7 +548,7 @@ display: none;
 	font-style: italic;
 	color: #575757;
 }
-#sec10-edulist>.list01{
+#sec12-education>.list01{
 /* 	border: 1px black solid; */
 	font-size: 3vw;
 	width: 100%;
@@ -517,7 +556,7 @@ display: none;
 	padding-top: 5%;
 	color: #575757;
 }
-#sec10-edulist>.list02{
+#sec12-education>.list02{
 /* 	border: 1px black solid; */
 	width: 100%;
 	height: auto;
