@@ -1,6 +1,6 @@
 <!--<h3> 👋Hi there </h3>-->      
 
-### <a href="https://devjsy0897.github.io/devjsy0897/main">👉 My Portfolio </a>
+### <a href="https://devjsy0897.github.io/devjsy0897/main" target="_blanc">👉 My Portfolio </a>
 <!--
 ### 👇First Team Project 'BestPriceMarket'.
 > <a href="https://github.com/sowon-dev/bestPriceMarket">Github link</a>
