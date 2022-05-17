@@ -10,10 +10,11 @@
 > <a href="https://github.com/devjsy0897/Cal">1. Github link</a>      
 > <a href="https://play.google.com/store/apps/details?id=com.jsy.cal&hl=ko">2. Google Play Store link</a>
 -->
-백준 알고리즘      
-[![solved.ac tier](http://mazassumnida.wtf/api/generate_badge?boj=devjsy0897)](https://solved.ac/devjsy0897)     
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=devjsy0897&theme=dark&show_icons=true)
+
+백준 알고리즘      
+[![solved.ac tier](http://mazassumnida.wtf/api/generate_badge?boj=devjsy0897)](https://solved.ac/devjsy0897)     
 <!--
 https://github.com/uyu423/resume-nextjs 참고하기
 -->
