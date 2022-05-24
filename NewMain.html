@@ -4,7 +4,10 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> 
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
+<link href="./css/newMain-mobile.css" rel="stylesheet" type="text/css">
 
 <style type="text/css">
 	body 
@@ -19,7 +22,9 @@
 		width: 100vw;
 		height: 100vh;
 	}
-	#demo { position: absolute; top: 50%; width: 100%; font-size: 30px; color: white; font-size: 250%;}
+	#demo { position: absolute; top: 40%; width: 100%; font-size: 30px; color: white; font-size: 500%;}
+	
+
 </style>
 
 </head>
@@ -30,12 +35,13 @@
 		<video muted autoplay loop style="height: 100vh; width:100vw; object-fit: cover;">
 			<source src="css/img/SlideMain/introduce.mp4" type="video/mp4">
 		</video>
-		<div id="demo">
+		<div id="demo" style="font-family: 'Black Han Sans', sans-serif;">
       </div>
 	</section>
 
-	<section data-color="#222222"><br><br><br><br>
-		<div data-aos="fade-left" data-aos-duration="1000" data-aos-mirror="true" style="margin: 0 auto; width: 750px; color: white;"><h1>이력서</h1></div>
+	<section data-color="#222222" class="sec">
+		<br><br><br><br>
+		<div data-aos="fade-left" data-aos-duration="1000" data-aos-mirror="true" class="title" id="resume" style="color: white;"><h1>이력서</h1></div>
 		<div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="50" data-aos-mirror="true" style="margin: 0 auto; width: 750px; color: white;"><h3>제가 어떤 사람인지,</h3></div>
 		<div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="100" data-aos-mirror="true" style="margin: 0 auto; margin-top:-17px; width: 750px; color: white;"><h3>어떤 것을 좋아하는지,</h3></div>
 		<div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="150" data-aos-mirror="true" style="margin: 0 auto; margin-top:-17px; width: 750px; color: white;"><h3>궁금하다면 클릭해 보세요. </h3></div>
@@ -45,15 +51,19 @@
 			<img src="css/img/SlideMain/resume2.jpg"data-aos="fade-left" data-aos-duration="1000" data-aos-delay="1250" style="width: 100%; position: absolute;"/>
 		</div>
 	</section>
+	
+	<section data-color="#E6E6E6"><br><br><br><br>
+		<div data-aos="fade-left" data-aos-duration="1000" data-aos-mirror="true" style="margin: 0 auto; width: 750px; color: black;"><h1>경력 기술서</h1></div>
+		<div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="50" data-aos-mirror="true" style="margin: 0 auto; width: 750px; color: black;"><h3>제가 어떤 일을,</h3></div>
+		<div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="100" data-aos-mirror="true" style="margin: 0 auto; margin-top:-17px; width: 750px; color: black;"><h3>어떻게 했는지,</h3></div>
+		<div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="150" data-aos-mirror="true" style="margin: 0 auto; margin-top:-17px; width: 750px; color: black;"><h3>궁금하다면 클릭해 보세요. </h3></div>
+		<div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200" data-aos-mirror="true" style="margin: 0 auto; margin-bottom:10px;  width: 750px; color: black;">경력기술서 바로 가기 ></div>
+		<div style="margin: 0 auto; width: 750px; height: 600px; position: relative">
+			<img src="css/img/SlideMain/resume1.jpg"data-aos="fade-left" data-aos-duration="1000" data-aos-delay="250" style="width: 100%; position: absolute;"/>
+			<img src="css/img/SlideMain/resume2.jpg"data-aos="fade-left" data-aos-duration="1000" data-aos-delay="1250" style="width: 100%; position: absolute;"/>
+		</div>
+	</section>
 
-<section data-color="#E6E6E6">
-	<div>
-		<div style=" width: 40vw; height:50vh; float: left; margin-top: 25vh;" data-aos="fade-up" data-aos-duration="2000"><div style="text-align: right; width: 15vw;"><h1>Yi</h1> <h3>제가 어떤 사람인지,<br> 어떤 것을 좋아하는지,<br> 궁금하다면 클릭해 보세요. </h3> 이력서 바로 가기 ></div></div>
-		<div style=" width: 50vw; height:50vh; float: left; margin-top: 25vh;"><img src="../css/img/projects/BP/BP(0).png" style="width: 70%;"  /></div>
-		<!-- <div style=" width: 50vw; float: left; text-align: right; margin-right: 10%;" data-aos="fade-up" data-aos-duration="2000"><div><h1>Gy</h1> <h3>어떤 기술을 사용하는지,<br> 어떤 일을 해왔는지,<br> 궁금하다면 클릭해 보세요. </h3> 경력 기술서 바로 가기 ></div></div>
-		<div style=" width: 50vw; float: left;"><img src="./images/pic03.jpg" style="width: 70%; text-align:right; margin-right: 17.5%;"  /></div> -->
-	</div>
-</section>
 
 <!-- <section data-color="white">
 	<div>
@@ -81,10 +91,13 @@
 	var txt1 = "환영합니다.";
 	var speed = 100; /* The speed/duration of the effect in milliseconds */
 	var txt2 = "정성연의 포트폴리오입니다.";
-	typeWriter1();
+	empty();
+	function empty(){
+		document.getElementById("demo").innerHTML = "";
+		setTimeout(typeWriter1(), 1500);
+	}
 	function typeWriter1() 
 	{
-		console.log(i)
 		if (i < txt1.length) 
 		{
 			document.getElementById("demo").innerHTML += txt1.charAt(i);
@@ -97,7 +110,7 @@
 			
 			function typeWriterempty(){
 				
-			document.getElementById("demo").innerHTML = "";
+				document.getElementById("demo").innerHTML +="<br>";
 			}
 			function typeWriter2() 
 			{
@@ -106,6 +119,11 @@
 					document.getElementById("demo").innerHTML += txt2.charAt(j);
 					j++;
 					setTimeout(typeWriter2, speed);
+				}
+				else
+				{
+					i = j = 0;
+					setTimeout(empty, 3000);	
 				}
 			}
 		}

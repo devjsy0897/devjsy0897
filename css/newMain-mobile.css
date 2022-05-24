@@ -1,0 +1,22 @@
+@CHARSET "UTF-8";
+@media(max-width:1000px) {
+	body{
+		margin: 0px ;
+		padding: 0px;
+	}
+	.title{
+		width: 100%;
+		margin-left: 22px;
+	}
+	.sec 
+	{
+		width: 100vw;
+		height: 100vh;
+		padding-left: 1em !important;
+		padding-right: 1em !important;
+	}
+	h1{
+		font-size: 320%;
+	}
+	
+}
