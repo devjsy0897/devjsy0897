@@ -10,10 +10,11 @@
 	}
 	.sec 
 	{
-		width: 100vw;
-		height: 100vh;
+		width: 95vw;
+		height: 95vh;
 		padding-left: 1em !important;
 		padding-right: 1em !important;
+		margin: 0 auto;
 	}
 	h1{
 		font-size: 320%;
