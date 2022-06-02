@@ -1,0 +1,102 @@
+@CHARSET "UTF-8";
+
+@media(min-width:1001px) {
+	#intro1{
+		color: white;
+		font-size: 2em;
+		font-weight:bold;
+		font-family: sans-serif;
+		position: absolute;
+		top: 10em;
+		left: 200px;
+		animation: slide 1s ease-out;
+	}
+	#intro2{
+		color: white;
+		font-size: 2em;
+		font-weight:bold;
+		font-family: sans-serif;
+		position: absolute;
+		top: 11.5em;
+		left: 200px;
+		animation: slide 1s ease-out;
+	}
+	#intro3{
+		color: white;
+		font-size: 2em;
+		font-weight:bold;
+		font-family: sans-serif;
+		position: absolute;
+		top: 13em;
+		left: 200px;
+		animation: slide 1s ease-out;
+	}
+	#intro4{
+		color: white;
+		font-size: 2em;
+		font-weight:bold;
+		font-family: sans-serif;
+		position: absolute;
+		top: 14.5em;
+		left: 200px;
+		animation: slide 1s ease-out;
+	}
+	@keyframes slide{
+		from{
+			left:-100px;
+			opacity: 0;
+		}
+		to{
+			left:200px;
+			opacity: 1px;
+		}
+	}
+	@keyframes disappear{
+		from{
+			left:200px;
+			opacity: 1px;
+			
+		}
+		to{
+			left:-100px;
+			opacity: 0;
+		}
+	}
+	
+	/* body{
+		background-color: black;
+	} */
+	
+	@keyframes goWhite{
+		from{
+			background-color: #222831;
+		}
+		to{
+			background-color: #EAEAEA;
+			
+		}
+	}
+	@keyframes goBlack{
+		from{
+			background-color: #EAEAEA;
+		}
+		to{
+			background-color: #222831;
+		}
+	}
+	
+	#resume{
+		position: absolute;
+		top: 70em;
+	}
+	@keyframes resume{
+		from{
+			top:300em;
+			opacity: 0;
+		}
+		to{
+			top:70em;
+			opacity: 1px;
+		}
+	}
+}
