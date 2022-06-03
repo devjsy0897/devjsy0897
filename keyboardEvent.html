@@ -3,9 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<link href="./css/keyboardEvent_common.css" rel="stylesheet" type="text/css">
-<link href="./css/keyboardEvent_mobile.css" rel="stylesheet" type="text/css">
-<link href="./css/keyboardEvent_desktop.css" rel="stylesheet" type="text/css">
+<link href="css/keyboardEvent_common.css" rel="stylesheet" type="text/css">
+<link href="css/keyboardEvent_mobile.css" rel="stylesheet" type="text/css">
+<link href="css/keyboardEvent_desktop.css" rel="stylesheet" type="text/css">
 <style type="text/css">
 
 
@@ -113,7 +113,7 @@ section {
 			<span id="intro4">정성연입니다.</span>
 		</section>
 		<section id="resume">
-			<div>이게 올라옵니다.</div>
+			<div id="resume_text">이게 올라옵니다.</div>
 		</section>
 		
 	</section>
@@ -121,7 +121,7 @@ section {
 
 <script>
 var typeText = document.querySelector(".typeText")
-var textToBeTypedArr = ["프론트엔드", "백엔드", "풀스택","풀스택이 되고싶은 :)"];
+var textToBeTypedArr = ["백엔드", "프론트엔드", "풀스택","풀스택이 되고싶은 :)"];
 var index = 0, isAdding = true, textToBeTypedIndex = 0
 
 function playAnim() {
@@ -143,6 +143,8 @@ function playAnim() {
         }
         else{
         	// stop
+        	/* document.querySelector("#intro3").style.animation='opa1 1s forwards';
+			document.querySelector("#intro4").style.animation='opa1 1.5s forwards'; */
         	return null;
         }
       } else {
@@ -167,7 +169,7 @@ function playAnim() {
 }
 // start animation
 
-setTimeout(playAnim, 1000);
+setTimeout(playAnim, 1700);
 
 let mainText = document.querySelector("h1");
 let intoText1 = document.querySelector("#intro1");
@@ -175,37 +177,34 @@ let intoText2 = document.querySelector("#intro2");
 let intoText3 = document.querySelector("#intro3");
 let intoText4 = document.querySelector("#intro4");
 let night = document.querySelector("#night");
-let resume = document.querySelector("#resume");
+let resume = document.querySelector("#resume_text");
 window.addEventListener("scroll", function(){
 	let value = window.scrollY
 	/* console.log("scrollY", value); */
 	
-	if(value>300){
-	/* 	mainText.style.animation = 'disappear 1s ease-out forwards'; */
-		intoText1.style.animation = 'disappear 1s ease-out forwards';
-		intoText2.style.animation = 'disappear 1s ease-out forwards';
-		intoText3.style.animation = 'disappear 1s ease-out forwards';
-		intoText4.style.animation = 'disappear 1s ease-out forwards';
+	/* if(value>300){
+		intoText1.style.animation = 'opa2 1s ease-out forwards';
+		intoText2.style.animation = 'opa2 1s ease-out forwards';
+		intoText3.style.animation = 'opa2 1s ease-out forwards';
+		intoText4.style.animation = 'opa2 1s ease-out forwards';
 	}
-	else if(value<=300)
+	else
 	{
-	/* mainText.style.animation = 'slide 1s ease-out'; */
-	intoText1.style.animation = 'slide 1s ease-out';
-	intoText2.style.animation = 'slide 1s ease-out';
-	intoText3.style.animation = 'slide 1s ease-out';
-	intoText4.style.animation = 'slide 1s ease-out';
-	}
+	intoText1.style.animation = 'opa1 1s ease-out';
+	intoText2.style.animation = 'opa1 1s ease-out';
+	intoText3.style.animation = 'opa1 1s ease-out';
+	intoText4.style.animation = 'opa1 1s ease-out';
+	} */
 	
-	if(value>400){
-		console.log(value+"여기다가 색을 바꾸면 됩니다.")
-		night.style.animation = 'goWhite 1.5s ease-out forwards';
-		resume.style.animation = 'resume 1.5s ease-out forwards';
+	if(400<value){
+		night.style.backgroundColor  = '#ffffff';
+		/* resume.style.animation = 'resume 1.5s ease-out forwards'; */
 		
 	}
-	/* else if(value<=400)
+	else if(value<=400)
 	{
-		night.style.animation = 'goBlack 1.5s ease-out';
-	} */
+		night.style.backgroundColor  = '#222831';
+	} 
 });
 </script>
 </body>
