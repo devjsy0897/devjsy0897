@@ -7,9 +7,10 @@
 		font-weight:bold;
 		font-family: sans-serif;
 		position: absolute;
-		top: 10em;
+		top: 60vh;
 		left: 200px;
-		animation: slide 1s ease-out;
+		/* opacity:1; */
+		animation: intro1 1s ease-out;
 	}
 	#intro2{
 		color: white;
@@ -17,9 +18,10 @@
 		font-weight:bold;
 		font-family: sans-serif;
 		position: absolute;
-		top: 11.5em;
+		top: 65vh;
 		left: 200px;
-		animation: slide 1s ease-out;
+		opacity:1;
+		animation: intro2 1.5s ease-out;
 	}
 	#intro3{
 		color: white;
@@ -27,9 +29,10 @@
 		font-weight:bold;
 		font-family: sans-serif;
 		position: absolute;
-		top: 13em;
+		top: 70vh;
 		left: 200px;
-		animation: slide 1s ease-out;
+		opacity:1;
+		animation: intro3 1.5s ease-out;
 	}
 	#intro4{
 		color: white;
@@ -37,18 +40,104 @@
 		font-weight:bold;
 		font-family: sans-serif;
 		position: absolute;
-		top: 14.5em;
+		top: 75vh;
 		left: 200px;
-		animation: slide 1s ease-out;
+		opacity:1;
+		animation: intro4 1.5s ease-out;
 	}
-	@keyframes slide{
+	
+	@keyframes intro1{
 		from{
-			left:-100px;
+			opacity:0;
+		}
+		to{
+			opacity: 1;
+		}
+	}
+	
+	@keyframes intro2{
+		0%{
+			opacity:0;
+		}
+		99%{
+			opacity:1;
+		}
+		100%{
+			opacity:1;
+		}
+	}
+		
+	@keyframes intro3{
+		0%{
+			opacity:0;
+			top:65vh;
+		}
+		65%{
+			opacity: 1;
+			top:65vh;
+		}
+		100%{
+			opacity: 1;
+			top:70vh;
+		}
+	}
+	@keyframes intro4{
+		0%{
+			opacity:0;
+			top:70vh;
+		}
+		65%{
+			opacity: 1;
+			top:70vh;
+		}
+		100%{
+			opacity: 1;
+			top:75vh;
+		}
+	}
+	
+	@keyframes opa1{
+		from{
 			opacity: 0;
 		}
 		to{
+			opacity: 1;
+		}
+	}
+	
+	@keyframes opa2{
+		from{
+			opacity: 1;
+		}
+		to{
+			opacity: 0;
+		}
+	}
+	
+	@keyframes slide{
+		from{
+			left:-100px;
+			/* opacity: 0; */
+		}
+		to{
 			left:200px;
-			opacity: 1px;
+			/* opacity: 1px; */
+		}
+	}
+	@keyframes kiyeok{
+		0%{
+			left:-100px;
+			top:65vh;
+			/* opacity: 0; */
+		}
+		70%{
+			left:200px;
+			top:65vh;
+			/* opacity: 1px; */
+		}
+		100%{
+			left:200px;
+			top:70vh;
 		}
 	}
 	@keyframes disappear{
@@ -72,31 +161,40 @@
 			background-color: #222831;
 		}
 		to{
-			background-color: #EAEAEA;
+			background-color: #ffffff;
+/* 			background-color: #EAEAEA; */
 			
 		}
 	}
 	@keyframes goBlack{
 		from{
-			background-color: #EAEAEA;
+			background-color: #ffffff;
 		}
 		to{
 			background-color: #222831;
 		}
 	}
 	
-	#resume{
+	#resume_text{
 		position: absolute;
-		top: 70em;
+		top: 300em;
+		color:black;
+		opacity: 0;
 	}
 	@keyframes resume{
 		from{
-			top:300em;
+			top:0em;
 			opacity: 0;
 		}
 		to{
 			top:70em;
-			opacity: 1px;
+			opacity: 1;
 		}
 	}
+	
+	#night{
+		/* animation: goBlack 1.5s ease-out; */ 
+	}
+	
+	
 }
