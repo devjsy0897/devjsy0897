@@ -24,17 +24,60 @@
     /* transform: translate(-50%, -50%); */
 }
 
-section {
-  height: 500vh;
-    /* background: #222831; */
-/*     background: linear-gradient(to bottom, #222831 , #484848); */
-  
-  /* overflow: hidden; */
-}
 #night{
 	height: 500vh;
 	background: #222831;
 }
+
+#sun{
+	background:-webkit-gradient(radial,30% 30%, 0,center center, 90,from(#fff),to(yellow));
+	width: 100px;
+	height: 100px;
+	padding: 0px;
+	border-radius: 50px;
+	box-shadow: 0px 0px 100px 50px #fff;
+	position: fixed;
+	/* top:30%; */
+	top:-50vh;
+	left: 50%;
+	transform: translate(-50%);
+	/* animation:sun 1.5s ease-out forwards; */
+}
+@keyframes sun{
+	0%{
+		top:-50vh;
+	}
+	30%{
+		top:30vh;
+	}
+	47.5%{
+		top:25vh;
+	}
+	65%{
+		top:30vh;
+	}
+	82.5%{
+		top:27.5vh;
+	}
+	100%{
+		top:30vh;
+	}
+}
+@keyframes sunset{
+	0%{
+		top:30vh;
+	}
+	
+	100%{
+		top:-50vh;
+	}
+}
+
+/* #resume{
+	height: 100vh;
+	background-color: #BDBDBD;
+	top: 150vh;
+} */
 
 #stars {
   width: 1px;
@@ -60,6 +103,7 @@ section {
   box-shadow: 1454px 12064px #FFF , 1383px 1102px #FFF , 412px 633px #FFF , 1634px 181px #FFF , 481px 432px #FFF , 514px 920px #FFF , 1226px 244px #FFF , 1082px 376px #FFF , 232px 768px #FFF , 1977px 1007px #FFF , 1194px 474px #FFF , 1046px 1540px #FFF , 1365px 1051px #FFF , 848px 861px #FFF , 272px 1136px #FFF , 1382px 1654px #FFF , 1595px 28px #FFF , 1811px 880px #FFF , 1245px 238px #FFF , 1992px 147px #FFF , 301px 1080px #FFF , 974px 1665px #FFF , 400px 1273px #FFF , 947px 470px #FFF , 53px 798px #FFF , 829px 1016px #FFF , 88px 1780px #FFF , 260px 587px #FFF , 1296px 446px #FFF , 875px 48px #FFF , 1847px 543px #FFF , 1594px 1408px #FFF , 1899px 272px #FFF , 1855px 1178px #FFF , 715px 1808px #FFF , 1590px 18px #FFF , 1402px 1556px #FFF , 640px 1813px #FFF , 141px 608px #FFF , 1694px 707px #FFF , 156px 684px #FFF , 1632px 19px #FFF , 685px 238px #FFF , 1597px 264px #FFF , 989px 976px #FFF , 236px 1143px #FFF , 1736px 666px #FFF , 1904px 1832px #FFF , 782px 1480px #FFF , 196px 103px #FFF , 1721px 1059px #FFF , 915px 800px #FFF , 532px 1371px #FFF , 758px 558px #FFF , 709px 941px #FFF , 122px 1901px #FFF , 1725px 1643px #FFF , 1228px 969px #FFF , 362px 1784px #FFF , 256px 1341px #FFF , 143px 625px #FFF , 788px 372px #FFF , 1063px 810px #FFF , 1726px 518px #FFF , 1345px 116px #FFF , 261px 1785px #FFF , 1792px 1369px #FFF , 660px 841px #FFF , 1832px 34px #FFF , 28px 505px #FFF , 1249px 397px #FFF , 1065px 1760px #FFF , 897px 101px #FFF , 703px 62px #FFF , 1145px 1772px #FFF , 843px 400px #FFF , 763px 122px #FFF , 1578px 842px #FFF , 1314px 61px #FFF , 862px 1291px #FFF , 228px 1237px #FFF , 1588px 1198px #FFF , 1001px 1732px #FFF , 1450px 738px #FFF , 1645px 1327px #FFF , 461px 1109px #FFF , 1525px 549px #FFF , 1571px 677px #FFF , 1597px 525px #FFF , 1964px 917px #FFF , 1342px 1645px #FFF , 1800px 576px #FFF , 181px 1749px #FFF , 1639px 1245px #FFF , 571px 1346px #FFF , 1499px 482px #FFF , 372px 1451px #FFF , 666px 1347px #FFF , 1835px 1045px #FFF , 342px 1312px #FFF , 98px 382px #FFF , 1496px 570px #FFF , 1383px 753px #FFF , 329px 905px #FFF , 575px 1949px #FFF , 669px 90px #FFF , 843px 3px #FFF , 1635px 1451px #FFF , 1311px 1px #FFF , 80px 1426px #FFF , 674px 1869px #FFF , 1117px 286px #FFF , 1151px 76px #FFF , 1428px 856px #FFF , 532px 57px #FFF , 934px 218px #FFF , 1129px 1254px #FFF , 604px 1651px #FFF , 1210px 572px #FFF , 390px 1997px #FFF , 888px 1385px #FFF , 1976px 777px #FFF , 1036px 568px #FFF , 451px 1426px #FFF , 1499px 535px #FFF , 1124px 1823px #FFF , 1663px 966px #FFF , 1250px 296px #FFF , 1465px 614px #FFF , 858px 887px #FFF , 1286px 879px #FFF , 1346px 1362px #FFF , 1431px 1980px #FFF , 376px 862px #FFF , 1961px 1904px #FFF , 1958px 1504px #FFF , 773px 66px #FFF , 1861px 45px #FFF , 786px 131px #FFF , 1361px 920px #FFF , 573px 1481px #FFF , 1358px 600px #FFF , 1469px 1305px #FFF , 1374px 206px #FFF , 562px 1246px #FFF , 828px 533px #FFF , 1860px 878px #FFF , 373px 122px #FFF , 255px 222px #FFF , 1553px 678px #FFF , 1662px 682px #FFF , 234px 233px #FFF , 1821px 1355px #FFF , 760px 596px #FFF , 1130px 1477px #FFF , 698px 326px #FFF , 1733px 665px #FFF , 638px 348px #FFF , 1962px 1164px #FFF , 761px 630px #FFF , 1509px 573px #FFF , 1209px 252px #FFF , 1578px 1857px #FFF , 907px 1541px #FFF , 215px 963px #FFF , 396px 589px #FFF , 1531px 919px #FFF , 628px 1915px #FFF , 1563px 284px #FFF , 1012px 1814px #FFF , 1067px 107px #FFF , 461px 1095px #FFF , 1388px 282px #FFF , 714px 745px #FFF , 1366px 907px #FFF , 94px 445px #FFF , 833px 204px #FFF , 1447px 926px #FFF , 681px 698px #FFF , 1943px 1403px #FFF , 790px 182px #FFF , 990px 1140px #FFF , 429px 1959px #FFF , 911px 1534px #FFF , 1134px 97px #FFF , 594px 1077px #FFF , 213px 796px #FFF , 667px 1537px #FFF , 886px 1871px #FFF , 946px 714px #FFF , 288px 1508px #FFF , 1245px 1725px #FFF , 126px 206px #FFF , 445px 1013px #FFF , 1568px 203px #FFF , 555px 932px #FFF , 1314px 420px #FFF , 93px 663px #FFF , 1017px 1929px #FFF , 237px 921px #FFF;
   animation: animStar 100s linear infinite;
 }
+
 #stars2:after {
   content: " ";
   position: absolute;
@@ -96,6 +140,15 @@ section {
   }
 }
 
+/* #night:before{
+	content:'';
+	position: absolute;
+	left:0;
+	top:100vh;
+	height: 100vh;
+	width: 100%;
+	// background: linear-gradient(to top, #BDBDBD, transparent); 
+} */
 
 
 </style>
@@ -103,19 +156,25 @@ section {
 <body>
 
 	<section id="night">
+		<div id="sun"></div>
 		<div id="stars" style="position: fixed;"></div>
 		<div id="stars2" style="position: fixed;"></div>
 		<div id="stars3" style="position: fixed;"></div>
 		<section id = "intro">
-			<span id="intro1">안녕하세요.</span><br>
-			<span id="intro2" class="typeText"></span>
-			<span id="intro3"> 개발자</span><br>
-			<span id="intro4">정성연입니다.</span>
+			<div>
+				<div id="intro1" style="position: fixed;">안녕하세요.</div><br>
+				<div id="intro2" class="typeText" style="position: fixed;"></div>
+				<div id="intro3" style="position: fixed;"> 개발자</div><br>
+				<div id="intro4" style="position: fixed;">정성연입니다.</div>
+			</div>
 		</section>
-		<section id="resume">
-			<div id="resume_text">이게 올라옵니다.</div>
+		<!-- <img alt="" src="./css/img/SlideMain/scroll.png" style="position:absolute; position: fixed;  top:80%; left: 50%; transform:translate(-50%);"> -->
+		<section id="resume" style=" position:absolute; top:250vh; left:50%; transform:translate(-50%); width: 80%; height:80%;  background-color: #EEEEEE; border-radius: 2rem; 	box-shadow: 0px 0px 30px 1px #EEEEEE;">
+			<div class="resume_text" id="resume_text1">RESUME</div>
+			<div class="resume_text" id="resume_text2">제 이력서랍니당~</div>
+			<div class="resume_text" id="resume_text3">이력서 바로가기</div>
+			<!-- <img id="resume_photo1" src="./css/img/SlideMain/resume1.jpg"> -->
 		</section>
-		
 	</section>
 
 
@@ -145,6 +204,7 @@ function playAnim() {
         	// stop
         	/* document.querySelector("#intro3").style.animation='opa1 1s forwards';
 			document.querySelector("#intro4").style.animation='opa1 1.5s forwards'; */
+			/* document.querySelector("#sun").style.animation = 'sun 1.5s ease-out forwards'; */
         	return null;
         }
       } else {
@@ -172,15 +232,21 @@ function playAnim() {
 setTimeout(playAnim, 1700);
 
 let mainText = document.querySelector("h1");
+let intoText = document.querySelector("#intro");
 let intoText1 = document.querySelector("#intro1");
 let intoText2 = document.querySelector("#intro2");
 let intoText3 = document.querySelector("#intro3");
 let intoText4 = document.querySelector("#intro4");
 let night = document.querySelector("#night");
-let resume = document.querySelector("#resume_text");
+let resume_text1 = document.querySelector("#resume_text1");
+let resume_text2 = document.querySelector("#resume_text2");
+let resume_text3 = document.querySelector("#resume_text3");
+let resume_photo1 = document.querySelector("#resume_photo1");
+let sun = document.querySelector("#sun");
+let light = '';
 window.addEventListener("scroll", function(){
 	let value = window.scrollY
-	/* console.log("scrollY", value); */
+	console.log("scrollY", value);
 	
 	/* if(value>300){
 		intoText1.style.animation = 'opa2 1s ease-out forwards';
@@ -196,15 +262,51 @@ window.addEventListener("scroll", function(){
 	intoText4.style.animation = 'opa1 1s ease-out';
 	} */
 	
+	if(value<1000){
+		sun.style.animation = 'sun 1.5s ease-out forwards';
+		if(light=='off'){
+			intoText.style.animation = 'opa_on 1.5s ease-out forwards';
+			light='on';
+		}
+	}
+	if(800 < value){
+		sun.style.animation = 'sunset 1.5s ease-out forwards';
+		intoText.style.animation = 'opa_off 1.5s ease-out forwards';
+		light='off';
+	}
+	console.log('light',light);
+	/* if(500<=value){
+		intoText1.style.animation = 'up 5s ease-out forwards';
+		intoText2.style.animation = 'up 5s ease-out forwards';
+		intoText3.style.animation = 'up 5s ease-out forwards';
+		intoText4.style.animation = 'up 5s ease-out forwards';
+	}
+	
+	if(value<700)
+	{
+		intoText1.style.animation = 'intro1_down 1s ease-out';
+		intoText2.style.animation = 'intro2_down 1s ease-out';
+		intoText3.style.animation = 'intro3_down 1s ease-out';
+		intoText4.style.animation = 'intro4_down 1s ease-out';
+	} */
+	
+	
 	if(400<value){
-		night.style.backgroundColor  = '#ffffff';
-		/* resume.style.animation = 'resume 1.5s ease-out forwards'; */
+		/* night.style.backgroundColor  = '#ffffff'; */
+		/* resume_text1.style.animation = 'slide 1s ease-out forwards'; */
+		resume_text2.style.animation = 'slide 1s ease-out forwards';
+		resume_text3.style.animation = 'slide 1s ease-out forwards';
+		resume_photo1.style.animation = 'resume_photo 1s ease-out forwards';
 		
 	}
 	else if(value<=400)
 	{
-		night.style.backgroundColor  = '#222831';
+		resume_text1.style.animation = 'disappear 1s ease-out';
+		resume_text2.style.animation = 'disappear 1s ease-out';
+		resume_text3.style.animation = 'disappear 1s ease-out';
+		/* night.style.backgroundColor  = '#222831'; */
 	} 
+	
 });
 </script>
 </body>

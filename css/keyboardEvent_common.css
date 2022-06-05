@@ -4,10 +4,15 @@
 body{
 	margin: 0px;
 	height: 2000px;
+	cursor: url("img/starMouse.png"), auto;
+}
+::-webkit-scrollbar {
+  display: none;
 }
 
+
 .typeText::after {
-  content: "|";
+  content: "│";
   animation:  blink 1s step-end infinite;
   animation-delay: 1.3s;
   opacity:0;
@@ -42,3 +47,5 @@ body{
 	    opacity:0;
 	  }
 }
+
+

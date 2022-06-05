@@ -1,46 +1,51 @@
 @CHARSET "UTF-8";
 
 @media(min-width:1001px) {
+	#sun:hover ~ #intro>#intro2,#sun:hover ~ #intro>#intro4{
+	color: yellow !important;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa,
+    0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+		
+	}
+	#sun:hover ~ #intro>#intro1,#sun:hover ~ #intro>#intro3{
+	opacity:0;
+	}
 	#intro1{
-		color: white;
+		color:white;
 		font-size: 2em;
 		font-weight:bold;
 		font-family: sans-serif;
 		position: absolute;
-		top: 60vh;
 		left: 200px;
 		/* opacity:1; */
 		animation: intro1 1s ease-out;
 	}
 	#intro2{
-		color: white;
+		color:white;
 		font-size: 2em;
 		font-weight:bold;
 		font-family: sans-serif;
 		position: absolute;
-		top: 65vh;
 		left: 200px;
 		opacity:1;
 		animation: intro2 1.5s ease-out;
 	}
 	#intro3{
-		color: white;
+		color:white;
 		font-size: 2em;
 		font-weight:bold;
 		font-family: sans-serif;
 		position: absolute;
-		top: 70vh;
 		left: 200px;
 		opacity:1;
 		animation: intro3 1.5s ease-out;
 	}
 	#intro4{
-		color: white;
+		color:white;
 		font-size: 2em;
 		font-weight:bold;
 		font-family: sans-serif;
 		position: absolute;
-		top: 75vh;
 		left: 200px;
 		opacity:1;
 		animation: intro4 1.5s ease-out;
@@ -48,9 +53,11 @@
 	
 	@keyframes intro1{
 		from{
+			top:70vh;
 			opacity:0;
 		}
 		to{
+			top:60vh;
 			opacity: 1;
 		}
 	}
@@ -67,10 +74,11 @@
 		}
 	}
 		
+	
 	@keyframes intro3{
 		0%{
 			opacity:0;
-			top:65vh;
+			top:75vh;
 		}
 		65%{
 			opacity: 1;
@@ -84,7 +92,7 @@
 	@keyframes intro4{
 		0%{
 			opacity:0;
-			top:70vh;
+			top:80vh;
 		}
 		65%{
 			opacity: 1;
@@ -96,7 +104,7 @@
 		}
 	}
 	
-	@keyframes opa1{
+	@keyframes opa_on{
 		from{
 			opacity: 0;
 		}
@@ -105,12 +113,54 @@
 		}
 	}
 	
-	@keyframes opa2{
+	@keyframes opa_off{
 		from{
 			opacity: 1;
 		}
 		to{
 			opacity: 0;
+		}
+	}
+	
+	@keyframes up{
+		to{
+			top:-100vh;
+		}
+	}
+	
+	@keyframes intro1_down{
+		from{
+			top:-100vh;
+		}
+		to{
+			top:60vh;
+		}
+	}
+	
+	@keyframes intro2_down{
+		from{
+			top:-100vh;
+		}
+		to{
+			top:65vh;
+		}
+	}
+	
+	@keyframes intro3_down{
+		from{
+			top:-100vh;
+		}
+		to{
+			top:70vh;
+		}
+	}
+	
+	@keyframes intro4_down{
+		from{
+			top:-100vh;
+		}
+		to{
+			top:75vh;
 		}
 	}
 	
@@ -124,26 +174,10 @@
 			/* opacity: 1px; */
 		}
 	}
-	@keyframes kiyeok{
-		0%{
-			left:-100px;
-			top:65vh;
-			/* opacity: 0; */
-		}
-		70%{
-			left:200px;
-			top:65vh;
-			/* opacity: 1px; */
-		}
-		100%{
-			left:200px;
-			top:70vh;
-		}
-	}
 	@keyframes disappear{
 		from{
 			left:200px;
-			opacity: 1px;
+			opacity: 1;
 			
 		}
 		to{
@@ -156,34 +190,39 @@
 		background-color: black;
 	} */
 	
-	@keyframes goWhite{
-		from{
-			background-color: #222831;
-		}
-		to{
-			background-color: #ffffff;
-/* 			background-color: #EAEAEA; */
-			
-		}
-	}
-	@keyframes goBlack{
-		from{
-			background-color: #ffffff;
-		}
-		to{
-			background-color: #222831;
-		}
-	}
 	
-	#resume_text{
+	.resume_text{
 		position: absolute;
-		top: 300em;
-		color:black;
-		opacity: 0;
+		color:white;
+		font-size:2em;
+		/* opacity: 1; */
+	}
+	#resume_text1{
+		top:5vh;
+		left: 10vh;
+		color: white;
+		position: absolute;
+		font-size: 5em;
+		font-weight:900;
+		text-shadow: 5px 3px 0px #00ADB5;
+	}
+	#resume_text2{
+		top: 15vh;
+		color: black;
+		position: absolute;
+	}
+	#resume_text3{
+		top: 25vh;
+		color: black;
+		font-size: 1.5em;
+		border: 3px solid white;
+		border-radius:0.5em;
+		padding: 5px;
+		position: absolute;
 	}
 	@keyframes resume{
 		from{
-			top:0em;
+			left:0em;
 			opacity: 0;
 		}
 		to{
@@ -197,4 +236,20 @@
 	}
 	
 	
+	#resume_photo1{
+		width: 300px;
+		position: absolute;
+		right: -300px;
+	}
+	
+	@keyframes resume_photo{
+		from{
+			right:-300px;
+			/* opacity: 0; */
+		}
+		to{
+			right:200px;
+			/* opacity: 1px; */
+		}
+	}
 }
