@@ -150,6 +150,18 @@
 	// background: linear-gradient(to top, #BDBDBD, transparent); 
 } */
 
+#resume{
+	position:absolute; 
+	top:250vh; 
+	left:50%; 
+	transform:translate(-50%); 
+	width: 80%; 
+	height:80%;  
+	/* background-color: #EEEEEE;  */
+	background-image: url("./css/img/resume/bg.png");
+	border-radius: 2rem; 	
+	box-shadow: 0px 0px 30px 1px #EEEEEE;
+}
 
 </style>
 </head>
@@ -160,20 +172,18 @@
 		<div id="stars" style="position: fixed;"></div>
 		<div id="stars2" style="position: fixed;"></div>
 		<div id="stars3" style="position: fixed;"></div>
-		<section id = "intro">
-			<div>
+		<div id="intro">
 				<div id="intro1" style="position: fixed;">안녕하세요.</div><br>
 				<div id="intro2" class="typeText" style="position: fixed;"></div>
 				<div id="intro3" style="position: fixed;"> 개발자</div><br>
 				<div id="intro4" style="position: fixed;">정성연입니다.</div>
-			</div>
-		</section>
+		</div>
 		<!-- <img alt="" src="./css/img/SlideMain/scroll.png" style="position:absolute; position: fixed;  top:80%; left: 50%; transform:translate(-50%);"> -->
-		<section id="resume" style=" position:absolute; top:250vh; left:50%; transform:translate(-50%); width: 80%; height:80%;  background-color: #EEEEEE; border-radius: 2rem; 	box-shadow: 0px 0px 30px 1px #EEEEEE;">
+		<section id="resume" >
 			<div class="resume_text" id="resume_text1">RESUME</div>
-			<div class="resume_text" id="resume_text2">제 이력서랍니당~</div>
-			<div class="resume_text" id="resume_text3">이력서 바로가기</div>
-			<!-- <img id="resume_photo1" src="./css/img/SlideMain/resume1.jpg"> -->
+			<div class="resume_text" id="resume_text2">인적사항과 간단한 경력을 확인할 수 있습니다.</div>
+			<div class="resume_text" id="resume_text3">상세보기</div>
+			<img id="resume_photo1" src="./css/img/SlideMain/resume1.jpg">
 		</section>
 	</section>
 
@@ -294,9 +304,7 @@ window.addEventListener("scroll", function(){
 	if(400<value){
 		/* night.style.backgroundColor  = '#ffffff'; */
 		/* resume_text1.style.animation = 'slide 1s ease-out forwards'; */
-		resume_text2.style.animation = 'slide 1s ease-out forwards';
-		resume_text3.style.animation = 'slide 1s ease-out forwards';
-		resume_photo1.style.animation = 'resume_photo 1s ease-out forwards';
+		resume_text1.style.animation = 'slide 1s ease-out forwards';
 		
 	}
 	else if(value<=400)
