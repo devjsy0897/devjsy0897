@@ -12,53 +12,53 @@
 	}
 	#intro1{
 		color:white;
-		font-size: 2em;
+		font-size: 2rem;
 		font-weight:bold;
 		font-family: sans-serif;
 		position: absolute;
 		left: 200px;
 		/* opacity:1; */
-		animation: intro1 1s ease-out;
+		animation: intro1 1s ease-out forwards;
 	}
 	#intro2{
 		color:white;
-		font-size: 2em;
+		font-size: 2rem;
 		font-weight:bold;
 		font-family: sans-serif;
 		position: absolute;
 		left: 200px;
 		opacity:1;
-		animation: intro2 1.5s ease-out;
+		animation: intro2 1.5s ease-out forwards;
 	}
 	#intro3{
 		color:white;
-		font-size: 2em;
+		font-size: 2rem;
 		font-weight:bold;
 		font-family: sans-serif;
 		position: absolute;
 		left: 200px;
 		opacity:1;
-		animation: intro3 1.5s ease-out;
+		animation: intro3 1.5s ease-out forwards;
 	}
 	#intro4{
 		color:white;
-		font-size: 2em;
+		font-size: 2rem;
 		font-weight:bold;
 		font-family: sans-serif;
 		position: absolute;
 		left: 200px;
 		opacity:1;
-		animation: intro4 1.5s ease-out;
+		animation: intro4 1.5s ease-out forwards;
 	}
 	
 	@keyframes intro1{
 		from{
-			top:70vh;
 			opacity:0;
+			bottom:10rem;
 		}
 		to{
-			top:60vh;
 			opacity: 1;
+			bottom:15rem;
 		}
 	}
 	
@@ -68,9 +68,11 @@
 		}
 		99%{
 			opacity:1;
+			bottom:12.5rem;
 		}
 		100%{
 			opacity:1;
+			bottom:12.5rem;
 		}
 	}
 		
@@ -78,29 +80,29 @@
 	@keyframes intro3{
 		0%{
 			opacity:0;
-			top:75vh;
+			bottom:7.5rem;
 		}
 		65%{
 			opacity: 1;
-			top:65vh;
+			bottom:12.5rem;
 		}
 		100%{
 			opacity: 1;
-			top:70vh;
+			bottom:10rem;
 		}
 	}
 	@keyframes intro4{
 		0%{
 			opacity:0;
-			top:80vh;
+			bottom:5rem;
 		}
 		65%{
 			opacity: 1;
-			top:70vh;
+			bottom:10rem;
 		}
 		100%{
 			opacity: 1;
-			top:75vh;
+			bottom:7.5rem;
 		}
 	}
 	
@@ -170,7 +172,7 @@
 			/* opacity: 0; */
 		}
 		to{
-			left:200px;
+			left:10vh;
 			/* opacity: 1px; */
 		}
 	}
@@ -207,19 +209,28 @@
 		text-shadow: 5px 3px 0px #00ADB5;
 	}
 	#resume_text2{
-		top: 15vh;
+		top: 30vh;
+		left: 10vh;
 		color: black;
 		position: absolute;
+		font-size: 1em;
 	}
 	#resume_text3{
-		top: 25vh;
+		top: 50vh;
 		color: black;
-		font-size: 1.5em;
-		border: 3px solid white;
+		left: 10vh;
+		font-size: 1em;
+		border: 3px solid #222831;
 		border-radius:0.5em;
-		padding: 5px;
+		padding: 5px 15px;
 		position: absolute;
+		transition: background, 0.8s;
 	}
+	#resume_text3:hover{
+		background: #222831;
+		color: white;
+	}
+	
 	@keyframes resume{
 		from{
 			left:0em;
@@ -239,7 +250,8 @@
 	#resume_photo1{
 		width: 300px;
 		position: absolute;
-		right: -300px;
+		right: 300px;
+		border: 10px solid white;
 	}
 	
 	@keyframes resume_photo{

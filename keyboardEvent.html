@@ -157,8 +157,8 @@
 	transform:translate(-50%); 
 	width: 80%; 
 	height:80%;  
-	/* background-color: #EEEEEE;  */
-	background-image: url("./css/img/resume/bg.png");
+	 background-color: #EEEEEE;  
+	/* background-image: url("./css/img/resume/bg.png"); */
 	border-radius: 2rem; 	
 	box-shadow: 0px 0px 30px 1px #EEEEEE;
 }
@@ -181,7 +181,12 @@
 		<!-- <img alt="" src="./css/img/SlideMain/scroll.png" style="position:absolute; position: fixed;  top:80%; left: 50%; transform:translate(-50%);"> -->
 		<section id="resume" >
 			<div class="resume_text" id="resume_text1">RESUME</div>
-			<div class="resume_text" id="resume_text2">인적사항과 간단한 경력을 확인할 수 있습니다.</div>
+			<div class="resume_text" id="resume_text2">
+				웹 서비스 개발을 하는 정성연입니다.<br><br>
+				JAVA, JSP, MSSQL, MYSQL, GIT, SVN 등을 이용하여<br> 
+				프로젝트 설계부터 개발, 운영 까지 폭 넓은 경험을 하며<br> 
+				...
+			</div>
 			<div class="resume_text" id="resume_text3">상세보기</div>
 			<img id="resume_photo1" src="./css/img/SlideMain/resume1.jpg">
 		</section>
@@ -304,7 +309,7 @@ window.addEventListener("scroll", function(){
 	if(400<value){
 		/* night.style.backgroundColor  = '#ffffff'; */
 		/* resume_text1.style.animation = 'slide 1s ease-out forwards'; */
-		resume_text1.style.animation = 'slide 1s ease-out forwards';
+		/* resume_text1.style.animation = 'slide 1s ease-out forwards'; */
 		
 	}
 	else if(value<=400)
