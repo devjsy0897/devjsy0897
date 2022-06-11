@@ -199,7 +199,7 @@
 		font-size:2em;
 		/* opacity: 1; */
 	}
-	#resume_text1{
+	#resume > #resume_text1{
 		top:5vh;
 		left: 10vh;
 		color: white;
@@ -250,9 +250,19 @@
 	#resume_photo1{
 		width: 300px;
 		position: absolute;
+		top: 25vh;
 		right: 300px;
-		border: 10px solid white;
+		border: 10px solid #00ADB5;
 	}
+	#resume_photo2{
+		width: 300px;
+		position: absolute;
+		top: 35vh;
+		right: 150px;
+		border: 10px solid #00ADB5;
+		transform: rotate(5deg);
+	}
+
 	
 	@keyframes resume_photo{
 		from{
@@ -263,5 +273,39 @@
 			right:200px;
 			/* opacity: 1px; */
 		}
+	}
+	
+	#project > #resume_text1{
+		top:5vh;
+		left: 10vh;
+		color: #00FF94;
+		position: absolute;
+		font-size: 5em;
+		font-weight:900;
+	}
+	#project > #resume_text1::after {
+	    font-family: Montserrat, sans-serif;
+	    content: "Projects";
+	    position: absolute;
+	    color: transparent;
+	    -webkit-text-stroke: 0.1rem rgb(0, 26, 255);
+	    top: -0.3rem;
+	    left: -0.3rem;
+	}
+	
+	#project > #resume_photo1{
+		width: 300px;
+		position: absolute;
+		top: 25vh;
+		right: 300px;
+		border: 10px solid #00FF94;
+	}
+	#project > #resume_photo2{
+		width: 300px;
+		position: absolute;
+		top: 35vh;
+		right: 150px;
+		border: 10px solid #00FF94;
+		transform: rotate(5deg);
 	}
 }
