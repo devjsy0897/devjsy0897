@@ -25,7 +25,7 @@
 }
 
 #night{
-	height: 800vh;
+	height: 530vh;
 	background: #222831;
 }
 
@@ -73,11 +73,6 @@
 	}
 }
 
-/* #resume{
-	height: 100vh;
-	background-color: #BDBDBD;
-	top: 150vh;
-} */
 
 #stars {
   width: 1px;
@@ -150,18 +145,6 @@
 	// background: linear-gradient(to top, #BDBDBD, transparent); 
 } */
 
-#resume{
-	position:absolute; 
-	top:250vh; 
-	left:50%; 
-	transform:translate(-50%); 
-	width: 80%; 
-	height:80%;  
-	 background-color: #EEEEEE;  
-	/* background-image: url("./css/img/resume/bg.png"); */
-	border-radius: 2rem; 	
-	box-shadow: 0px 0px 30px 1px #EEEEEE;
-}
 #project{
 	position:absolute; 
 	top:400vh; 
@@ -169,32 +152,30 @@
 	transform:translate(-50%); 
 	width: 80%; 
 	height:80%;  
-	 background-color: #EEEEEE;  
-	/* background-image: url("./css/img/resume/bg.png"); */
-	border-radius: 2rem; 	
+	background-color: #EEEEEE;
+	border-radius: 2rem;
 	box-shadow: 0px 0px 30px 1px #EEEEEE;
 }
 #test{
 	position:absolute;
-	top:550vh;
+	top:250vh;
 	left:50%;
 	transform:translate(-50%);
 	width: 80%;
 	height:80%;
-	/* background-image: url("./css/img/resume/bg.png"); */
 }
 .test_inner_title{
 	top:5vh;
 	left: 10vh;
-	color: #fff;
+	color: #00FF94;
 	position: absolute;
 	font-size: 50px;
 	font-weight:900;
 }
 .test_inner{
-	top:15vh;
+	top:150px;
 	left: 10vh;
-	color: #00FF94;
+	color: #fff;
 	position: absolute;
 	font-size: 17px;
 	font-weight:500;
@@ -217,7 +198,7 @@
 }
 .test_hr{
 	position:absolute;
-	top:620vh;
+	top:350vh;
 	border: 1px solid #4d4d4d;
 	left:50%;
 	transform:translate(-50%);
@@ -226,12 +207,11 @@
 
 #test2{
 	position:absolute;
-	top:650vh;
+	top:400vh;
 	left:50%;
 	transform:translate(-50%);
 	width: 80%;
 	height:80%;
-	/* background-image: url("./css/img/resume/bg.png"); */
 }
 
 
@@ -250,29 +230,7 @@
 				<div id="intro3" style="position: fixed;"> 개발자</div><br>
 				<div id="intro4" style="position: fixed;">정성연입니다.</div>
 		</div>
-		<!-- <img alt="" src="./css/img/SlideMain/scroll.png" style="position:absolute; position: fixed;  top:80%; left: 50%; transform:translate(-50%);"> -->
-		<section id="resume" >
-			<div class="resume_text" id="resume_text1">RESUME</div>
-			<div class="resume_text" id="resume_text2">
-				웹 서비스 개발을 하는 정성연입니다.<br><br>
-				JAVA, JSP, MSSQL, MYSQL, GIT, SVN 등을 이용하여<br> 
-				프로젝트 설계부터 개발, 운영 까지 폭 넓은 경험을 하며<br> 
-				...
-			</div>
-			<div class="resume_text" id="resume_text3">상세보기</div>
-			<img id="resume_photo1" src="./css/img/SlideMain/resume1.jpg">
-			<img id="resume_photo2" src="./css/img/SlideMain/resume2.jpg">
-		</section>
-		<section id="project" >
-			<div class="resume_text" id="resume_text1">Projects</div>
-			<div class="resume_text" id="resume_text2">
-				회사에서 참여한 프로젝트와 단독 프로젝트 뿐만 아니라 <br>
-				개인 토이 프로젝트들에 관한 소개입니다.
-			</div>
-			<div class="resume_text" id="resume_text3">상세보기</div>
-			<img id="resume_photo1" src="./css/img/SlideMain/resume1.jpg">
-			<img id="resume_photo2" src="./css/img/SlideMain/resume2.jpg">
-		</section>
+		 <img alt="" src="./css/img/SlideMain/scroll_up.png" style="position:absolute; top:510vh; left: 50%; transform:translate(-50%);">
 		<section id="test" >
 			<div class="test_inner_title">&#60;RESUME    /&#62;</div>
 			<div class="test_inner">
@@ -360,29 +318,11 @@ let intoText2 = document.querySelector("#intro2");
 let intoText3 = document.querySelector("#intro3");
 let intoText4 = document.querySelector("#intro4");
 let night = document.querySelector("#night");
-let resume_text1 = document.querySelector("#resume_text1");
-let resume_text2 = document.querySelector("#resume_text2");
-let resume_text3 = document.querySelector("#resume_text3");
-let resume_photo1 = document.querySelector("#resume_photo1");
 let sun = document.querySelector("#sun");
 let light = '';
 window.addEventListener("scroll", function(){
 	let value = window.scrollY
 	console.log("scrollY", value);
-	
-	/* if(value>300){
-		intoText1.style.animation = 'opa2 1s ease-out forwards';
-		intoText2.style.animation = 'opa2 1s ease-out forwards';
-		intoText3.style.animation = 'opa2 1s ease-out forwards';
-		intoText4.style.animation = 'opa2 1s ease-out forwards';
-	}
-	else
-	{
-	intoText1.style.animation = 'opa1 1s ease-out';
-	intoText2.style.animation = 'opa1 1s ease-out';
-	intoText3.style.animation = 'opa1 1s ease-out';
-	intoText4.style.animation = 'opa1 1s ease-out';
-	} */
 	
 	if(value<1000){
 		sun.style.animation = 'sun 1.5s ease-out forwards';
@@ -392,40 +332,12 @@ window.addEventListener("scroll", function(){
 		}
 	}
 	if(800 < value){
-		sun.style.animation = 'sunset 1.5s ease-out forwards';
-		intoText.style.animation = 'opa_off 1.5s ease-out forwards';
+		sun.style.animation = 'sunset 0.4s ease-out forwards';
+		intoText.style.animation = 'opa_off 0.4s ease-out forwards';
 		light='off';
 	}
 	console.log('light',light);
-	/* if(500<=value){
-		intoText1.style.animation = 'up 5s ease-out forwards';
-		intoText2.style.animation = 'up 5s ease-out forwards';
-		intoText3.style.animation = 'up 5s ease-out forwards';
-		intoText4.style.animation = 'up 5s ease-out forwards';
-	}
-	
-	if(value<700)
-	{
-		intoText1.style.animation = 'intro1_down 1s ease-out';
-		intoText2.style.animation = 'intro2_down 1s ease-out';
-		intoText3.style.animation = 'intro3_down 1s ease-out';
-		intoText4.style.animation = 'intro4_down 1s ease-out';
-	} */
-	
-	
-	if(400<value){
-		/* night.style.backgroundColor  = '#ffffff'; */
-		/* resume_text1.style.animation = 'slide 1s ease-out forwards'; */
-		/* resume_text1.style.animation = 'slide 1s ease-out forwards'; */
-		
-	}
-	else if(value<=400)
-	{
-		resume_text1.style.animation = 'disappear 1s ease-out';
-		resume_text2.style.animation = 'disappear 1s ease-out';
-		resume_text3.style.animation = 'disappear 1s ease-out';
-		/* night.style.backgroundColor  = '#222831'; */
-	} 
+
 	
 });
 </script>
