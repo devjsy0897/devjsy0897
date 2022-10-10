@@ -2,10 +2,11 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Portfolio : SeongYeon Jeong</title>
 <link href="css/keyboardEvent_common.css" rel="stylesheet" type="text/css">
 <link href="css/keyboardEvent_mobile.css" rel="stylesheet" type="text/css">
 <link href="css/keyboardEvent_desktop.css" rel="stylesheet" type="text/css">
+<link href="css/img/main/icon.ico" rel="icon">
 <style type="text/css">
 
 
@@ -196,7 +197,15 @@
 	border: 1px solid #00FF94;
 	color: #00FF94;
 }
-.test_hr{
+.test_hr1{
+	position:absolute;
+	top:200vh;
+	border: 1px solid #4d4d4d;
+	left:50%;
+	transform:translate(-50%);
+	width: 80%;
+}
+.test_hr2{
 	position:absolute;
 	top:350vh;
 	border: 1px solid #4d4d4d;
@@ -230,7 +239,8 @@
 				<div id="intro3" style="position: fixed;"> 개발자</div><br>
 				<div id="intro4" style="position: fixed;">정성연입니다.</div>
 		</div>
-		 <img alt="" src="./css/img/SlideMain/scroll_up.png" style="position:absolute; top:510vh; left: 50%; transform:translate(-50%);">
+
+		<div class="test_hr1"></div>
 		<section id="test" >
 			<div class="test_inner_title">&#60;RESUME    /&#62;</div>
 			<div class="test_inner">
@@ -239,10 +249,10 @@
 				프로젝트 설계부터 개발, 운영 까지 폭 넓은 경험을 하며<br>
 				...
 			</div>
-			<div class="test_button">상세보기</div>
+			<a href="./view/resume.html"><div class="test_button">상세보기</div></a>
 
 		</section>
-		<div class="test_hr"></div>
+		<div class="test_hr2"></div>
 		<section id="test2" >
 			<div class="test_inner_title">&#60;Project    /&#62;</div>
 			<div class="test_inner">
@@ -254,7 +264,7 @@
 		</section>
 	</section>
 
-
+	<img alt="" src="./css/img/SlideMain/scroll_up.png" style="position:absolute; top:510vh; left: 50%; transform:translate(-50%);">
 
 
 
