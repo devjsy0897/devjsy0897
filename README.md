@@ -3,7 +3,7 @@
  <a href="클릭시 이동할 링크" target="_blank"><img src="https://img.shields.io/badge/문자-색코드?style=flat-square&logo=이미지 이름&logoColor=white"/></a>      
  
 ### <a href="https://devjsy0897.github.io/devjsy0897/main" target="_blanc">👉 My Portfolio </a>(<a href="https://devjsy0897.github.io/devjsy0897/keyboardEvent.html" target="_blanc">🛠수정 중입니다.</a>)
-<!-- https://jungle.krafton.com/ 이거 참고 -->  
+<!-- https://jungle.krafton.com/ 이거 참고 -->   
 <!--
 ### 👇First Team Project 'BestPriceMarket'.
 > <a href="https://github.com/sowon-dev/bestPriceMarket">Github link</a>
