@@ -115,14 +115,7 @@
 		}
 	}
 	
-	@keyframes opa_off{
-		from{
-			opacity: 1;
-		}
-		to{
-			opacity: 0;
-		}
-	}
+
 	
 	@keyframes up{
 		to{

@@ -74,6 +74,15 @@
 	}
 }
 
+@keyframes opa_off{
+		from{
+			opacity: 1;
+		}
+		to{
+			opacity: 0;
+		}
+	}
+
 
 #stars {
   width: 1px;
@@ -182,22 +191,22 @@
 	font-weight:500;
 }
 .test_button{
-	border: 1px solid white;
+	border: 1px solid #00FF94;
 	color:white;
 	top: 300px;
-	color: white;
+	color: #00FF94;
 	left: 10vh;
 	font-size: 1em;
 	border-radius:0.5em;
 	padding: 5px 15px;
 	position: absolute;
-	transition: background, 0.8s;
+	transition: background, 0.5s;
 }
 .test_button:hover{
-	border: 1px solid #00FF94;
-	color: #00FF94;
+	border: 1px solid #008100;
+	color: #008100;
 }
-.test_hr1{
+<!--.test_hr1{
 	position:absolute;
 	top:200vh;
 	border: 1px solid #4d4d4d;
@@ -212,7 +221,7 @@
 	left:50%;
 	transform:translate(-50%);
 	width: 80%;
-}
+}-->
 
 #test2{
 	position:absolute;
@@ -240,19 +249,19 @@
 				<div id="intro4" style="position: fixed;">정성연입니다.</div>
 		</div>
 
-		<div class="test_hr1"></div>
+		<!--<div class="test_hr1"></div>-->
 		<section id="test" >
 			<div class="test_inner_title">&#60;RESUME    /&#62;</div>
 			<div class="test_inner">
 				웹 서비스 개발을 하는 정성연입니다.<br><br>
 				JAVA, JSP, MSSQL, MYSQL, GIT, SVN 등을 이용하여<br>
-				프로젝트 설계부터 개발, 운영 까지 폭 넓은 경험을 하며<br>
+				프로젝트 설계부터 개발, 운영 및 유지보수까지 폭 넓은 경험을 하며<br>
 				...
 			</div>
 			<a href="./view/resume.html"><div class="test_button">상세보기</div></a>
-
 		</section>
-		<div class="test_hr2"></div>
+
+		<!--<div class="test_hr2"></div>-->
 		<section id="test2" >
 			<div class="test_inner_title">&#60;Project    /&#62;</div>
 			<div class="test_inner">
