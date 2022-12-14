@@ -3,8 +3,7 @@
 @media(min-width:1001px) {
 	#sun:hover ~ #intro>#intro2,#sun:hover ~ #intro>#intro4{
 	color: yellow !important;
-  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa,
-    0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+  text-shadow: 0 0 3px #fff, 0 0 5px #fff;
 		
 	}
 	#sun:hover ~ #intro>#intro1,#sun:hover ~ #intro>#intro3{
