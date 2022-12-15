@@ -26,7 +26,7 @@
 }
 
 #night{
-	height: 530vh;
+	height: 490vh;
 	background: #222831;
 }
 
@@ -166,7 +166,7 @@
 	border-radius: 2rem;
 	box-shadow: 0px 0px 30px 1px #EEEEEE;
 }
-#test{
+#introduce{
 	position:absolute;
 	top:250vh;
 	left:50%;
@@ -174,7 +174,7 @@
 	width: 80%;
 	height:80%;
 }
-.test_inner_title{
+.introduce_inner_title{
 	top:5vh;
 	left: 10vh;
 	color: #00FF94;
@@ -182,7 +182,7 @@
 	font-size: 50px;
 	font-weight:900;
 }
-.test_inner{
+.introduce_inner{
 	top:150px;
 	left: 10vh;
 	color: #fff;
@@ -190,7 +190,7 @@
 	font-size: 17px;
 	font-weight:500;
 }
-.test_button{
+.detail_button{
 	border: 1px solid #00FF94;
 	color:white;
 	top: 300px;
@@ -200,11 +200,13 @@
 	border-radius:0.5em;
 	padding: 5px 15px;
 	position: absolute;
-	transition: background, 0.5s;
+	transition: background, 0.2s;
 }
-.test_button:hover{
-	border: 1px solid #008100;
-	color: #008100;
+.detail_button:hover{
+	border: 1px solid yellow;
+	color: yellow;
+	text-shadow: 0 0 3px #fff, 0 0 5px #fff;
+	box-shadow:0 0 3px #fff, 0 0 5px #fff;
 }
 <!--.test_hr1{
 	position:absolute;
@@ -223,7 +225,7 @@
 	width: 80%;
 }-->
 
-#test2{
+#introduce2{
 	position:absolute;
 	top:400vh;
 	left:50%;
@@ -250,30 +252,30 @@
 		</div>
 
 		<!--<div class="test_hr1"></div>-->
-		<section id="test" >
-			<div class="test_inner_title">&#60;RESUME    /&#62;</div>
-			<div class="test_inner">
+		<section id="introduce" >
+			<div class="introduce_inner_title">&#60;RESUME    /&#62;</div>
+			<div class="introduce_inner">
 				웹 서비스 개발을 하는 정성연입니다.<br><br>
 				JAVA, JSP, MSSQL, MYSQL, GIT, SVN 등을 이용하여<br>
 				프로젝트 설계부터 개발, 운영 및 유지보수까지 폭 넓은 경험을 하며<br>
 				...
 			</div>
-			<a href="./view/resume.html"><div class="test_button">상세보기</div></a>
+			<a href="./view/resume.html" target='_blank'><div class="detail_button">상세보기</div></a>
 		</section>
 
 		<!--<div class="test_hr2"></div>-->
-		<section id="test2" >
-			<div class="test_inner_title">&#60;Project    /&#62;</div>
-			<div class="test_inner">
-				회사에서 참여한 프로젝트와 단독 프로젝트 뿐만 아니라<br>
-				개인 토이 프로젝트 들에 관한 소개입니다.<br>
+		<section id="introduce2" >
+			<div class="introduce_inner_title">&#60;Project    /&#62;</div>
+			<div class="introduce_inner">
+				회사에서 참여한 프로젝트에 대한 설명과 <br>
+				경력 기술서입니다.<br>
 			</div>
-			<div class="test_button">상세보기</div>
+			<div class="detail_button" target='_blank'>상세보기</div>
 
 		</section>
 	</section>
 
-	<img alt="" src="./css/img/SlideMain/scroll_up.png" style="position:absolute; top:510vh; left: 50%; transform:translate(-50%);">
+	<!--<img alt="" src="./css/img/SlideMain/scroll_up.png" style="position:absolute; top:510vh; left: 50%; transform:translate(-50%);">-->
 
 
 
