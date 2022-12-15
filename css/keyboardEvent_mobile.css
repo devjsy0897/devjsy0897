@@ -3,10 +3,10 @@
 @media(max-width:1000px) {
 	#intro1{
 		color: white;
-		font-size: 3em;
+		font-size: 40px;
 		font-family: sans-serif;
 		position: absolute;
-		left: 10%;  
+		left: 10%;
 		animation: intro1 1s ease-out forwards;
 	}
 	#intro2{
