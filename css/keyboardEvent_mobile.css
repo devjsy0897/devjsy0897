@@ -3,7 +3,7 @@
 @media(max-width:1000px) {
 	#intro1{
 		color: white;
-		font-size: 40px;
+		font-size: 3em;
 		font-family: sans-serif;
 		position: absolute;
 		left: 10%;  
