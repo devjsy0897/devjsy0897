@@ -1,14 +1,18 @@
 @CHARSET "UTF-8";
 
 @media(min-width:1001px) {
-	#sun:hover ~ #intro>#intro2,#sun:hover ~ #intro>#intro4{
-	color: yellow !important;
-  text-shadow: 0 0 3px #fff, 0 0 5px #fff;
-		
+    /* 해 ↓ */
+	#sun:hover ~ #intro>#intro2,#sun:hover ~ #intro>#intro4 {
+	    color: yellow !important;
+        text-shadow: 0 0 3px #fff, 0 0 5px #fff;
 	}
+
 	#sun:hover ~ #intro>#intro1,#sun:hover ~ #intro>#intro3{
-	opacity:0;
+	    opacity:0;
 	}
+	/* 해 ↑ */
+
+
 	#intro1{
 		color:white;
 		font-size: 2rem;
@@ -184,6 +188,11 @@
 		background-color: black;
 	} */
 
+    #night{
+        height: 490vh;
+        background: #222831;
+    }
+
 	#introduce{
     	position:absolute;
     	top:250vh;
@@ -208,6 +217,16 @@
     	font-size: 17px;
     	font-weight:500;
     }
+
+    #introduce2{
+    	position:absolute;
+    	top:400vh;
+    	left:50%;
+    	transform:translate(-50%);
+    	width: 80%;
+    	height:80%;
+    }
+
 	.detail_button{
     	border: 1px solid #00FF94;
     	color:white;

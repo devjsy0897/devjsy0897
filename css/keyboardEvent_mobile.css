@@ -1,6 +1,10 @@
 @CHARSET "UTF-8";
 
 @media(max-width:1000px) {
+    #night{
+        height: 380vh;
+        background: #222831;
+    }
 	#intro1{
 		color: white;
 		font-size: 40px;
@@ -111,11 +115,11 @@
 
 	#introduce{
         position:absolute;
-        top:250vh;
+        top:200vh;
         left:50%;
         transform:translate(-50%);
         width: 80%;
-        height:80%;
+        height:30%;
     }
     .introduce_inner_title{
         top:5vh;
@@ -130,6 +134,15 @@
         position: absolute;
         font-size: 30px;
         font-weight:500;
+    }
+
+    #introduce2{
+    	position:absolute;
+    	top:300vh;
+    	left:50%;
+    	transform:translate(-50%);
+    	width: 80%;
+    	height:80%;
     }
 
     .detail_button{
