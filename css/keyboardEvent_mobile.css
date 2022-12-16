@@ -120,6 +120,7 @@
         transform:translate(-50%);
         width: 80%;
         height:30%;
+        background-color:gray;
     }
     .introduce_inner_title{
         top:5vh;
@@ -127,13 +128,15 @@
         position: absolute;
         font-size: 50px;
         font-weight:900;
+        background-color:red;
     }
     .introduce_inner{
-        top:150px;
+        top:12vh;
         color: #fff;
         position: absolute;
         font-size: 30px;
         font-weight:500;
+        background-color:blue;
     }
 
     #introduce2{

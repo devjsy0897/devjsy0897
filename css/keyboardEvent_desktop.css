@@ -5,10 +5,25 @@
 	#sun:hover ~ #intro>#intro2,#sun:hover ~ #intro>#intro4 {
 	    color: yellow !important;
         text-shadow: 0 0 3px #fff, 0 0 5px #fff;
+
 	}
 
 	#sun:hover ~ #intro>#intro1,#sun:hover ~ #intro>#intro3{
 	    opacity:0;
+	}
+	#face{
+	    width: 101px;
+        height: 101px;
+        padding: 0px;
+        border-radius: 50px;
+        position: fixed;
+        left:0.1px;
+        /*transform: translate(-50%);*/
+        z-index:100;
+        opacity:0;
+	}
+	#face:hover{
+	    opacity:1;
 	}
 	/* 해 ↑ */
 
@@ -200,6 +215,8 @@
     	transform:translate(-50%);
     	width: 80%;
     	height:80%;
+    	background-color: white;
+    	border-radius:20px;
     }
     .introduce_inner_title{
     	top:5vh;
@@ -212,7 +229,7 @@
     .introduce_inner{
     	top:150px;
     	left: 10vh;
-    	color: #fff;
+    	color: #000;
     	position: absolute;
     	font-size: 17px;
     	font-weight:500;
