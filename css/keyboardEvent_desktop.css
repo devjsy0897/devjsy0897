@@ -17,14 +17,28 @@
         padding: 0px;
         border-radius: 50px;
         position: fixed;
-        left:0.1px;
-        /*transform: translate(-50%);*/
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
         z-index:100;
         opacity:0;
 	}
 	#face:hover{
-	    opacity:1;
+	    animation: intro1 1s ease-out forwards;
 	}
+
+
+    	}
+
+    	@keyframes intro1{
+    		from{
+    			opacity:0;
+    		}
+    		to{
+    			opacity: 1;
+    		}
+    	}
+
 	/* 해 ↑ */
 
 
@@ -213,26 +227,40 @@
     	top:250vh;
     	left:50%;
     	transform:translate(-50%);
-    	width: 80%;
-    	height:80%;
-    	background-color: white;
-    	border-radius:20px;
+    	width: 1000px;
+    	height:450px;
+    	border-radius:30px;
+    	/*background-color: black;*/
+    	background: linear-gradient(45deg,#F5F5F5, #F5F5F5);
     }
     .introduce_inner_title{
-    	top:5vh;
-    	left: 10vh;
+    	top: 5vh;
+    	left: 7vw;
     	color: #00FF94;
     	position: absolute;
     	font-size: 50px;
     	font-weight:900;
     }
+    .introduce_inner_hr{
+        top:
+    }
     .introduce_inner{
     	top:150px;
-    	left: 10vh;
+    	left: 7vw;
+    	right: 7vw;
     	color: #000;
     	position: absolute;
-    	font-size: 17px;
-    	font-weight:500;
+    	font-size: 20px;
+    	font-weight:600;
+    	letter-spacing:2px;
+    	line-height:23px;
+    }
+    .introduce_inner_bold{
+       background-image: linear-gradient(to right, #20BF55, #01BAEF);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        font-weight:600;
     }
 
     #introduce2{
@@ -240,14 +268,15 @@
     	top:400vh;
     	left:50%;
     	transform:translate(-50%);
-    	width: 80%;
-    	height:80%;
+    	width: 100%;
+    	height:100%;
+    	background-color: blue;
     }
 
 	.detail_button{
     	border: 1px solid #00FF94;
     	color:white;
-    	top: 300px;
+    	top: 400px;
     	color: #00FF94;
     	left: 10vh;
     	font-size: 1em;
