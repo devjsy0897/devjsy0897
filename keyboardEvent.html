@@ -156,7 +156,17 @@
 }
 
 
+@keyframes title{
+	0%{
+		left: 50%;
+		opacity:0;
+	}
 
+	100%{
+		left:12%;
+		opacity:1;
+	}
+}
 
 
 </style>
@@ -177,9 +187,9 @@
 		</div>
 
 		<section id="introduce">
-			<div class="introduce_inner_title">&#60;RESUME    /&#62;</div>
+			<div id="introduce1_title" class="introduce_inner_title">&#60;RESUME    /&#62;</div>
 			<div class="introduce_inner_hr"></div>
-			<div class="introduce_inner">
+			<div id="introduce1_inner" class="introduce_inner">
 				웹 서비스 개발을 하는 정성연입니다.<br><br>
 
 				<span class="introduce_inner_bold">JAVA, JSP, Node.js, MSSQL, MYSQL, GIT, SVN</span> 등을 이용하여<br>
@@ -188,13 +198,13 @@
 
 				제가 개발한 서비스를 클라이언트가 편하게 사용할 수 있게 하는 것이<br>
 				개발의 중요한 목표라 생각합니다.<br>
-				이러한 점을 바탕으로 백엔드 뿐만 아니라 프론트엔드에도 bootstrap, javascript, jQuery 등을 이용해 개발하고 있습니다.
+				이러한 점을 바탕으로 백엔드 뿐만 아니라 프론트엔드에도 <span class="introduce_inner_bold">bootstrap, javascript, jQuery</span> 등을 이용해 개발하고 있습니다.
 			</div>
 
 		</section>
 
 		<section id="introduce2" >
-			<div class="introduce_inner_title">&#60;Project    /&#62;</div>
+			<div class="introduce_inner_title">&#60;Skills    /&#62;</div>
 			<div class="introduce_inner">
 				회사에서 참여한 프로젝트에 대한 설명과 <br>
 				경력 기술서입니다.<br>
@@ -202,6 +212,17 @@
 			<a href="./view/resume.html" target='_blank'><div class="detail_button">상세보기</div></a>
 
 		</section>
+
+		<!--<section id="introduce3" >
+			<div class="introduce_inner_title">&#60;Project    /&#62;</div>
+			<div class="introduce_inner">
+				회사에서 참여한 프로젝트에 대한 설명과 <br>
+				경력 기술서입니다.<br>
+			</div>
+			<a href="./view/resume.html" target='_blank'><div class="detail_button">상세보기</div></a>
+
+		</section>-->
+
 	</section>
 
 
@@ -285,6 +306,10 @@ window.addEventListener("scroll", function(){
 	}
 	console.log('light',light);
 
+	if(1600 < value){
+		document.querySelector("#introduce1_title").style.animation = 'title 0.7s ease-out forwards';
+		document.querySelector("#introduce1_inner").style.animation = 'title 0.7s ease-out forwards';
+	}
 	
 });
 </script>
