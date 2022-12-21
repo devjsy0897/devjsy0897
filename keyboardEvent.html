@@ -7,6 +7,8 @@
 <link href="css/keyboardEvent_mobile.css" rel="stylesheet" type="text/css">
 <link href="css/keyboardEvent_desktop.css" rel="stylesheet" type="text/css">
 <link href="css/img/main/icon.ico" rel="icon">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <style type="text/css">
 
 
@@ -187,9 +189,9 @@
 		</div>
 
 		<section id="introduce">
-			<div id="introduce1_title" class="introduce_inner_title">&#60;RESUME    /&#62;</div>
+			<div id="introduce1_title" class="introduce_inner_title" data-aos="fade-left">&#60;RESUME    /&#62;</div>
 			<div class="introduce_inner_hr"></div>
-			<div id="introduce1_inner" class="introduce_inner">
+			<div id="introduce1_inner" class="introduce_inner" data-aos="fade-left">
 				웹 서비스 개발을 하는 정성연입니다.<br><br>
 
 				<span class="introduce_inner_bold">JAVA, JSP, Node.js, MSSQL, MYSQL, GIT, SVN</span> 등을 이용하여<br>
@@ -204,12 +206,19 @@
 		</section>
 
 		<section id="introduce2" >
-			<div class="introduce_inner_title">&#60;Skills    /&#62;</div>
-			<div class="introduce_inner">
-				회사에서 참여한 프로젝트에 대한 설명과 <br>
-				경력 기술서입니다.<br>
+			<div class="introduce2_inner_title">&#60;Skills    /&#62;</div>
+			<div class="introduce2_inner" >
+				<div id="introduce2_inner_inner1" data-aos="flip-left"  data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+					<div>Front-end</div>
+					<ul>
+						<li>java8</li>
+						<li>JSP 2.3</li>
+						<li>Android 10</li>
+						<li>Spring MVC</li>
+					</ul>
+				</div>
 			</div>
-			<a href="./view/resume.html" target='_blank'><div class="detail_button">상세보기</div></a>
+
 
 		</section>
 
@@ -227,6 +236,9 @@
 
 
 <script>
+
+  AOS.init();
+
 var typeText = document.querySelector(".typeText")
 var textToBeTypedArr = ["백엔드", "프론트엔드", "풀스택","풀스택이 되고싶은 :)"];
 var index = 0, isAdding = true, textToBeTypedIndex = 0
@@ -306,11 +318,7 @@ window.addEventListener("scroll", function(){
 	}
 	console.log('light',light);
 
-	if(1600 < value){
-		document.querySelector("#introduce1_title").style.animation = 'title 0.7s ease-out forwards';
-		document.querySelector("#introduce1_inner").style.animation = 'title 0.7s ease-out forwards';
-	}
-	
+
 });
 </script>
 </body>
