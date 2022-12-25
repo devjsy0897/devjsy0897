@@ -313,7 +313,7 @@
         letter-spacing:2px;
         line-height:30px;
         /*text-align:center;*/
-        background-color:red;
+        /*background-color:red;*/
     }
 
     .introduce2_inner_inner{
@@ -323,27 +323,31 @@
         display: inline-block;
         float:left;
         width:45%;
-        height: 250px;
-        /*border: 3px solid skyblue;*/
+        height: 150px;
+        border: 3px solid skyblue;
         border-radius:25px;
         background-color:#222831;
         color:white;
+
     }
 
 
     #introduce2_inner_inner1_title{
+        position: absolute;
         display:inline-block;
         color:white;
         font-size:30px;
         margin-top:-50px;
-        /*border: 3px solid #222831;*/
-        background-color:blue;
+        margin-left:50px;
+        border: 3px solid #222831;
+        background-color:#222831;
     }
 
 
     .introduce2_inner_inner_inner{
         margin-left:40px;
         width:35%;
+        display: inline-block;
     }
 
      #introduce2_inner_inner2{
