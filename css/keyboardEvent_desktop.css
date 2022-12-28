@@ -218,7 +218,7 @@
 	} */
 
     #night{
-        height: 490vh;
+        height: 750vh;
         background: #222831;
     }
 
@@ -286,7 +286,7 @@
     	height:100%;
     }
      .introduce2_inner_title{
-        top: 50px;
+        /*top: 50px;*/
         color: #20BF55;
         position: absolute;
         font-size: 50px;
@@ -294,7 +294,7 @@
     }
 
     .introduce2_inner{
-        top:200px;
+        top:150px;
         width: 100%;
         color: #000;
         position: absolute;
@@ -381,6 +381,70 @@
         background-color:#222831;
         color:white;
     }
+
+
+   #introduce3{
+        position:absolute;
+        top:540vh;
+        left:50%;
+        transform:translate(-50%);
+        width: 999px;
+        height:100%;
+   }
+
+    .introduce3_inner_title{
+        color: #20BF55;
+        position: absolute;
+        font-size: 50px;
+        font-weight:900;
+    }
+
+    .introduce3_inner{
+        position:absolute;
+        top:100px;
+        width:100%;
+    }
+
+    .introduce3_inner_inner_left{
+        background-color:white;
+        margin-top:50px;
+        height:100px;
+        width: 60%;
+        padding:10px;
+        border-radius:25px;
+    }
+
+    .introduce3_inner_inner_right{
+        float:right;
+        margin-top:50px;
+        background-color:white;
+        height:100px;
+        width: 60%;
+        padding:10px;
+        border-radius:25px;
+        right:0px;
+    }
+    .clear{
+        clear:both;
+    }
+    /*#introduce3_inner_inner1{
+        background-color:white;
+        height:100px;
+        width: 60%;
+        padding:10px;
+        border-radius:25px;
+    }*/
+
+    /*#introduce3_inner_inner2{
+        float:right;
+        margin-top:50px;
+        background-color:white;
+        height:100px;
+        width: 60%;
+        padding:10px;
+        border-radius:25px;
+        right:0px;
+    }*/
 
 	.detail_button{
     	border: 1px solid #00FF94;
