@@ -230,7 +230,7 @@
     	width: 999px;
     	height:570px;
     	border-radius:30px;
-    	border: 3px solid white;
+    	border: 3px solid skyblue;
     	background-color: #222831;
     	/*background: linear-gradient(45deg,#F5F5F5, #F5F5F5);*/
     }
@@ -323,7 +323,7 @@
     .introduce2_inner_inner_title{
         position: absolute;
         display:inline-block;
-        color:white;
+        color:skyblue;
         font-size:30px;
         margin-top:-50px;
         margin-left:36px;
@@ -408,48 +408,90 @@
 
     .introduce3_inner_inner_left{
         background-color:#222831;
-        margin-top:50px;
+        margin-top:70px;
+        margin-left:20px;
         height:100px;
-        width: 60%;
+        width: 50%;
         padding:10px;
+        padding-top:0px;
         border-radius:25px;
-        border:3px solid white;
+        border:3px solid skyblue;
         color:white;
+    }
+
+    .introduce3_inner_inner_title_left{
+        position: absolute;
+        display: inline-block;
+        color: #222831;
+        font-size: 17px;
+        font-weight:bold;
+        margin-top: -40px;
+        padding: 10px 17px;
+        /*border: 3px solid #222831;*/
+        border-radius:40px;
+        background-color: skyblue;
+        transform: rotate(-10deg);
+    }
+
+    .introduce3_inner_inner_title_left > p{
+        margin:0px;
+        font-size:12px;
+    }
+
+    .introduce3_inner_inner_title_right{
+         position: absolute;
+         display: inline-block;
+         color: #222831;
+         font-size: 17px;
+         font-weight:bold;
+         margin-top: 40px;
+         right: -20px;
+         padding: 10px 17px;
+         /*border: 3px solid #222831;*/
+         border-radius:40px;
+         background-color: skyblue;
+         transform: rotate(10deg);
+     }
+
+    .introduce3_inner_inner_title_right > p{
+        margin:0px;
+        font-size:12px;
+        text-align:right;
+    }
+
+    .introduce3_inner_inner_left_company{
+        float:right;
     }
 
     .introduce3_inner_inner_right{
         float:right;
-        margin-top:50px;
         background-color:#222831;
+        margin-top:70px;
+        margin-left:20px;
         height:100px;
-        width: 60%;
+        width: 50%;
         padding:10px;
+        padding-top:0px;
         border-radius:25px;
-        right:0px;
         border:3px solid skyblue;
         color:white;
     }
     .clear{
         clear:both;
     }
-    /*#introduce3_inner_inner1{
-        background-color:white;
-        height:100px;
-        width: 60%;
-        padding:10px;
-        border-radius:25px;
-    }*/
-
-    /*#introduce3_inner_inner2{
-        float:right;
-        margin-top:50px;
-        background-color:white;
-        height:100px;
-        width: 60%;
-        padding:10px;
-        border-radius:25px;
-        right:0px;
-    }*/
+    #introduce3_inner_inner1{
+        height:220px;
+    }
+    .introduce3_inner_inner_ul{
+        margin:0px;
+        padding-left:20px;
+    }
+    .introduce3_inner_inner_ul > ul{
+        padding-left:20px;
+    }
+    #introduce3_inner_inner2{
+        height:220px;
+    }
 
 	.detail_button{
     	border: 1px solid #00FF94;
