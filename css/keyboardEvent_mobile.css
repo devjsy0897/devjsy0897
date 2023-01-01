@@ -5,7 +5,41 @@
         height: 380vh;
         background: #222831;
     }
-	#intro1{
+
+   /* #sun:hover ~ #intro>#intro2,#sun:hover ~ #intro>#intro4 {
+        color: yellow !important;
+        text-shadow: 0 0 3px #fff, 0 0 5px #fff;
+    }
+    #sun:hover ~ #intro>#intro1,#sun:hover ~ #intro>#intro3{
+        opacity:1;
+    }*/
+
+    /*#face{
+        width: 101px;
+        height: 101px;
+        padding: 0px;
+        border-radius: 50px;
+        position: fixed;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        z-index:100;
+        opacity:0;
+    }
+    #face:hover{
+        animation: intro1 1s ease-out forwards;
+    }
+
+     @keyframes intro1{
+        from{
+            opacity:0;
+        }
+        to{
+            opacity: 1;
+        }
+    }*/
+
+    #intro1{
 		color: white;
 		font-size: 40px;
 		font-family: sans-serif;
@@ -52,14 +86,14 @@
 		from{
 			left:50px;
 			opacity: 1px;
-			
+
 		}
 		to{
 			left:-200px;
 			opacity: 0;
 		}
 	}
-	
+
 	@keyframes intro1{
 		from{
 		    bottom: 200px;
@@ -115,28 +149,46 @@
 
 	#introduce{
         position:absolute;
-        top:200vh;
+        top:250vh;
         left:50%;
         transform:translate(-50%);
-        width: 80%;
-        height:30%;
-        background-color:gray;
+        width: 90%;
+        height:570px;
+        border-radius:30px;
+        border: 3px solid skyblue;
+        background-color: #222831;
     }
-    .introduce_inner_title{
-        top:5vh;
-        color: #00FF94;
+    #introduce1_title{
+        top: 50px;
+        left: 10%;
+        width: 80%;
+        color: #20BF55;
         position: absolute;
         font-size: 50px;
         font-weight:900;
-        background-color:red;
     }
-    .introduce_inner{
-        top:12vh;
-        color: #fff;
+
+    .introduce_inner_hr{
+        top: 130px;
+        left: 10%;
+        width: 80%;
+        height:2px;
         position: absolute;
-        font-size: 30px;
-        font-weight:500;
-        background-color:blue;
+        background: linear-gradient(to right, #20BF55, #F5F5F5);
+    }
+
+    .introduce_inner{
+        top:200px;
+        left: 10%;
+        right: 10%;
+        width: 80%;
+        color: white;
+        position: absolute;
+        font-size: 20px;
+        font-weight:600;
+        letter-spacing:2px;
+        line-height:30px;
+        opacity:0;
     }
 
     #introduce2{

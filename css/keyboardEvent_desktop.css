@@ -1,17 +1,17 @@
 @CHARSET "UTF-8";
 
 @media(min-width:1001px) {
-    /* 해 ↓ */
-	#sun:hover ~ #intro>#intro2,#sun:hover ~ #intro>#intro4 {
+    /* sun ↓ */
+	/*#sun:hover ~ #intro>#intro2,#sun:hover ~ #intro>#intro4 {
 	    color: yellow !important;
         text-shadow: 0 0 3px #fff, 0 0 5px #fff;
-
 	}
 
 	#sun:hover ~ #intro>#intro1,#sun:hover ~ #intro>#intro3{
 	    opacity:0;
-	}
-	#face{
+	}*/
+
+	/*#face{
 	    width: 101px;
         height: 101px;
         padding: 0px;
@@ -28,18 +28,16 @@
 	}
 
 
-    	}
+    @keyframes intro1{
+        from{
+            opacity:0;
+        }
+        to{
+            opacity: 1;
+        }
+    }*/
 
-    	@keyframes intro1{
-    		from{
-    			opacity:0;
-    		}
-    		to{
-    			opacity: 1;
-    		}
-    	}
-
-	/* 해 ↑ */
+	/* sun ↑ */
 
 
 	#intro1{
@@ -234,7 +232,7 @@
     	background-color: #222831;
     	/*background: linear-gradient(45deg,#F5F5F5, #F5F5F5);*/
     }
-    .introduce_inner_title{
+    #introduce1_title{
     	top: 50px;
     	left: 12%;
     	width: 76%;
@@ -243,7 +241,7 @@
     	position: absolute;
     	font-size: 50px;
     	font-weight:900;
-    	opacity:0;
+    	/*opacity:0;*/
     	 /* background-image: linear-gradient(to bottom, #20BF55, #01BAEF);
                 background-clip: text;
                 -webkit-background-clip: text;
@@ -492,8 +490,10 @@
     #introduce3_inner_inner2{
         height:220px;
     }
-
-	.detail_button{
+    #introduce3_inner_inner3{
+        height:220px;
+    }
+	/*.detail_button{
     	border: 1px solid #00FF94;
     	color:white;
     	top: 400px;
@@ -510,7 +510,7 @@
     	color: yellow;
     	text-shadow: 0 0 3px #fff, 0 0 5px #fff;
     	box-shadow:0 0 3px #fff, 0 0 5px #fff;
-    }
+    }*/
 	@keyframes resume{
 		from{
 			left:0em;
