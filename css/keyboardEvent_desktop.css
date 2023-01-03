@@ -381,6 +381,10 @@
         color:white;
     }
 
+    .introduce2_height_blanc{
+        clear:both;
+        height:10vh;
+    }
 
    #introduce3{
         position:absolute;
