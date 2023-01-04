@@ -1,11 +1,13 @@
 @CHARSET "UTF-8";
 
-	
+
+*{
+    box-sizing:border-box;
+}
 body{
 	margin: 0px;
 	height: 2000px;
 	cursor: url("img/starMouse.png"), auto;
-	box-sizing: border-box;
 }
 ::-webkit-scrollbar {
   display: none;
