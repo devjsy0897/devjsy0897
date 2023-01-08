@@ -125,7 +125,7 @@
 
     #introduce{
         position:absolute;
-        top:1500px;
+        top:2000px;
         left:50%;
         transform:translate(-50%);
         width: 90%;
@@ -178,7 +178,7 @@
 
     #introduce2{
         position:absolute;
-        top:3000px;
+        top:3500px;
         left:50%;
         transform:translate(-50%);
         width: 80%;
@@ -284,7 +284,7 @@
     }
    #introduce3{
         position:absolute;
-        top:5000px;
+        top:5500px;
         left:50%;
         transform:translate(-50%);
         width:80%;
