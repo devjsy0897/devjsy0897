@@ -1,0 +1,400 @@
+@CHARSET "UTF-8";
+
+@media(max-width:1000px) {
+    .mobile{
+        display:inline-block !important;
+    }
+
+    #night{
+        height: 8000px;
+        background: #222831;
+    }
+
+    #intro1{
+        color: white;
+        font-size: 40px;
+        font-family: sans-serif;
+        position: absolute;
+        left: 10%;
+        animation: intro1 1s ease-out forwards;
+    }
+
+    #intro2{
+        color: white;
+        font-size: 40px;
+        font-family: sans-serif;
+        position: absolute;
+        bottom: 350px;
+        left: 10%;
+        animation: intro2 1.5s ease-out forwards;
+    }
+
+    #intro3{
+        color: white;
+        font-size: 40px;
+        font-family: sans-serif;
+        position: absolute;
+        left: 10%;
+        animation: intro3 1.5s ease-out forwards;
+    }
+
+    #intro4{
+        color: white;
+        font-size: 40px;
+        font-family: sans-serif;
+        position: absolute;
+        left: 10%;
+        animation: intro4 1.5s ease-out forwards;
+    }
+
+    @keyframes slide{
+        from{
+            left:-200px;
+            opacity: 0;
+        }
+        to{
+            left:50px;
+            opacity: 1px;
+        }
+    }
+
+    @keyframes disappear{
+        from{
+            left:50px;
+            opacity: 1px;
+        }
+        to{
+            left:-200px;
+            opacity: 0;
+        }
+    }
+
+    @keyframes intro1{
+        from{
+            bottom: 200px;
+            opacity:0;
+        }
+        to{
+            bottom: 400px;
+            opacity: 1;
+        }
+    }
+
+    @keyframes intro2{
+        0%{
+            opacity:0;
+        }
+        99%{
+            opacity:1;
+        }
+        100%{
+            opacity:1;
+        }
+    }
+
+
+    @keyframes intro3{
+        0%{
+            opacity:0;
+            bottom: 150px;
+        }
+        65%{
+            opacity: 1;
+            bottom:350px;
+        }
+        100%{
+            opacity: 1;
+            bottom:300px;
+        }
+    }
+
+    @keyframes intro4{
+        0%{
+            opacity:0;
+            bottom:100px;
+        }
+        65%{
+            opacity: 1;
+            bottom:300px;
+        }
+        100%{
+            opacity: 1;
+            bottom:250px;
+        }
+    }
+
+    #introduce{
+        position:absolute;
+        top:2000px;
+        left:50%;
+        transform:translate(-50%);
+        width: 90%;
+        height:1200px;
+        border-radius:30px;
+        border: 3px solid skyblue;
+        background-color: #222831;
+    }
+
+    #introduce1_title{
+        top: 50px;
+        left: 10%;
+        width: 80%;
+        color: #20BF55;
+        position: absolute;
+        font-size: 55px;
+        font-weight:900;
+    }
+
+    .introduce_inner_hr{
+        top: 130px;
+        left: 10%;
+        width: 80%;
+        height:2px;
+        position: absolute;
+        background: linear-gradient(to right, #20BF55, #F5F5F5);
+    }
+
+    .introduce_inner{
+        top:200px;
+        left: 10%;
+        right: 10%;
+        width: 80%;
+        color: white;
+        position: absolute;
+        font-size: 34px;
+        font-weight:500;
+        letter-spacing:2px;
+        line-height:55px;
+        opacity:0;
+    }
+
+    .introduce_inner_bold{
+        background-image: linear-gradient(to right, #20BF55, #01BAEF);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        font-weight:600;
+    }
+
+    #introduce2{
+        position:absolute;
+        top:4000px;
+        left:50%;
+        transform:translate(-50%);
+        width: 80%;
+        height:80%;
+    }
+
+    .introduce2_inner_title{
+        /*top: 50px;*/
+        color: #20BF55;
+        position: absolute;
+        font-size: 55px;
+        font-weight:900;
+    }
+
+    .introduce2_inner{
+        top:150px;
+        width: 100%;
+        color: #000;
+        position: absolute;
+        font-size: 34px;
+        font-weight:600;
+        letter-spacing:2px;
+        line-height:55px;
+    }
+
+    .introduce2_inner_inner{
+        padding-top:30px;
+    }
+
+    #introduce2_inner_inner1{
+        display: inline-block;
+        width:100%;
+        height: 220px;
+        border: 3px solid skyblue;
+        border-radius:25px;
+        background-color:#222831;
+        color:white;
+    }
+
+    .introduce2_inner_inner_title{
+        position: absolute;
+        display:inline-block;
+        color:skyblue;
+        font-size:36px;
+        margin-top:-65px;
+        margin-left:95px;
+        border: 3px solid #222831;
+        background-color:#222831;
+    }
+
+
+    .introduce2_inner_inner_inner{
+        margin-left:40px;
+        width:40%;
+        display: inline-block;
+    }
+
+    .introduce2_inner_inner_inner_left{
+        margin-left:100px;
+        width:40%;
+        display: inline-block;
+    }
+
+    .introduce2_inner_inner_inner_right{
+        margin-left:0px;
+        width:40%;
+        display: inline-block;
+    }
+
+    #introduce2_inner_inner2{
+        display: inline-block;
+        width:100%;
+        height: 170px;
+        border: 3px solid skyblue;
+        border-radius:25px;
+        background-color:#222831;
+        color:white;
+    }
+
+    #introduce2_inner_inner3{
+        display: inline-block;
+        width:100%;
+        height: 170px;
+        border: 3px solid skyblue;
+        border-radius:25px;
+        background-color:#222831;
+        color:white;
+    }
+
+    #introduce2_inner_inner4{
+        display: inline-block;
+        width:100%;
+        height: 170px;
+        border: 3px solid skyblue;
+        border-radius:25px;
+        background-color:#222831;
+        color:white;
+    }
+
+    .introduce2_height_blanc{
+        clear:both;
+        height:70px;
+    }
+   #introduce3{
+        position:absolute;
+        top:6000px;
+        left:50%;
+        transform:translate(-50%);
+        width:80%;
+        height:100%;
+   }
+
+   .introduce3_inner_title{
+       color: #20BF55;
+       position: absolute;
+       font-size: 50px;
+       font-weight:900;
+   }
+
+   .introduce3_inner{
+       position:absolute;
+       top:100px;
+       width:100%;
+   }
+
+   .introduce3_inner_inner_left{
+       background-color:#222831;
+       margin-top:70px;
+       margin-left:5%;
+       height:100px;
+       width: 95%;
+       padding:10px;
+       padding-top:0px;
+       border-radius:25px;
+       border:3px solid skyblue;
+       color:white;
+       font-size:25px;
+   }
+
+   .introduce3_inner_inner_title_left{
+       position: absolute;
+       display: inline-block;
+       color: #222831;
+       font-size: 36px;
+       font-weight:bold;
+       margin-top: -40px;
+       padding: 10px 30px;
+       /*border: 3px solid #222831;*/
+       border-radius:40px;
+       background-color: skyblue;
+       transform: rotate(-4deg);
+   }
+
+   .introduce3_inner_inner_title_left > p{
+       margin:0px;
+       font-size:19px;
+   }
+
+   .introduce3_inner_inner_title_right{
+        position: absolute;
+        display: inline-block;
+        color: #222831;
+        font-size: 36px;
+        font-weight:bold;
+        margin-top: 40px;
+        /*right: -5%*/;
+        right:0px;
+        padding: 10px 17px;
+        /*border: 3px solid #222831;*/
+        border-radius:40px;
+        background-color: skyblue;
+        transform: rotate(4deg);
+    }
+
+   .introduce3_inner_inner_title_right > p{
+       margin:0px;
+       font-size:19px;
+       text-align:right;
+   }
+
+   .introduce3_inner_inner_left_company{
+       float:right;
+   }
+
+   .introduce3_inner_inner_right{
+       float:right;
+       background-color:#222831;
+       margin-top:70px;
+       margin-right:5%;
+       height:100px;
+       width: 95%;
+       padding:10px;
+       padding-top:0px;
+       border-radius:25px;
+       border:3px solid skyblue;
+       color:white;
+       font-size:25px;
+   }
+
+   .clear{
+       clear:both;
+   }
+   #introduce3_inner_inner1{
+       height:380px;
+   }
+   .introduce3_inner_inner_ul{
+       margin:0px;
+       padding-left:20px;
+   }
+   .introduce3_inner_inner_ul > ul{
+       padding-left:20px;
+   }
+   #introduce3_inner_inner2{
+       height:380px;
+   }
+   #introduce3_inner_inner3{
+       height:380px;
+   }
+}
