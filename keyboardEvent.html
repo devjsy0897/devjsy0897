@@ -25,7 +25,7 @@
 	top:-50vh;
 	left: 50%;
 	transform: translate(-50%);
-	/* animation:sun 1.5s ease-out forwards; */
+	<!--animation:sun 1.5s 5s ease-out  forwards;-->
 }
 @keyframes sun{
 	0%{
@@ -110,6 +110,11 @@
 				<div id="intro2" class="typeText" style="position: fixed;"></div>
 				<div id="intro3" style="position: fixed;"> 개발자</div><br>
 				<div id="intro4" style="position: fixed;">정성연입니다.</div>
+		</div>
+		<div id="scroll">
+			<div class="scroll_text">V</div>
+			<div class="scroll_text">V</div>
+			<div class="scroll_text">V</div>
 		</div>
 
 		<section id="introduce">
@@ -384,24 +389,27 @@ let intoText3 = document.querySelector("#intro3");
 let intoText4 = document.querySelector("#intro4");
 let night = document.querySelector("#night");
 let sun = document.querySelector("#sun");
+let scroll = document.querySelector("#scroll");
 let light = '';
 window.addEventListener("scroll", function(){
 	let value = window.scrollY
-	console.log("scrollY", value);
+	//console.log("scrollY", value);
 	
 	if(value<1000){
 		sun.style.animation = 'sun 1.5s ease-out forwards';
 		if(light=='off'){
 			intoText.style.animation = 'opa_on 1.5s ease-out forwards';
+			scroll.style.animation = 'opa_on 1.5s ease-out forwards';
 			light='on';
 		}
 	}
 	if(800 < value){
 		sun.style.animation = 'sunset 0.4s ease-out forwards';
 		intoText.style.animation = 'opa_off 0.4s ease-out forwards';
+		scroll.style.animation = 'opa_off 2s ease-out forwards';
 		light='off';
 	}
-	console.log('light',light);
+	//console.log('light',light);
 
 
 });
