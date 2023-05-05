@@ -1,6 +1,6 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=Hi%20there%20👋&fontSize=90)
-
-<h3> 👋반갑습니다! </h3>       
+<div align="center">
+<h6> 👋반갑습니다! </h6>       
 반갑습니다 👋     
 
 제 이름은 정성연이고 풀스택 개발자의 길을 걷고 있어요!         
@@ -33,4 +33,4 @@
 https://github.com/uyu423/resume-nextjs 참고하기 
 -->
  
- 
+ </div>
