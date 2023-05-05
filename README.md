@@ -1,7 +1,8 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=Hi%20there%20👋&fontSize=90)
 
 <h3> 👋반갑습니다! </h3>       
-반갑습니다 👋         
+반갑습니다 👋     
+
 제 이름은 정성연이고 풀스택 개발자의 길을 걷고 있어요!         
 현재 3년차 개발자이며 다양한 경험을 하는 것을 좋아합니다.         
  
