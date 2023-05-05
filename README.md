@@ -3,8 +3,8 @@
       
 ### <a href="https://devjsy0897.github.io/devjsy0897/keyboardEvent.html" target="_blank">👉My portfolio!!</a>      
       
-![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=devjsy0897&theme=nord_dark)  
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=devjsy0897&theme=dark&show_icons=true)       
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=devjsy0897&theme=default)  
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=devjsy0897&theme=default&show_icons=true)       
 [![solved.ac tier](http://mazassumnida.wtf/api/generate_badge?boj=devjsy0897)](https://solved.ac/devjsy0897)       
       
  <!-- 
