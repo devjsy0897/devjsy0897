@@ -4,7 +4,8 @@
 반갑습니다 👋     
 
 제 이름은 정성연이고 풀스택 개발자의 길을 걷고 있어요!         
-현재 3년차 개발자이며 다양한 경험을 하는 것을 좋아합니다.         
+현재 3년차 개발자이며 다양한 경험을 하는 것을 좋아합니다.       
+<a href="https://devjsy0897.github.io/devjsy0897/keyboardEvent.html" target="_blank">🤜저에 대해 더 궁금하시다면?🤛</a>
  
 <img src="https://img.shields.io/badge/문자-색코드?style=flat-square&logo=이미지 이름&logoColor=white"/>      
 <img src="https://img.shields.io/badge/-brightgreen-brightgreen"/>
