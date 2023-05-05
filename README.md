@@ -1,8 +1,9 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&color=timeGradient&text=Welcome%20to%20my%20GitHub%20👋&animation=twinkling&fontSize=35&height=250)
 <div align="center">
       
-<h3><a href="https://devjsy0897.github.io/devjsy0897/keyboardEvent.html" target="_blank">👉My portfolio!!</a></h3>
-      <hr>
+### <a href="https://devjsy0897.github.io/devjsy0897/keyboardEvent.html" target="_blank">👉My portfolio!!</a>      
+      
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=dkssud8150&theme=nord_dark)
  <!-- 
 <img src="https://img.shields.io/badge/문자-색코드?style=flat-square&logo=이미지 이름&logoColor=white"/>      
 <img src="https://img.shields.io/badge/-brightgreen-brightgreen"/>
@@ -13,21 +14,12 @@
   
 ### <a href="https://devjsy0897.github.io/devjsy0897/keyboardEvent.html" target="_blank">👉 My Portfolio </a> -->
 <!-- https://jungle.krafton.com/ 이거 참고 -->     
-<!--
-### 👇First Team Project 'BestPriceMarket'.
-> <a href="https://github.com/sowon-dev/bestPriceMarket">Github link</a>
 
-### 👇First Android Application! Calculation.      
-> <a href="https://github.com/devjsy0897/Cal">1. Github link</a>      
-> <a href="https://play.google.com/store/apps/details?id=com.jsy.cal&hl=ko">2. Google Play Store link</a>
--->
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=devjsy0897&theme=dark&show_icons=true) [![solved.ac tier](http://mazassumnida.wtf/api/generate_badge?boj=devjsy0897)](https://solved.ac/devjsy0897) 
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=devjsy0897&theme=dark&show_icons=true) 
+[![solved.ac tier](http://mazassumnida.wtf/api/generate_badge?boj=devjsy0897)](https://solved.ac/devjsy0897) 
 
-<!-- 백준 알고리즘 -->      
-<!-- [![solved.ac tier](http://mazassumnida.wtf/api/generate_badge?boj=devjsy0897)](https://solved.ac/devjsy0897)     
 
-https://github.com/uyu423/resume-nextjs 참고하기 
 -->
  
  </div>
