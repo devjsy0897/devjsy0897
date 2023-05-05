@@ -256,7 +256,7 @@
 
 
     #night{
-        height: 800vh;
+        height: 850vh;
         background: #222831;
     }
 
@@ -639,7 +639,7 @@
 
 	#introduce4{
             position:absolute;
-            top:700vh;
+            top:750vh;
             left:50%;
             transform:translate(-50%);
             width: 999px;
