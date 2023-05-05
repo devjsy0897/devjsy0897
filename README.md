@@ -4,8 +4,8 @@
 ### <a href="https://devjsy0897.github.io/devjsy0897/keyboardEvent.html" target="_blank">👉My portfolio!!</a>      
       
 ![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=devjsy0897&theme=nord_dark)  
-      https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=devjsy0897&theme=nord_dark
-      http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=devjsy0897&theme=nord_dark
+      
+      ![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=devjsy0897&theme=nord_dark)
  <!-- 
 <img src="https://img.shields.io/badge/문자-색코드?style=flat-square&logo=이미지 이름&logoColor=white"/>      
 <img src="https://img.shields.io/badge/-brightgreen-brightgreen"/>
