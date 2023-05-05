@@ -28,8 +28,8 @@
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=devjsy0897&theme=dark&show_icons=true) [![solved.ac tier](http://mazassumnida.wtf/api/generate_badge?boj=devjsy0897)](https://solved.ac/devjsy0897) 
 
 <!-- 백준 알고리즘 -->      
-[![solved.ac tier](http://mazassumnida.wtf/api/generate_badge?boj=devjsy0897)](https://solved.ac/devjsy0897)     
-<!--
+<!-- [![solved.ac tier](http://mazassumnida.wtf/api/generate_badge?boj=devjsy0897)](https://solved.ac/devjsy0897)     
+
 https://github.com/uyu423/resume-nextjs 참고하기 
 -->
  
