@@ -256,7 +256,7 @@
 
 
     #night{
-        height: 850vh;
+        height: 900vh;
         background: #222831;
     }
 
@@ -526,7 +526,7 @@
         clear:both;
     }
     #introduce3_inner_inner1{
-        height:360px;
+        height:600px;
     }
     .introduce3_inner_inner_ul{
         margin:0px;
@@ -536,10 +536,10 @@
         padding-left:20px;
     }
     #introduce3_inner_inner2{
-        height:260px;
+        height:410px;
     }
     #introduce3_inner_inner3{
-        height:310px;
+        height:430px;
     }
 	/*.detail_button{
     	border: 1px solid #00FF94;
@@ -639,7 +639,7 @@
 
 	#introduce4{
             position:absolute;
-            top:750vh;
+            top:800vh;
             left:50%;
             transform:translate(-50%);
             width: 999px;
@@ -657,11 +657,37 @@
        top:100px;
        width:100%;
    }
-    #introduce4_inner_inner1{
+    #introduce4_inner_inner5{
+       display: inline-block;
+       float:left;
+       width:100%;
+       height: 100px;
+       margin-bottom:20px;
+       padding-left:20px;
+       border: 3px solid skyblue;
+       border-radius:25px;
+       background-color:#222831;
+       color:white;
+       font-size:20px;
+   }
+    #introduce4_inner_inner4{
+       display: inline-block;
+       float:left;
+       width:100%;
+       height: 120px;
+       margin-bottom:20px;
+       padding-left:20px;
+       border: 3px solid skyblue;
+       border-radius:25px;
+       background-color:#222831;
+       color:white;
+       font-size:20px;
+   }
+    #introduce4_inner_inner3{
         display: inline-block;
         float:left;
         width:100%;
-        height: 100px;
+        height: 120px;
         margin-bottom:20px;
         padding-left:20px;
         border: 3px solid skyblue;
@@ -683,7 +709,7 @@
         color:white;
         font-size:20px;
     }
-    #introduce4_inner_inner3{
+    #introduce4_inner_inner1{
         display: inline-block;
         float:left;
         width:100%;

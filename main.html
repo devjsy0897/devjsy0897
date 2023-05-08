@@ -200,7 +200,7 @@
 					</div>
 					<div id="introduce3_inner_inner1" class="introduce3_inner_inner_left">
 						<div class="introduce3_inner_inner_left_company">
-							<p>씨텍 / 씨나비 정보 기술</p>
+							<p>씨나비 정보 기술</p>
 
 						</div>
 						<div style="clear:both;"></div>
@@ -208,13 +208,29 @@
 						<br>
 						<ul class="introduce3_inner_inner_ul">
 							<li>로그인 기능</li>
-							<li>멤버, 부이 국소 - CRU 기능</li>
-							<li>실황판 페이지 - 현재 및 과거 데이터 조회 기능</li>
-							<li>데이터 csv 파일 다운로드 기능</li>
+							<ul>
+								<li>HttpSession 사용</li>
+								<li>sha256, salt를 이용한 비밀번호 암호화</li>
+							</ul>
+							<li>회원 관리 기능</li>
+							<ul>
+								<li>회원 정보 CRUD 기능</li>
+								<li>사용자 ID별 국소 표출 제어 기능</li>
+							</ul>
+							<li>국소 관리 기능</li>
+							<ul>
+								<li>국소 정보 CRUD 기능</li>
+								<li>시작일 / 마지말일 기능으로 표출 제어</li>
+								<li>그룹 설정하여 그룹마다 다른 프로토콜을 이용한 표출</li>
+								<li>그룹마다 데이터 장애 파악 기능</li>
+							</ul>
+							<li>데이터 일자 검색 기능</li>
+							<li>csv 파일 저장 기능</li>
 							<li>chart.js 라이브러리를 이용한 차트 기능</li>
-							<li>swiperjs 라이브러리를 이용한 슬라이드 기능</li>
-							<li>ajax 통신</li>
-							<li>최근 3개월 수집율 계산 로직 개발</li>
+							<li>swiper.js 라이브러리를 이용한 슬라이드 기능</li>
+							<li>ajax 통신 기능</li>
+							<li>최근 3개월 데이터 수집율 기능</li>
+							<li>사용자 PC 언어를 파악해 한국어 / English 자동 제공 기능</li>
 							<span class="badge badge-secondary">Java 8</span>
 							<span class="badge badge-secondary">JSP 2.3</span>
 							<span class="badge badge-secondary">HTML</span>
@@ -236,17 +252,22 @@
 					</div>
 					<div id="introduce3_inner_inner2" class="introduce3_inner_inner_right">
 						<div class="introduce3_inner_inner_right_company">
-							<p>씨텍 / 씨나비 정보 기술</p>
-
+							<p>씨나비 정보 기술</p>
 						</div>
 						<div style="clear:both;"></div>
-						<div class="introduce3_inner_inner_title" style="word-break:keep-all;">해양 부이 데이터를 ORBCOMM 사의 INMARSAT 위성통신 REST API를 통해 데이터 송, 수신</div>
+						<div class="introduce3_inner_inner_title" style="word-break:keep-all;">해양 부이 데이터를 ORBCOMM 사의 INMARSAT 위성통신 REST API를 통해 데이터 송, 수신하는 웹 사이트 개발 및 운영</div>
 						<br>
 						<ul class="introduce3_inner_inner_ul">
-							<li>쓰레드로 60초마다 REST API로 데이터를 수신 받아 json 파싱해 db에 저장</li>
-							<li>로그인 기능</li>
-							<li>REST API를 이용한 단말기 자동 관리 기능</li>
+							<li>로그인 및 회원관리</li>
+							<ul>
+								<li>HttpSession 사용</li>
+								<li>sha256, salt를 이용한 비밀번호 암호화</li>
+								<li>회원 정보 CRUD 기능</li>
+							</ul>
+							<li>사용자가 웹을 실행하지 않고 서버단 백엔드에서 쓰레드를 이용해 60초 마다 REST API로 데이터를 수신받아 JSON 파싱해 DB에 저장</li>
+							<li>사용자가 웹에 접속 시 REST API를 이용해 단말기 목록을 가져와 변경된 내용 자동 관리 기능</li>
 							<li>REST API를 이용한 명령어 전송 기능</li>
+							<li>명령어 전송 후 AJAX 기능을 통해 메세지 발신 및 수신 확인</li>
 							<span class="badge badge-secondary">Java 8</span>
 							<span class="badge badge-secondary">JSP 2.3</span>
 							<span class="badge badge-secondary">HTML</span>
@@ -269,20 +290,26 @@
 					</div>
 					<div id="introduce3_inner_inner3" class="introduce3_inner_inner_left">
 						<div class="introduce3_inner_inner_left_company">
-							<p>씨텍 / 씨나비 정보 기술</p>
+							<p>씨나비 정보 기술</p>
 
 						</div>
 						<div style="clear:both;"></div>
-						<div class="introduce3_inner_inner_title" style="word-break:keep-all;">php 기반의 기상청 부이 모니터링 사이트를 jsp 기반으로 마이그레이션 및 고도화</div>
+						<div class="introduce3_inner_inner_title" style="word-break:keep-all;">php 기반의 기상청 부이 모니터링 사이트를 jsp 기반으로 마이그레이션 및 고도화 개발 및 운영</div>
 						<br>
 						<ul class="introduce3_inner_inner_ul">
-							<li>로그인 기능</li>
-							<li>멤버, 국소 CRU 기능</li>
-							<li>실황판 페이지 - 현재 및 과거 데이터 조회 기능</li>
-							<li>CSV 파일 다운로드 기능</li>
-							<li>nhn cloud Maps를 통한 현재 위치 지도와 경로 추적 기능</li>
+							<li>로그인 및 회원 관리</li>
+							<ul>
+								<li>HttpSession 사용</li>
+								<li>sha256, salt를 이용한 비밀번호 암호화</li>
+								<li>회원 정보 CRUD 기능</li>
+							</ul>
+							<li>국소 정보 CRUD 기능</li>
+							<li>데이터 일자 검색 기능</li>
+							<li>csv파일 다운로드 기능</li>
 							<li>ajax 통신</li>
-							<li>월, 일, 시간 별 수집율 계산 로직 개발</li>
+							<li>외부 라이브러리를 사용하지 않고 슬라이드 기능 개발</li>
+							<li>시간별, 일자별, 월별 수집율 계산 로직 개발</li>
+							<li>nhn cloud Maps 서비스를 이용하여 지도 및 항적 기능 개발</li>
 							<span class="badge badge-secondary">Java 8</span>
 							<span class="badge badge-secondary">JSP 2.3</span>
 							<span class="badge badge-secondary">HTML</span>
@@ -304,18 +331,29 @@
 	</section>
 
 	<section id="introduce4">
-		<div class="introduce4_inner_title" data-aos="fade-up" data-aos-duration="500">&#60;Etc    /&#62;</div>
+		<div class="introduce4_inner_title" data-aos="fade-up" data-aos-duration="500">&#60;History    /&#62;</div>
 		<div class="introduce4_inner">
-			<div id="introduce4_inner_inner1" class="introduce2_inner_inner" data-aos="fade-up"  data-aos-easing="ease-out-cubic" data-aos-duration="500">
+			<div id="introduce4_inner_inner5" class="introduce2_inner_inner" data-aos="fade-up"  data-aos-easing="ease-out-cubic" data-aos-duration="500">
 				<div class="introduce4_inner_inner_date">2022-06</div>
 				<div class="introduce4_inner_inner_title">정보처리기사 자격증 취득</div>
 			</div>
-			<div id="introduce4_inner_inner2" class="introduce2_inner_inner" data-aos="fade-up"  data-aos-easing="ease-out-cubic" data-aos-duration="500">
+			<div id="introduce4_inner_inner4" class="introduce2_inner_inner" data-aos="fade-up"  data-aos-easing="ease-out-cubic" data-aos-duration="500">
+				<div class="introduce4_inner_inner_date">2021-02 ~ 재직중</div>
+				<div class="introduce4_inner_inner_title">씨나비 정보 기술</div>
+				<div class="introduce4_inner_inner_inner">웹 개발 및 운영, 데이터 관리 업무</div>
+			</div>
+			<div id="introduce4_inner_inner3" class="introduce2_inner_inner" data-aos="fade-up"  data-aos-easing="ease-out-cubic" data-aos-duration="500">
 				<div class="introduce4_inner_inner_date">2020-05 ~ 2020-11</div>
 				<div class="introduce4_inner_inner_title">아이티윌 부산교육 센터</div>
 				<div class="introduce4_inner_inner_inner">전자정부 프레임워크 자바개발자 양성 프로그램 이수</div>
 			</div>
-			<div id="introduce4_inner_inner3" class="introduce2_inner_inner" data-aos="fade-up"  data-aos-easing="ease-out-cubic" data-aos-duration="500">
+			<div id="introduce4_inner_inner2" class="introduce2_inner_inner" data-aos="fade-up"  data-aos-easing="ease-out-cubic" data-aos-duration="500">
+				<div class="introduce4_inner_inner_date">2019-04 ~ 2020-05</div>
+				<div class="introduce4_inner_inner_title">주식회사 두일하우</div>
+				<div class="introduce4_inner_inner_inner">국가 연구 과제 진행 / 2D, 3D CAD 설계 / 생산관리</div>
+			</div>
+
+			<div id="introduce4_inner_inner1" class="introduce2_inner_inner" data-aos="fade-up"  data-aos-easing="ease-out-cubic" data-aos-duration="500">
 				<div class="introduce4_inner_inner_date">2011-03 ~ 2018-08</div>
 				<div class="introduce4_inner_inner_title">동명대학교</div>
 				<div class="introduce4_inner_inner_inner">자동차 공학과 전공 학사 졸업</div>
